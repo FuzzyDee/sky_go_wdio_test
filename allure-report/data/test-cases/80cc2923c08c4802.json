@@ -1,0 +1,223 @@
+{
+  "uid" : "80cc2923c08c4802",
+  "name" : "should verify the offers in list",
+  "fullName" : "List of Offers.should verify the offers in list",
+  "historyId" : "87887790da26266dec5213da41dbd0ea",
+  "time" : {
+    "start" : 1611243920751,
+    "stop" : 1611244006512,
+    "duration" : 85761
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected [] to deeply equal [ Array(14) ]",
+  "statusTrace" : "AssertionError: expected [] to deeply equal [ Array(14) ]\n                    at Context.<anonymous> (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js:44:32)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected [] to deeply equal [ Array(14) ]",
+    "statusTrace" : "AssertionError: expected [] to deeply equal [ Array(14) ]\n                    at Context.<anonymous> (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js:44:32)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1611243920756,
+        "stop" : 1611243970599,
+        "duration" : 49843
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "383b78045c3552df",
+        "name" : "Request",
+        "source" : "383b78045c3552df.json",
+        "type" : "application/json",
+        "size" : 31
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1611243970625,
+        "stop" : 1611243972336,
+        "duration" : 1711
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "816e1b8256483aa8",
+        "name" : "Request",
+        "source" : "816e1b8256483aa8.json",
+        "type" : "application/json",
+        "size" : 81
+      }, {
+        "uid" : "427d5cbacfa20908",
+        "name" : "Response",
+        "source" : "427d5cbacfa20908.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/frame",
+      "time" : {
+        "start" : 1611243972346,
+        "stop" : 1611243972897,
+        "duration" : 551
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6e2fce8edd7010e0",
+        "name" : "Request",
+        "source" : "6e2fce8edd7010e0.json",
+        "type" : "application/json",
+        "size" : 3514
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1611243972921,
+        "stop" : 1611243973268,
+        "duration" : 347
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "677f2000daaaa22f",
+        "name" : "Request",
+        "source" : "677f2000daaaa22f.json",
+        "type" : "application/json",
+        "size" : 113
+      }, {
+        "uid" : "a5a0d66200a67304",
+        "name" : "Response",
+        "source" : "a5a0d66200a67304.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/bb5757b5-d778-4e26-b5d4-b7416600a3cc/click",
+      "time" : {
+        "start" : 1611243973274,
+        "stop" : 1611243973354,
+        "duration" : 80
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/refresh",
+      "time" : {
+        "start" : 1611243973354,
+        "stop" : 1611243973491,
+        "duration" : 137
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1611243973493,
+        "stop" : 1611244006131,
+        "duration" : 32638
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "678e0c212a99516b",
+        "name" : "Request",
+        "source" : "678e0c212a99516b.json",
+        "type" : "application/json",
+        "size" : 77
+      }, {
+        "uid" : "f602b41a2164e0b5",
+        "name" : "Response",
+        "source" : "f602b41a2164e0b5.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "List of Offers"
+  }, {
+    "name" : "testClass",
+    "value" : "List of Offers"
+  }, {
+    "name" : "testMethod",
+    "value" : "should verify the offers in list"
+  }, {
+    "name" : "package",
+    "value" : "List of Offers"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.141"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "80cc2923c08c4802.json",
+  "parameterValues" : [ "chrome-87.0.4280.141" ]
+}

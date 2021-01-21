@@ -1,0 +1,350 @@
+{
+  "uid" : "83edc06c07f9ae9e47eb6dd1b683e4e2",
+  "children" : [ {
+    "name" : "Sky Keyword Search",
+    "children" : [ {
+      "name" : "should click the search icon ",
+      "uid" : "1f04698a206c157f",
+      "parentUid" : "7ff85dbd05ee3d8841fed6745726c776",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611136377887,
+        "stop" : 1611136467851,
+        "duration" : 89964
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should search for keyword and verify the text value",
+      "uid" : "508c23e81c1118c0",
+      "parentUid" : "7ff85dbd05ee3d8841fed6745726c776",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611136467852,
+        "stop" : 1611136496193,
+        "duration" : 28341
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should show Editorial Section",
+      "uid" : "6c2f9cf464511800",
+      "parentUid" : "7ff85dbd05ee3d8841fed6745726c776",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611136496193,
+        "stop" : 1611136497179,
+        "duration" : 986
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see the keyword in an image and verify the value",
+      "uid" : "d765de79c33f6fd6",
+      "parentUid" : "7ff85dbd05ee3d8841fed6745726c776",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611136497180,
+        "stop" : 1611136497231,
+        "duration" : 51
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "\"before all\" hook for Sky Keyword Search",
+      "uid" : "5c1fa2aaa034e7a1",
+      "parentUid" : "7ff85dbd05ee3d8841fed6745726c776",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611171674416,
+        "stop" : 1611171765221,
+        "duration" : 90805
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    } ],
+    "uid" : "7ff85dbd05ee3d8841fed6745726c776"
+  }, {
+    "name" : "Navigate to Deals",
+    "children" : [ {
+      "name" : "user should get the page url",
+      "uid" : "5b2b276205e28901",
+      "parentUid" : "36ddcd3ea98e954d52cdfba4c2311c4c",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611163749497,
+        "stop" : 1611163749903,
+        "duration" : 406
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see the prices of the offers",
+      "uid" : "d62e42c2228d98d9",
+      "parentUid" : "36ddcd3ea98e954d52cdfba4c2311c4c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611184803611,
+        "stop" : 1611184804998,
+        "duration" : 1387
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should be on the 'shop/offers' page and verify url",
+      "uid" : "2e04890337b94400",
+      "parentUid" : "36ddcd3ea98e954d52cdfba4c2311c4c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611185540438,
+        "stop" : 1611185540450,
+        "duration" : 12
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of offers",
+      "uid" : "d847f4821d294f7d",
+      "parentUid" : "36ddcd3ea98e954d52cdfba4c2311c4c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611185540450,
+        "stop" : 1611185540662,
+        "duration" : 212
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "\"before all\" hook for Navigate to Deals",
+      "uid" : "287c6022254574da",
+      "parentUid" : "36ddcd3ea98e954d52cdfba4c2311c4c",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611191010082,
+        "stop" : 1611191029843,
+        "duration" : 19761
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to Deals",
+      "uid" : "a8585c926f99bc5c",
+      "parentUid" : "36ddcd3ea98e954d52cdfba4c2311c4c",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611245958708,
+        "stop" : 1611246040476,
+        "duration" : 81768
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should be on the right page",
+      "uid" : "6b51a45d85bc5983",
+      "parentUid" : "36ddcd3ea98e954d52cdfba4c2311c4c",
+      "status" : "failed",
+      "time" : {
+        "start" : 1611246040476,
+        "stop" : 1611246040515,
+        "duration" : 39
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    } ],
+    "uid" : "36ddcd3ea98e954d52cdfba4c2311c4c"
+  }, {
+    "name" : "Sky Home page",
+    "children" : [ {
+      "name" : "\"before all\" hook for Sky Home page",
+      "uid" : "d33a8f30cae15187",
+      "parentUid" : "ff4396fb2201dc0629c4199783b2b4a3",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611171674421,
+        "stop" : 1611171765222,
+        "duration" : 90801
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    } ],
+    "uid" : "ff4396fb2201dc0629c4199783b2b4a3"
+  }, {
+    "name" : "Invalid Credentials",
+    "children" : [ {
+      "name" : "\"before each\" hook for Invalid Credentials",
+      "uid" : "8a3d6cc0ada4d590",
+      "parentUid" : "ea3eb9dd06adce04995010e85244a630",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611171674423,
+        "stop" : 1611171765221,
+        "duration" : 90798
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should clear Overlay Modal",
+      "uid" : "2f05d53f2feea32c",
+      "parentUid" : "ea3eb9dd06adce04995010e85244a630",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611187143280,
+        "stop" : 1611187189284,
+        "duration" : 46004
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should try Sign In with Invalid credentials",
+      "uid" : "85d13cf6b345c9cd",
+      "parentUid" : "ea3eb9dd06adce04995010e85244a630",
+      "status" : "skipped",
+      "time" : {
+        "start" : 1611245217431,
+        "stop" : 1611245217431,
+        "duration" : 0
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ ]
+    }, {
+      "name" : "should navigate to Sign In ",
+      "uid" : "5ed23de478c96976",
+      "parentUid" : "ea3eb9dd06adce04995010e85244a630",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611245593397,
+        "stop" : 1611245654391,
+        "duration" : 60994
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should try Sign In with Invalid credentials",
+      "uid" : "66ded0b47ec75ab1",
+      "parentUid" : "ea3eb9dd06adce04995010e85244a630",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611245654392,
+        "stop" : 1611245663181,
+        "duration" : 8789
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    } ],
+    "uid" : "ea3eb9dd06adce04995010e85244a630"
+  }, {
+    "name" : "List of Offers",
+    "children" : [ {
+      "name" : "\"before all\" hook for List of Offers",
+      "uid" : "83c9f02706f321e6",
+      "parentUid" : "4ab6864a6260a7f89293cfda310fc7e9",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611241543052,
+        "stop" : 1611241619928,
+        "duration" : 76876
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list os section to it",
+      "uid" : "e8267305ee683da9",
+      "parentUid" : "4ab6864a6260a7f89293cfda310fc7e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611243506041,
+        "stop" : 1611243575584,
+        "duration" : 69543
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to /shop/offers",
+      "uid" : "19d0ec5f2512722",
+      "parentUid" : "4ab6864a6260a7f89293cfda310fc7e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611244663845,
+        "stop" : 1611244756282,
+        "duration" : 92437
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should be on the '/shop/offers' page ",
+      "uid" : "f3273010039712a3",
+      "parentUid" : "4ab6864a6260a7f89293cfda310fc7e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611244756283,
+        "stop" : 1611244756291,
+        "duration" : 8
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of offers with price to it",
+      "uid" : "3193a4940768f480",
+      "parentUid" : "4ab6864a6260a7f89293cfda310fc7e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611244756291,
+        "stop" : 1611244756546,
+        "duration" : 255
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should verify the offers in list",
+      "uid" : "173b8e63609b0b0c",
+      "parentUid" : "4ab6864a6260a7f89293cfda310fc7e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611244756844,
+        "stop" : 1611244757103,
+        "duration" : 259
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of prices to it",
+      "uid" : "e1ea265ea668d062",
+      "parentUid" : "4ab6864a6260a7f89293cfda310fc7e9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611244834497,
+        "stop" : 1611244870960,
+        "duration" : 36463
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    } ],
+    "uid" : "4ab6864a6260a7f89293cfda310fc7e9"
+  } ],
+  "name" : "packages"
+}

@@ -1,0 +1,105 @@
+{
+  "uid" : "6b51a45d85bc5983",
+  "name" : "should be on the right page",
+  "fullName" : "Navigate to Deals.should be on the right page",
+  "historyId" : "ead5d2aaa78f0fe79d826827889bb910",
+  "time" : {
+    "start" : 1611246040476,
+    "stop" : 1611246040515,
+    "duration" : 39
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected 'https://www.sky.com/' to include 'https://www.sky.com/shop/offers'",
+  "statusTrace" : "AssertionError: expected 'https://www.sky.com/' to include 'https://www.sky.com/shop/offers'\n                    at Context.<anonymous> (/Users/user/skywebdriverio_test/test/specs/skydeals.spec.js:27:24)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected 'https://www.sky.com/' to include 'https://www.sky.com/shop/offers'",
+    "statusTrace" : "AssertionError: expected 'https://www.sky.com/' to include 'https://www.sky.com/shop/offers'\n                    at Context.<anonymous> (/Users/user/skywebdriverio_test/test/specs/skydeals.spec.js:27:24)",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/url",
+      "time" : {
+        "start" : 1611246040476,
+        "stop" : 1611246040512,
+        "duration" : 36
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "24074a730678ea65",
+        "name" : "Response",
+        "source" : "24074a730678ea65.json",
+        "type" : "application/json",
+        "size" : 22
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Navigate to Deals"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigate to Deals"
+  }, {
+    "name" : "testMethod",
+    "value" : "should be on the right page"
+  }, {
+    "name" : "package",
+    "value" : "Navigate to Deals"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.141"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "46d2095fd1394fd6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611192246932,
+        "stop" : 1611192247014,
+        "duration" : 82
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Product defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "6b51a45d85bc5983.json",
+  "parameterValues" : [ "chrome-87.0.4280.141" ]
+}

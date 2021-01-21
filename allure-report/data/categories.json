@@ -1,0 +1,166 @@
+{
+  "uid" : "4b4757e66a1912dae1a509f688f20b0f",
+  "children" : [ {
+    "name" : "Test defects",
+    "children" : [ {
+      "name" : "search is not defined",
+      "children" : [ {
+        "name" : "user should get the page url",
+        "uid" : "5b2b276205e28901",
+        "parentUid" : "90f4d4fa5f1caaabd75d3399126f30fa",
+        "status" : "broken",
+        "time" : {
+          "start" : 1611163749497,
+          "stop" : 1611163749903,
+          "duration" : 406
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-87.0.4280.141" ]
+      } ],
+      "uid" : "90f4d4fa5f1caaabd75d3399126f30fa"
+    }, {
+      "name" : "Timeout of 90000ms exceeded. The execution in the test \"Sky Keyword Search \"before all\" hook for \"should click the search icon \"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skysearch.spec.js)",
+      "children" : [ {
+        "name" : "\"before all\" hook for Sky Keyword Search",
+        "uid" : "5c1fa2aaa034e7a1",
+        "parentUid" : "f73f86fda9bc9d0c26051fc25aece4ab",
+        "status" : "broken",
+        "time" : {
+          "start" : 1611171674416,
+          "stop" : 1611171765221,
+          "duration" : 90805
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-87.0.4280.141" ]
+      } ],
+      "uid" : "f73f86fda9bc9d0c26051fc25aece4ab"
+    }, {
+      "name" : "Timeout of 90000ms exceeded. The execution in the test \"Sky Home page \"before all\" hook for \"should have the right title \"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skyhome.spec.js)",
+      "children" : [ {
+        "name" : "\"before all\" hook for Sky Home page",
+        "uid" : "d33a8f30cae15187",
+        "parentUid" : "dee71895fb9f01daa7a5b831b37f6128",
+        "status" : "broken",
+        "time" : {
+          "start" : 1611171674421,
+          "stop" : 1611171765222,
+          "duration" : 90801
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-87.0.4280.141" ]
+      } ],
+      "uid" : "dee71895fb9f01daa7a5b831b37f6128"
+    }, {
+      "name" : "Timeout of 90000ms exceeded. The execution in the test \"Invalid Credentials \"before each\" hook for \"should clear Overlay Modal\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skylogin.spec.js)",
+      "children" : [ {
+        "name" : "\"before each\" hook for Invalid Credentials",
+        "uid" : "8a3d6cc0ada4d590",
+        "parentUid" : "924276ec167512e6a6e4dda661ac1d81",
+        "status" : "broken",
+        "time" : {
+          "start" : 1611171674423,
+          "stop" : 1611171765221,
+          "duration" : 90798
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-87.0.4280.141" ]
+      } ],
+      "uid" : "924276ec167512e6a6e4dda661ac1d81"
+    }, {
+      "name" : "Cannot read property '$' of undefined",
+      "children" : [ {
+        "name" : "\"before all\" hook for Navigate to Deals",
+        "uid" : "287c6022254574da",
+        "parentUid" : "c571773da6eb8b01f714ee09eab5e354",
+        "status" : "broken",
+        "time" : {
+          "start" : 1611191010082,
+          "stop" : 1611191029843,
+          "duration" : 19761
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-87.0.4280.141" ]
+      } ],
+      "uid" : "c571773da6eb8b01f714ee09eab5e354"
+    }, {
+      "name" : "invalid argument: missing 'ELEMENT'\n                  (Session info: chrome=87.0.4280.141)",
+      "children" : [ {
+        "name" : "\"before all\" hook for List of Offers",
+        "uid" : "83c9f02706f321e6",
+        "parentUid" : "626aaf36362092da324e93eab0d7e0ca",
+        "status" : "broken",
+        "time" : {
+          "start" : 1611241543052,
+          "stop" : 1611241619928,
+          "duration" : 76876
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-87.0.4280.141" ]
+      } ],
+      "uid" : "626aaf36362092da324e93eab0d7e0ca"
+    }, {
+      "name" : "this.sorryMessage.toHaveTextContaining is not a function",
+      "children" : [ {
+        "name" : "should try Sign In with Invalid credentials",
+        "uid" : "66ded0b47ec75ab1",
+        "parentUid" : "d856be77b1fea57faea09ebc31136c33",
+        "status" : "broken",
+        "time" : {
+          "start" : 1611245654392,
+          "stop" : 1611245663181,
+          "duration" : 8789
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-87.0.4280.141" ]
+      } ],
+      "uid" : "d856be77b1fea57faea09ebc31136c33"
+    }, {
+      "name" : "element click intercepted: Element <a href=\"https://www.sky.com/shop/offers\" class=\"nav-item-link nav-link tab-focus primary-nav-link svelte-vivf6p\" aria-label=\"\" data-test-id=\"nav-item-link\" data-tracking-label=\"masthead_visit_primary_deals_link\">...</a> is not clickable at point (819, 25). Other element would receive the click: <iframe src=\"https://cdn.privacy-mgmt.com/index.html?message_id=207015&amp;consentUUID=0b6ffeb3-631c-4e1e-87ff-a7772cd0afd0&amp;requestUUID=b463c58b-b3f7-4c94-bad1-2fc2a078d606&amp;preload_message=true&amp;consentLanguage=en\" id=\"sp_message_iframe_207015\"></iframe>\n                  (Session info: chrome=87.0.4280.141)",
+      "children" : [ {
+        "name" : "should navigate to Deals",
+        "uid" : "a8585c926f99bc5c",
+        "parentUid" : "c396fff44f7c18fd58626708ce116d14",
+        "status" : "broken",
+        "time" : {
+          "start" : 1611245958708,
+          "stop" : 1611246040476,
+          "duration" : 81768
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-87.0.4280.141" ]
+      } ],
+      "uid" : "c396fff44f7c18fd58626708ce116d14"
+    } ],
+    "uid" : "bdbf199525818fae7a8651db9eafe741"
+  }, {
+    "name" : "Product defects",
+    "children" : [ {
+      "name" : "expected 'https://www.sky.com/' to include 'https://www.sky.com/shop/offers'",
+      "children" : [ {
+        "name" : "should be on the right page",
+        "uid" : "6b51a45d85bc5983",
+        "parentUid" : "298f2ee78e00945e700cdb24058ecdb7",
+        "status" : "failed",
+        "time" : {
+          "start" : 1611246040476,
+          "stop" : 1611246040515,
+          "duration" : 39
+        },
+        "flaky" : false,
+        "newFailed" : false,
+        "parameters" : [ "chrome-87.0.4280.141" ]
+      } ],
+      "uid" : "298f2ee78e00945e700cdb24058ecdb7"
+    } ],
+    "uid" : "8fb3a91ba5aaf9de24cc8a92edc82b5d"
+  } ],
+  "name" : "categories"
+}

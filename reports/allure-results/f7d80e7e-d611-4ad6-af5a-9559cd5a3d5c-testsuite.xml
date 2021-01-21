@@ -1,0 +1,281 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1611143681621' stop='1611143779528'>
+    <name>Navigate to Deals</name>
+    <title>Navigate to Deals</title>
+    <test-cases>
+        <test-case start='1611143681622' status='passed' stop='1611143774841'>
+            <name>should navigate to Deals</name>
+            <title>should navigate to Deals</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-87.0.4280.141'/>
+                <parameter kind='argument' name='browser' value='chrome-87.0.4280.141'/>
+            </parameters>
+            <steps>
+                <step start='1611143681627' status='passed' stop='1611143699911'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='e5c204d2-abf6-4cfd-80a2-cfe49b1a5989-attachment.json' type='application/json' size='31'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1611143701918' status='passed' stop='1611143703719'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='a733e8b7-311f-4626-9c1a-f596b6b98348-attachment.json' type='application/json' size='81'/>
+                        <attachment title='Response' source='6906bae7-19f3-42d8-af28-9dbcfe29bb2b-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1611143703728' status='passed' stop='1611143703767'>
+                    <name>POST /session/:sessionId/frame</name>
+                    <title>POST /session/:sessionId/frame</title>
+                    <attachments>
+                        <attachment title='Request' source='ed4ad61d-110a-47fb-9335-94acd08410c8-attachment.json' type='application/json' size='3423'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1611143705771' status='passed' stop='1611143706016'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='11ec5fc7-b991-48af-9cbb-03bd6c71d78a-attachment.json' type='application/json' size='113'/>
+                        <attachment title='Response' source='4cb250e5-b061-4307-9646-74c8a6fee5fb-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1611143706021' status='passed' stop='1611143706102'>
+                    <name>POST /session/:sessionId/element/fbff59da-ff6d-4c4e-93b7-86c1085c1948/click</name>
+                    <title>POST /session/:sessionId/element/fbff59da-ff6d-4c4e-93b7-86c1085c1948/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1611143706105' status='passed' stop='1611143706305'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments>
+                        <attachment title='Response' source='bc008025-c2c8-4872-8ec0-1fc37aa891d5-attachment.json' type='application/json' size='62'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1611143707310' status='passed' stop='1611143707328'>
+                    <name>POST /session/:sessionId/refresh</name>
+                    <title>POST /session/:sessionId/refresh</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1611143707330' status='passed' stop='1611143726258'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='12d8cb9f-33a8-4046-bf94-46ea7285b056-attachment.json' type='application/json' size='46'/>
+                        <attachment title='Response' source='718d0dd2-b31c-4432-896d-1e9a74dc43b6-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1611143726261' status='passed' stop='1611143726370'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='9e0e81ec-1250-4c47-937c-7bae2713e2ec-attachment.json' type='application/json' size='5893'/>
+                        <attachment title='Response' source='151c4231-69b5-4350-b077-3719bba18682-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1611143726371' status='passed' stop='1611143726399'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='ed1032bb-d48a-43bf-b87f-085ef054e6f4-attachment.json' type='application/json' size='46'/>
+                        <attachment title='Response' source='a9c6fc6a-3661-4d2b-83e8-6af922db91cd-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1611143726403' status='passed' stop='1611143726549'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='a6c651c9-ad02-4f60-9c30-4acde4aaa219-attachment.json' type='application/json' size='46'/>
+                        <attachment title='Response' source='666400ff-c6cb-4783-801e-19d6a3385bb6-attachment.json' type='application/json' size='93'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1611143726553' status='passed' stop='1611143726677'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='ae07c881-ac52-4d1c-9a91-2e890c255e0e-attachment.json' type='application/json' size='46'/>
+                        <attachment title='Response' source='f0086154-38f6-493c-8ab8-4ee5a3340b25-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1611143726682' status='passed' stop='1611143774112'>
+                    <name>POST /session/:sessionId/element/3d898d76-e916-4fe3-805c-40c74f59ddfc/click</name>
+                    <title>POST /session/:sessionId/element/3d898d76-e916-4fe3-805c-40c74f59ddfc/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1611143774126' status='passed' stop='1611143774707'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments>
+                        <attachment title='Response' source='a20889e8-c3db-4177-afb3-20c99b9a1233-attachment.json' type='application/json' size='69'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1611143774708' status='passed' stop='1611143774838'>
+                    <name>GET /session/:sessionId/url</name>
+                    <title>GET /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Response' source='b6734f93-1dd4-4099-968d-e09247352512-attachment.json' type='application/json' size='33'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1611143774841' status='passed' stop='1611143775074'>
+            <name>should be on the 'shop/offers' page and verify url</name>
+            <title>should be on the 'shop/offers' page and verify url</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-87.0.4280.141'/>
+            </parameters>
+            <steps>
+                <step start='1611143774842' status='passed' stop='1611143775074'>
+                    <name>GET /session/:sessionId/url</name>
+                    <title>GET /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Response' source='bc7b884e-044d-4163-8cfe-104139b67b42-attachment.json' type='application/json' size='33'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1611143775075' status='broken' stop='1611143776511'>
+            <name>user should get the page url</name>
+            <title>user should get the page url</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-87.0.4280.141'/>
+            </parameters>
+            <steps>
+                <step start='1611143775537' status='passed' stop='1611143776510'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='67ff6d26-0b45-4934-8f4c-41f016d1ea5e-attachment.png' type='image/png' size='364756'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>search is not defined</message>
+                <stack-trace>ReferenceError: search is not defined
+                    at Context.&lt;anonymous> (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js:44:5)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1611143776511' status='failed' stop='1611143778735'>
+            <name>should see list of offers</name>
+            <title>should see list of offers</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-87.0.4280.141'/>
+            </parameters>
+            <steps>
+                <step start='1611143776512' status='passed' stop='1611143777209'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='77dcbf21-95ae-4f62-8b5e-c8e87ea573ae-attachment.json' type='application/json' size='82'/>
+                        <attachment title='Response' source='aa771c65-dc6b-474c-bbf6-1e7d814b33f0-attachment.json' type='application/json' size='93'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1611143777213' status='passed' stop='1611143777629'>
+                    <name>GET /session/:sessionId/element/c8e28cff-29d7-4ca1-9bb7-6203adaa9788/text</name>
+                    <title>GET /session/:sessionId/element/c8e28cff-29d7-4ca1-9bb7-6203adaa9788/text</title>
+                    <attachments>
+                        <attachment title='Response' source='300f6865-b353-41f0-85d3-66817c45984c-attachment.json' type='application/json' size='1719'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1611143777630' status='passed' stop='1611143778734'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='d89a6bd1-3728-4e29-878b-d084db2ed688-attachment.png' type='image/png' size='364756'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Target cannot be null or undefined.</message>
+                <stack-trace>AssertionError: Target cannot be null or undefined.
+                    at Context.&lt;anonymous> (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js:50:25)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1611143778735' status='broken' stop='1611143779527'>
+            <name>should see the prices of the offers</name>
+            <title>should see the prices of the offers</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-87.0.4280.141'/>
+            </parameters>
+            <steps>
+                <step start='1611143778736' status='passed' stop='1611143779056'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='9622180d-9d46-4c57-856f-b0baa9af723b-attachment.json' type='application/json' size='79'/>
+                        <attachment title='Response' source='9126b1bc-a167-4a6e-816e-df40202297af-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1611143779061' status='passed' stop='1611143779527'>
+                    <name>GET /session/:sessionId/screenshot</name>
+                    <title>GET /session/:sessionId/screenshot</title>
+                    <attachments>
+                        <attachment title='Screenshot' source='1a5527e4-cb62-401f-8f2c-076f423066f3-attachment.png' type='image/png' size='364756'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Cannot read property '1' of undefined</message>
+                <stack-trace>TypeError: Cannot read property '1' of undefined
+                    at SkyDeals.getOffersPriceList (/Users/user/skywebdriverio_test/test/pageobjects/skydeals.js:34:12)
+                    at Context.&lt;anonymous> (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js:58:26)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

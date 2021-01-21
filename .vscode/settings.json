@@ -1,0 +1,5 @@
+{
+    "mocha-snippets.function-type": "arrow",
+    "files.autoSave": "onFocusChange",
+    "editor.autoClosingQuotes": "always"
+}

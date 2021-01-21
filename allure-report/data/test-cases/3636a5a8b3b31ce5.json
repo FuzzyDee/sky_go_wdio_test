@@ -1,0 +1,92 @@
+{
+  "uid" : "3636a5a8b3b31ce5",
+  "name" : "\"before all\" hook for Sky Home page",
+  "fullName" : "Sky Home page.\"before all\" hook for Sky Home page",
+  "historyId" : "9c6f25adcba885a5073c2f9242cf955b",
+  "time" : {
+    "start" : 1611165876921,
+    "stop" : 1611165968149,
+    "duration" : 91228
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Timeout of 90000ms exceeded. The execution in the test \"Sky Home page \"before all\" hook for \"should have the right title \"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skyhome.spec.js)",
+  "statusTrace" : "Error: Timeout of 90000ms exceeded. The execution in the test \"Sky Home page \"before all\" hook for \"should have the right title \"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skyhome.spec.js)\n                    at Hook.Runnable._timeoutError (/Users/user/skywebdriverio_test/node_modules/mocha/lib/runnable.js:432:10)\n                    at Timeout.<anonymous> (/Users/user/skywebdriverio_test/node_modules/mocha/lib/runnable.js:244:24)\n                    at listOnTimeout (internal/timers.js:549:17)\n                    at processTimers (internal/timers.js:492:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Timeout of 90000ms exceeded. The execution in the test \"Sky Home page \"before all\" hook for \"should have the right title \"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skyhome.spec.js)",
+    "statusTrace" : "Error: Timeout of 90000ms exceeded. The execution in the test \"Sky Home page \"before all\" hook for \"should have the right title \"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skyhome.spec.js)\n                    at Hook.Runnable._timeoutError (/Users/user/skywebdriverio_test/node_modules/mocha/lib/runnable.js:432:10)\n                    at Timeout.<anonymous> (/Users/user/skywebdriverio_test/node_modules/mocha/lib/runnable.js:244:24)\n                    at listOnTimeout (internal/timers.js:549:17)\n                    at processTimers (internal/timers.js:492:7)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1611165876930,
+        "stop" : 1611165968149,
+        "duration" : 91219
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: Timeout of 90000ms exceeded. The execution in the test \"Sky Home page \"before all\" hook for \"should have the right title \"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skyhome.spec.js)\n                    at Hook.Runnable._timeoutError (/Users/user/skywebdriverio_test/node_modules/mocha/lib/runnable.js:432:10)\n                    at Timeout.<anonymous> (/Users/user/skywebdriverio_test/node_modules/mocha/lib/runnable.js:244:24)\n                    at listOnTimeout (internal/timers.js:549:17)\n                    at processTimers (internal/timers.js:492:7)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9315b7c45fa78d9",
+        "name" : "Request",
+        "source" : "9315b7c45fa78d9.json",
+        "type" : "application/json",
+        "size" : 31
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-2"
+  }, {
+    "name" : "suite",
+    "value" : "Sky Home page"
+  }, {
+    "name" : "testClass",
+    "value" : "Sky Home page"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook for Sky Home page"
+  }, {
+    "name" : "package",
+    "value" : "Sky Home page"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.141"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "3636a5a8b3b31ce5.json",
+  "parameterValues" : [ "chrome-87.0.4280.141" ]
+}

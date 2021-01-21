@@ -1,0 +1,160 @@
+{
+  "uid" : "5b2b276205e28901",
+  "name" : "user should get the page url",
+  "fullName" : "Navigate to Deals.user should get the page url",
+  "historyId" : "4a7ebb0565c66b47f797b9b8c2b10448",
+  "time" : {
+    "start" : 1611163749497,
+    "stop" : 1611163749903,
+    "duration" : 406
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "search is not defined",
+  "statusTrace" : "ReferenceError: search is not defined\n                    at Context.<anonymous> (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js:44:5)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "search is not defined",
+    "statusTrace" : "ReferenceError: search is not defined\n                    at Context.<anonymous> (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js:44:5)",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1611163749499,
+        "stop" : 1611163749903,
+        "duration" : 404
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6efe0084ef7465e4",
+        "name" : "Screenshot",
+        "source" : "6efe0084ef7465e4.png",
+        "type" : "image/png",
+        "size" : 364634
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Navigate to Deals"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigate to Deals"
+  }, {
+    "name" : "testMethod",
+    "value" : "user should get the page url"
+  }, {
+    "name" : "package",
+    "value" : "Navigate to Deals"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.141"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "956bad16529d96e6",
+      "status" : "broken",
+      "statusDetails" : "search is not defined",
+      "time" : {
+        "start" : 1611143775075,
+        "stop" : 1611143776511,
+        "duration" : 1436
+      }
+    }, {
+      "uid" : "51ff22eca0412ae0",
+      "status" : "broken",
+      "statusDetails" : "search is not defined",
+      "time" : {
+        "start" : 1611143621118,
+        "stop" : 1611143621816,
+        "duration" : 698
+      }
+    }, {
+      "uid" : "d0e64f9f41cf3ed7",
+      "status" : "broken",
+      "statusDetails" : "search is not defined",
+      "time" : {
+        "start" : 1611139004506,
+        "stop" : 1611139009519,
+        "duration" : 5013
+      }
+    }, {
+      "uid" : "6a2ff809fe4ece88",
+      "status" : "broken",
+      "statusDetails" : "search is not defined",
+      "time" : {
+        "start" : 1611138605765,
+        "stop" : 1611138607520,
+        "duration" : 1755
+      }
+    }, {
+      "uid" : "69eb9e8159119840",
+      "status" : "broken",
+      "statusDetails" : "search is not defined",
+      "time" : {
+        "start" : 1611138366065,
+        "stop" : 1611138368290,
+        "duration" : 2225
+      }
+    }, {
+      "uid" : "9a4aadb071868738",
+      "status" : "broken",
+      "statusDetails" : "search is not defined",
+      "time" : {
+        "start" : 1611138074022,
+        "stop" : 1611138095237,
+        "duration" : 21215
+      }
+    }, {
+      "uid" : "41021c218f7c28ca",
+      "status" : "broken",
+      "statusDetails" : "search is not defined",
+      "time" : {
+        "start" : 1611137777105,
+        "stop" : 1611137777902,
+        "duration" : 797
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "5b2b276205e28901.json",
+  "parameterValues" : [ "chrome-87.0.4280.141" ]
+}

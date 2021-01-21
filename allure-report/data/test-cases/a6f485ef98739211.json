@@ -1,0 +1,92 @@
+{
+  "uid" : "a6f485ef98739211",
+  "name" : "\"before all\" hook for Navigate to Deals",
+  "fullName" : "Navigate to Deals.\"before all\" hook for Navigate to Deals",
+  "historyId" : "108bf6edd2b3c57ca3e08752b7214ff8",
+  "time" : {
+    "start" : 1611170927539,
+    "stop" : 1611171018190,
+    "duration" : 90651
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Timeout of 90000ms exceeded. The execution in the test \"Navigate to Deals \"before all\" hook for \"should navigate to Deals\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js)",
+  "statusTrace" : "Error: Timeout of 90000ms exceeded. The execution in the test \"Navigate to Deals \"before all\" hook for \"should navigate to Deals\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js)\n                    at Hook.Runnable._timeoutError (/Users/user/skywebdriverio_test/node_modules/mocha/lib/runnable.js:432:10)\n                    at Timeout.<anonymous> (/Users/user/skywebdriverio_test/node_modules/mocha/lib/runnable.js:244:24)\n                    at listOnTimeout (internal/timers.js:549:17)\n                    at processTimers (internal/timers.js:492:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Timeout of 90000ms exceeded. The execution in the test \"Navigate to Deals \"before all\" hook for \"should navigate to Deals\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js)",
+    "statusTrace" : "Error: Timeout of 90000ms exceeded. The execution in the test \"Navigate to Deals \"before all\" hook for \"should navigate to Deals\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js)\n                    at Hook.Runnable._timeoutError (/Users/user/skywebdriverio_test/node_modules/mocha/lib/runnable.js:432:10)\n                    at Timeout.<anonymous> (/Users/user/skywebdriverio_test/node_modules/mocha/lib/runnable.js:244:24)\n                    at listOnTimeout (internal/timers.js:549:17)\n                    at processTimers (internal/timers.js:492:7)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1611170927544,
+        "stop" : 1611171018189,
+        "duration" : 90645
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: Timeout of 90000ms exceeded. The execution in the test \"Navigate to Deals \"before all\" hook for \"should navigate to Deals\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js)\n                    at Hook.Runnable._timeoutError (/Users/user/skywebdriverio_test/node_modules/mocha/lib/runnable.js:432:10)\n                    at Timeout.<anonymous> (/Users/user/skywebdriverio_test/node_modules/mocha/lib/runnable.js:244:24)\n                    at listOnTimeout (internal/timers.js:549:17)\n                    at processTimers (internal/timers.js:492:7)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "71db7f498727d420",
+        "name" : "Request",
+        "source" : "71db7f498727d420.json",
+        "type" : "application/json",
+        "size" : 31
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Navigate to Deals"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigate to Deals"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook for Navigate to Deals"
+  }, {
+    "name" : "package",
+    "value" : "Navigate to Deals"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.141"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "a6f485ef98739211.json",
+  "parameterValues" : [ "chrome-87.0.4280.141" ]
+}

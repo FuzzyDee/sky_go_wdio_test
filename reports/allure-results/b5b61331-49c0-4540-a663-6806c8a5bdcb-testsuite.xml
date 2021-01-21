@@ -1,0 +1,38 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1611166250714' stop='1611166340719'>
+    <name>Navigate to Deals</name>
+    <title>Navigate to Deals</title>
+    <test-cases>
+        <test-case start='1611166250715' status='broken' stop='1611166340718'>
+            <name>"before all" hook for Navigate to Deals</name>
+            <title>"before all" hook for Navigate to Deals</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-1'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-87.0.4280.141'/>
+            </parameters>
+            <steps>
+                <step start='1611166250720' status='broken' stop='1611166340718'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='b22198b8-77a3-4209-b3dd-da85d365080d-attachment.json' type='application/json' size='31'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Timeout of 90000ms exceeded. The execution in the test "Navigate to Deals "before all" hook for "should navigate to Deals"" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skydeals.spec.js)</message>
+                <stack-trace>Error: Timeout of 90000ms exceeded. The execution in the test "Navigate to Deals "before all" hook for "should navigate to Deals"" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skydeals.spec.js)
+                    at Hook.Runnable._timeoutError (/Users/user/skywebdriverio_test/node_modules/mocha/lib/runnable.js:432:10)
+                    at Timeout.&lt;anonymous> (/Users/user/skywebdriverio_test/node_modules/mocha/lib/runnable.js:244:24)
+                    at listOnTimeout (internal/timers.js:549:17)
+                    at processTimers (internal/timers.js:492:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

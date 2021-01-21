@@ -1,0 +1,139 @@
+{
+  "uid" : "cd078fe19190ee3f",
+  "name" : "should see list of offers",
+  "fullName" : "Navigate to Deals.should see list of offers",
+  "historyId" : "ef44331df332bb1329b23777d38909c1",
+  "time" : {
+    "start" : 1611138607521,
+    "stop" : 1611138608201,
+    "duration" : 680
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "expected [ Array(1) ] to deep include [ 'Superfast Broadband & Sky TV',\n                  'Superfast Broadband & Anytime Calls',\n                  'Superfast Broadband & Sky Sports' ]",
+  "statusTrace" : "AssertionError: expected [ Array(1) ] to deep include [ 'Superfast Broadband & Sky TV',\n                  'Superfast Broadband & Anytime Calls',\n                  'Superfast Broadband & Sky Sports' ]\n                    at Context.<anonymous> (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js:50:30)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "expected [ Array(1) ] to deep include [ 'Superfast Broadband & Sky TV',\n                  'Superfast Broadband & Anytime Calls',\n                  'Superfast Broadband & Sky Sports' ]",
+    "statusTrace" : "AssertionError: expected [ Array(1) ] to deep include [ 'Superfast Broadband & Sky TV',\n                  'Superfast Broadband & Anytime Calls',\n                  'Superfast Broadband & Sky Sports' ]\n                    at Context.<anonymous> (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js:50:30)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1611138607521,
+        "stop" : 1611138607615,
+        "duration" : 94
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "39a06fe46ec034b2",
+        "name" : "Request",
+        "source" : "39a06fe46ec034b2.json",
+        "type" : "application/json",
+        "size" : 82
+      }, {
+        "uid" : "3d23dddafed4ea7e",
+        "name" : "Response",
+        "source" : "3d23dddafed4ea7e.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/ecdf4639-1c6d-4d37-a0c2-7b54403a0d54/text",
+      "time" : {
+        "start" : 1611138607619,
+        "stop" : 1611138607789,
+        "duration" : 170
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "d1ca20f47372935b",
+        "name" : "Response",
+        "source" : "d1ca20f47372935b.json",
+        "type" : "application/json",
+        "size" : 1760
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1611138607792,
+        "stop" : 1611138608200,
+        "duration" : 408
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e188a7674f11eaff",
+        "name" : "Screenshot",
+        "source" : "e188a7674f11eaff.png",
+        "type" : "image/png",
+        "size" : 364736
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Navigate to Deals"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigate to Deals"
+  }, {
+    "name" : "testMethod",
+    "value" : "should see list of offers"
+  }, {
+    "name" : "package",
+    "value" : "Navigate to Deals"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.141"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "cd078fe19190ee3f.json",
+  "parameterValues" : [ "chrome-87.0.4280.141" ]
+}

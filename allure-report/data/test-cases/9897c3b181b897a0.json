@@ -1,0 +1,108 @@
+{
+  "uid" : "9897c3b181b897a0",
+  "name" : "\"before all\" hook for List of Offers",
+  "fullName" : "List of Offers.\"before all\" hook for List of Offers",
+  "historyId" : "95f613352fd52f509219652347bb822a",
+  "time" : {
+    "start" : 1611199994943,
+    "stop" : 1611199998810,
+    "duration" : 3867
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "socket hang up",
+  "statusTrace" : "RequestError: socket hang up\n                    at ClientRequest.<anonymous> (/Users/user/skywebdriverio_test/node_modules/got/dist/source/core/index.js:953:111)\n                    at ClientRequest.origin.emit (/Users/user/skywebdriverio_test/node_modules/@szmarczak/http-timer/dist/source/index.js:39:20)\n                    at Socket.socketOnEnd (_http_client.js:453:9)\n                    at endReadableNT (_stream_readable.js:1187:12)\n                    at connResetException (internal/errors.js:608:14)\n                    at Socket.socketOnEnd (_http_client.js:453:23)\n                    at processTicksAndRejections (internal/process/task_queues.js:84:21)\n                    at SkyHomePage.open (/Users/user/skywebdriverio_test/test/pageobjects/page.js:11:13)\n                    at SkyHomePage.open (/Users/user/skywebdriverio_test/test/pageobjects/skyhomepage.js:46:11)\n                    at Context.<anonymous> (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js:9:14)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "socket hang up",
+    "statusTrace" : "RequestError: socket hang up\n                    at ClientRequest.<anonymous> (/Users/user/skywebdriverio_test/node_modules/got/dist/source/core/index.js:953:111)\n                    at ClientRequest.origin.emit (/Users/user/skywebdriverio_test/node_modules/@szmarczak/http-timer/dist/source/index.js:39:20)\n                    at Socket.socketOnEnd (_http_client.js:453:9)\n                    at endReadableNT (_stream_readable.js:1187:12)\n                    at connResetException (internal/errors.js:608:14)\n                    at Socket.socketOnEnd (_http_client.js:453:23)\n                    at processTicksAndRejections (internal/process/task_queues.js:84:21)\n                    at SkyHomePage.open (/Users/user/skywebdriverio_test/test/pageobjects/page.js:11:13)\n                    at SkyHomePage.open (/Users/user/skywebdriverio_test/test/pageobjects/skyhomepage.js:46:11)\n                    at Context.<anonymous> (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js:9:14)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1611199994948,
+        "stop" : 1611199998809,
+        "duration" : 3861
+      },
+      "status" : "broken",
+      "statusMessage" : "RequestError: socket hang up\n                    at ClientRequest.<anonymous> (/Users/user/skywebdriverio_test/node_modules/got/dist/source/core/index.js:953:111)\n                    at ClientRequest.origin.emit (/Users/user/skywebdriverio_test/node_modules/@szmarczak/http-timer/dist/source/index.js:39:20)\n                    at Socket.socketOnEnd (_http_client.js:453:9)\n                    at endReadableNT (_stream_readable.js:1187:12)\n                    at connResetException (internal/errors.js:608:14)\n                    at Socket.socketOnEnd (_http_client.js:453:23)\n                    at processTicksAndRejections (internal/process/task_queues.js:84:21)\n                    at SkyHomePage.open (/Users/user/skywebdriverio_test/test/pageobjects/page.js:11:13)\n                    at SkyHomePage.open (/Users/user/skywebdriverio_test/test/pageobjects/skyhomepage.js:46:11)\n                    at Context.<anonymous> (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js:9:14)",
+      "steps" : [ {
+        "name" : "DELETE /session/:sessionId",
+        "time" : {
+          "start" : 1611199998789,
+          "stop" : 1611199998809,
+          "duration" : 20
+        },
+        "status" : "broken",
+        "statusMessage" : "RequestError: socket hang up\n                    at ClientRequest.<anonymous> (/Users/user/skywebdriverio_test/node_modules/got/dist/source/core/index.js:953:111)\n                    at ClientRequest.origin.emit (/Users/user/skywebdriverio_test/node_modules/@szmarczak/http-timer/dist/source/index.js:39:20)\n                    at Socket.socketOnEnd (_http_client.js:453:9)\n                    at endReadableNT (_stream_readable.js:1187:12)\n                    at connResetException (internal/errors.js:608:14)\n                    at Socket.socketOnEnd (_http_client.js:453:23)\n                    at processTicksAndRejections (internal/process/task_queues.js:84:21)\n                    at SkyHomePage.open (/Users/user/skywebdriverio_test/test/pageobjects/page.js:11:13)\n                    at SkyHomePage.open (/Users/user/skywebdriverio_test/test/pageobjects/skyhomepage.js:46:11)\n                    at Context.<anonymous> (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js:9:14)",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "aba60169c3e76fef",
+        "name" : "Request",
+        "source" : "aba60169c3e76fef.json",
+        "type" : "application/json",
+        "size" : 31
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "List of Offers"
+  }, {
+    "name" : "testClass",
+    "value" : "List of Offers"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook for List of Offers"
+  }, {
+    "name" : "package",
+    "value" : "List of Offers"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.141"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "9897c3b181b897a0.json",
+  "parameterValues" : [ "chrome-87.0.4280.141" ]
+}

@@ -1,0 +1,219 @@
+{
+  "uid" : "d847f4821d294f7d",
+  "name" : "should see list of offers",
+  "fullName" : "Navigate to Deals.should see list of offers",
+  "historyId" : "ef44331df332bb1329b23777d38909c1",
+  "time" : {
+    "start" : 1611185540450,
+    "stop" : 1611185540662,
+    "duration" : 212
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1611185540451,
+        "stop" : 1611185540468,
+        "duration" : 17
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "8460679866e50f78",
+        "name" : "Request",
+        "source" : "8460679866e50f78.json",
+        "type" : "application/json",
+        "size" : 82
+      }, {
+        "uid" : "94ab8337948e761e",
+        "name" : "Response",
+        "source" : "94ab8337948e761e.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/aceaa1f4-5f41-4a34-a89b-ad22787a9283/text",
+      "time" : {
+        "start" : 1611185540472,
+        "stop" : 1611185540659,
+        "duration" : 187
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3c34cb88761d79e1",
+        "name" : "Response",
+        "source" : "3c34cb88761d79e1.json",
+        "type" : "application/json",
+        "size" : 1760
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Navigate to Deals"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigate to Deals"
+  }, {
+    "name" : "testMethod",
+    "value" : "should see list of offers"
+  }, {
+    "name" : "package",
+    "value" : "Navigate to Deals"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.141"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6ecb7a39c3a90c09",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611184794069,
+        "stop" : 1611184803611,
+        "duration" : 9542
+      }
+    }, {
+      "uid" : "b3c8e5ff57720154",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611182916567,
+        "stop" : 1611182918377,
+        "duration" : 1810
+      }
+    }, {
+      "uid" : "e9f1ad3ef66d2e93",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611171294728,
+        "stop" : 1611171295956,
+        "duration" : 1228
+      }
+    }, {
+      "uid" : "e3309bca9fe61b06",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611165349263,
+        "stop" : 1611165349694,
+        "duration" : 431
+      }
+    }, {
+      "uid" : "c4f9c66ec85e0964",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611163749903,
+        "stop" : 1611163750176,
+        "duration" : 273
+      }
+    }, {
+      "uid" : "d1cc05a86658754e",
+      "status" : "failed",
+      "statusDetails" : "Target cannot be null or undefined.",
+      "time" : {
+        "start" : 1611143776511,
+        "stop" : 1611143778735,
+        "duration" : 2224
+      }
+    }, {
+      "uid" : "3fde91ea341515a6",
+      "status" : "failed",
+      "statusDetails" : "Target cannot be null or undefined.",
+      "time" : {
+        "start" : 1611143621816,
+        "stop" : 1611143622483,
+        "duration" : 667
+      }
+    }, {
+      "uid" : "f7440e4baaa9b17a",
+      "status" : "failed",
+      "statusDetails" : "expected [ Array(1) ] to include [ 'Superfast Broadband & Sky TV',\n                  'Superfast Broadband & Anytime Calls',\n                  'Superfast Broadband & Sky Sports' ]",
+      "time" : {
+        "start" : 1611139009520,
+        "stop" : 1611139010231,
+        "duration" : 711
+      }
+    }, {
+      "uid" : "cd078fe19190ee3f",
+      "status" : "failed",
+      "statusDetails" : "expected [ Array(1) ] to deep include [ 'Superfast Broadband & Sky TV',\n                  'Superfast Broadband & Anytime Calls',\n                  'Superfast Broadband & Sky Sports' ]",
+      "time" : {
+        "start" : 1611138607521,
+        "stop" : 1611138608201,
+        "duration" : 680
+      }
+    }, {
+      "uid" : "e51da8717fbaf44f",
+      "status" : "failed",
+      "statusDetails" : "expected [ Array(1) ] to deep include [ 'Superfast Broadband & Sky TV',\n                  'Superfast Broadband & Anytime Calls',\n                  'Superfast Broadband & Sky Sports' ]",
+      "time" : {
+        "start" : 1611138368291,
+        "stop" : 1611138406662,
+        "duration" : 38371
+      }
+    }, {
+      "uid" : "8a81efdbbefb3ca7",
+      "status" : "failed",
+      "statusDetails" : "chaiExpect is not defined",
+      "time" : {
+        "start" : 1611138095238,
+        "stop" : 1611138096998,
+        "duration" : 1760
+      }
+    }, {
+      "uid" : "55a7863acdd12d26",
+      "status" : "broken",
+      "statusDetails" : "deals is not defined",
+      "time" : {
+        "start" : 1611137777902,
+        "stop" : 1611137778308,
+        "duration" : 406
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d847f4821d294f7d.json",
+  "parameterValues" : [ "chrome-87.0.4280.141" ]
+}

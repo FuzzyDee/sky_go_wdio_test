@@ -1,0 +1,124 @@
+{
+  "id": {
+    "sessionId": "a10bb9353b46e20e902de18aedce62a0",
+    "error": {
+      "error": "no such element",
+      "message": "no such element: Unable to locate element: {\"method\":\"xpath\",\"selector\":\"//iframe[contains(@src,'message_id=207015')]\"}\n  (Session info: chrome=87.0.4280.141)",
+      "stacktrace": "0   chromedriver                        0x000000010104d1c9 chromedriver + 2261449\n1   chromedriver                        0x000000010164c623 chromedriver + 8549923\n2   chromedriver                        0x0000000100ec3333 chromedriver + 647987\n3   chromedriver                        0x0000000100e4ac37 chromedriver + 154679\n4   chromedriver                        0x0000000100e77534 chromedriver + 337204\n5   chromedriver                        0x0000000100e66a2d chromedriver + 268845\n6   chromedriver                        0x0000000100e75796 chromedriver + 329622\n7   chromedriver                        0x0000000100e66cf3 chromedriver + 269555\n8   chromedriver                        0x0000000100e3feca chromedriver + 110282\n9   chromedriver                        0x0000000100e40e87 chromedriver + 114311\n10  chromedriver                        0x000000010101ee19 chromedriver + 2072089\n11  chromedriver                        0x000000010102ad62 chromedriver + 2121058\n12  chromedriver                        0x000000010102a95e chromedriver + 2120030\n13  chromedriver                        0x0000000101005e80 chromedriver + 1969792\n14  chromedriver                        0x000000010102b2e1 chromedriver + 2122465\n15  chromedriver                        0x00000001010146d9 chromedriver + 2029273\n16  chromedriver                        0x000000010104178f chromedriver + 2213775\n17  chromedriver                        0x0000000101052733 chromedriver + 2283315\n18  libsystem_pthread.dylib             0x00007fff689ca109 _pthread_start + 148\n19  libsystem_pthread.dylib             0x00007fff689c5b8b thread_start + 15\n"
+    },
+    "selector": "//iframe[contains(@src,'message_id=207015')]",
+    "parent": {
+      "sessionId": "a10bb9353b46e20e902de18aedce62a0",
+      "capabilities": {
+        "acceptInsecureCerts": false,
+        "browserName": "chrome",
+        "browserVersion": "87.0.4280.141",
+        "chrome": {
+          "chromedriverVersion": "87.0.4280.20 (c99e81631faa0b2a448e658c0dbd8311fb04ddbd-refs/branch-heads/4280@{#355})",
+          "userDataDir": "/var/folders/f9/xc1_br2s08j6c6x2xh5_04rw0000gn/T/.com.google.Chrome.q0FhcB"
+        },
+        "goog:chromeOptions": {
+          "debuggerAddress": "localhost:57554"
+        },
+        "networkConnectionEnabled": false,
+        "pageLoadStrategy": "normal",
+        "platformName": "mac os x",
+        "proxy": {},
+        "setWindowRect": true,
+        "strictFileInteractability": false,
+        "timeouts": {
+          "implicit": 0,
+          "pageLoad": 300000,
+          "script": 30000
+        },
+        "unhandledPromptBehavior": "dismiss and notify",
+        "webauthn:virtualAuthenticators": true
+      },
+      "config": {
+        "specs": [
+          "/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js"
+        ],
+        "suites": {},
+        "exclude": [],
+        "logLevel": "silent",
+        "logLevels": {
+          "webdriver": "silent",
+          "@wdio/applitools-service": "silent"
+        },
+        "excludeDriverLogs": [],
+        "bail": 0,
+        "waitforInterval": 500,
+        "waitforTimeout": 15000,
+        "framework": "mocha",
+        "reporters": [
+          [
+            "allure",
+            {
+              "outputDir": "reports/allure-results",
+              "disableWebdriverStepsReporting": false,
+              "disableWebdriverScreenshotsReporting": false
+            }
+          ]
+        ],
+        "services": [
+          "chromedriver"
+        ],
+        "maxInstances": 10,
+        "maxInstancesPerCapability": 100,
+        "filesToWatch": [],
+        "connectionRetryTimeout": 220000,
+        "connectionRetryCount": 3,
+        "execArgv": [],
+        "runnerEnv": {},
+        "runner": "local",
+        "mochaOpts": {
+          "timeout": 90000,
+          "require": [
+            "@babel/register"
+          ],
+          "ui": "bdd"
+        },
+        "jasmineNodeOpts": {
+          "defaultTimeoutInterval": 10000
+        },
+        "cucumberOpts": {
+          "timeout": 10000
+        },
+        "onPrepare": [],
+        "onWorkerStart": [],
+        "before": [],
+        "beforeSession": [],
+        "beforeSuite": [],
+        "beforeHook": [],
+        "beforeTest": [],
+        "beforeCommand": [],
+        "afterCommand": [],
+        "afterTest": [
+          null
+        ],
+        "afterHook": [],
+        "afterSuite": [],
+        "afterSession": [],
+        "after": [],
+        "onComplete": [],
+        "onReload": [],
+        "beforeFeature": [],
+        "beforeScenario": [],
+        "beforeStep": [],
+        "afterStep": [],
+        "afterScenario": [],
+        "afterFeature": [],
+        "baseUrl": "https://sky.com",
+        "_": [],
+        "spec": [
+          "skyshopoffer.spec.js"
+        ],
+        "$0": "node_modules/.bin/wdio",
+        "ignoredWorkerServices": [],
+        "specFileRetryAttempts": 0
+      },
+      "_NOT_FIBER": true
+    },
+    "isReactElement": false
+  }
+}

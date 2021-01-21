@@ -1,0 +1,223 @@
+{
+  "uid" : "50300039cef53a24",
+  "name" : "should see list of prices to it",
+  "fullName" : "List of Offers.should see list of prices to it",
+  "historyId" : "7db8e7aca9aefc0f3648d5a709876b3d",
+  "time" : {
+    "start" : 1611236735706,
+    "stop" : 1611236764887,
+    "duration" : 29181
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "offerslist is not defined",
+  "statusTrace" : "ReferenceError: offerslist is not defined\n                    at SkyDeals.mapListPrices (/Users/user/skywebdriverio_test/test/pageobjects/skydeals.js:41:5)\n                    at Context.<anonymous> (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js:36:23)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "offerslist is not defined",
+    "statusTrace" : "ReferenceError: offerslist is not defined\n                    at SkyDeals.mapListPrices (/Users/user/skywebdriverio_test/test/pageobjects/skydeals.js:41:5)\n                    at Context.<anonymous> (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js:36:23)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1611236735711,
+        "stop" : 1611236761088,
+        "duration" : 25377
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dc634560d6455fc4",
+        "name" : "Request",
+        "source" : "dc634560d6455fc4.json",
+        "type" : "application/json",
+        "size" : 31
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1611236761113,
+        "stop" : 1611236761266,
+        "duration" : 153
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f0f324e17ffe1961",
+        "name" : "Request",
+        "source" : "f0f324e17ffe1961.json",
+        "type" : "application/json",
+        "size" : 81
+      }, {
+        "uid" : "a3be244f5a8f804d",
+        "name" : "Response",
+        "source" : "a3be244f5a8f804d.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/frame",
+      "time" : {
+        "start" : 1611236761276,
+        "stop" : 1611236761349,
+        "duration" : 73
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "50b86b4031ead760",
+        "name" : "Request",
+        "source" : "50b86b4031ead760.json",
+        "type" : "application/json",
+        "size" : 3514
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1611236761372,
+        "stop" : 1611236761387,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "16d200008c2eb146",
+        "name" : "Request",
+        "source" : "16d200008c2eb146.json",
+        "type" : "application/json",
+        "size" : 113
+      }, {
+        "uid" : "66d6b183c79e332b",
+        "name" : "Response",
+        "source" : "66d6b183c79e332b.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/6d74d4d0-bce6-4089-9e0f-9701ac1a0449/click",
+      "time" : {
+        "start" : 1611236761393,
+        "stop" : 1611236761479,
+        "duration" : 86
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/refresh",
+      "time" : {
+        "start" : 1611236761480,
+        "stop" : 1611236761694,
+        "duration" : 214
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1611236761697,
+        "stop" : 1611236764874,
+        "duration" : 3177
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ac5fb84148fb1746",
+        "name" : "Request",
+        "source" : "ac5fb84148fb1746.json",
+        "type" : "application/json",
+        "size" : 77
+      }, {
+        "uid" : "c9b8a9028e0fe067",
+        "name" : "Response",
+        "source" : "c9b8a9028e0fe067.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "List of Offers"
+  }, {
+    "name" : "testClass",
+    "value" : "List of Offers"
+  }, {
+    "name" : "testMethod",
+    "value" : "should see list of prices to it"
+  }, {
+    "name" : "package",
+    "value" : "List of Offers"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.141"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "50300039cef53a24.json",
+  "parameterValues" : [ "chrome-87.0.4280.141" ]
+}

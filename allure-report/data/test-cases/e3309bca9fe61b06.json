@@ -1,0 +1,114 @@
+{
+  "uid" : "e3309bca9fe61b06",
+  "name" : "should see list of offers",
+  "fullName" : "Navigate to Deals.should see list of offers",
+  "historyId" : "ef44331df332bb1329b23777d38909c1",
+  "time" : {
+    "start" : 1611165349263,
+    "stop" : 1611165349694,
+    "duration" : 431
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1611165349263,
+        "stop" : 1611165349294,
+        "duration" : 31
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "72bc83f427fe7f71",
+        "name" : "Request",
+        "source" : "72bc83f427fe7f71.json",
+        "type" : "application/json",
+        "size" : 82
+      }, {
+        "uid" : "3161eb82fa296cad",
+        "name" : "Response",
+        "source" : "3161eb82fa296cad.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/9c0050e3-f068-4749-a4b4-1e09987d8af1/text",
+      "time" : {
+        "start" : 1611165349297,
+        "stop" : 1611165349458,
+        "duration" : 161
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "56f683a8b619419e",
+        "name" : "Response",
+        "source" : "56f683a8b619419e.json",
+        "type" : "application/json",
+        "size" : 1760
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Navigate to Deals"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigate to Deals"
+  }, {
+    "name" : "testMethod",
+    "value" : "should see list of offers"
+  }, {
+    "name" : "package",
+    "value" : "Navigate to Deals"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.141"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e3309bca9fe61b06.json",
+  "parameterValues" : [ "chrome-87.0.4280.141" ]
+}

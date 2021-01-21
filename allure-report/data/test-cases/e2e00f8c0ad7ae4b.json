@@ -1,0 +1,114 @@
+{
+  "uid" : "e2e00f8c0ad7ae4b",
+  "name" : "should see list of offers with price to it",
+  "fullName" : "List of Offers.should see list of offers with price to it",
+  "historyId" : "d3c8f60a97084cad728ad5f5b889290a",
+  "time" : {
+    "start" : 1611244542344,
+    "stop" : 1611244544761,
+    "duration" : 2417
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1611244542344,
+        "stop" : 1611244544171,
+        "duration" : 1827
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6ed0d6c67e38b4a6",
+        "name" : "Request",
+        "source" : "6ed0d6c67e38b4a6.json",
+        "type" : "application/json",
+        "size" : 82
+      }, {
+        "uid" : "1e8c5838904d048",
+        "name" : "Response",
+        "source" : "1e8c5838904d048.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/4dcca155-6bc1-4aeb-be50-ba39d2050d79/text",
+      "time" : {
+        "start" : 1611244544175,
+        "stop" : 1611244544758,
+        "duration" : 583
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1d3141fecd587303",
+        "name" : "Response",
+        "source" : "1d3141fecd587303.json",
+        "type" : "application/json",
+        "size" : 1760
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "List of Offers"
+  }, {
+    "name" : "testClass",
+    "value" : "List of Offers"
+  }, {
+    "name" : "testMethod",
+    "value" : "should see list of offers with price to it"
+  }, {
+    "name" : "package",
+    "value" : "List of Offers"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.141"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e2e00f8c0ad7ae4b.json",
+  "parameterValues" : [ "chrome-87.0.4280.141" ]
+}

@@ -1,0 +1,33 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1611129162149' stop='1611129214802'>
+    <name>Invalid Credentials</name>
+    <title>Invalid Credentials</title>
+    <test-cases>
+        <test-case start='1611129162150' status='broken' stop='1611129214801'>
+            <name>"before each" hook for Invalid Credentials</name>
+            <title>"before each" hook for Invalid Credentials</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-87.0.4280.141'/>
+                <parameter kind='argument' name='browser' value='chrome-87.0.4280.141'/>
+            </parameters>
+            <steps/>
+            <attachments/>
+            <failure>
+                <message>invalid argument: missing 'cookie'
+                  (Session info: chrome=87.0.4280.141)</message>
+                <stack-trace>invalid argument: missing 'cookie'
+                  (Session info: chrome=87.0.4280.141)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at Context.&lt;anonymous> (/Users/user/skywebdriverio_test/test/specs/skylogin.spec.js:13:13)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

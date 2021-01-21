@@ -1,0 +1,57 @@
+{
+  "uid" : "85d13cf6b345c9cd",
+  "name" : "should try Sign In with Invalid credentials",
+  "fullName" : "Invalid Credentials.should try Sign In with Invalid credentials",
+  "historyId" : "d18f6ee144f1cdb7d11e9085c49ca7f8",
+  "time" : {
+    "start" : 1611245217431,
+    "stop" : 1611245217431,
+    "duration" : 0
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "skipped",
+  "statusMessage" : "Test ignored",
+  "statusTrace" : "undefined",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "suite",
+    "value" : "Invalid Credentials"
+  }, {
+    "name" : "testClass",
+    "value" : "Invalid Credentials"
+  }, {
+    "name" : "testMethod",
+    "value" : "should try Sign In with Invalid credentials"
+  }, {
+    "name" : "package",
+    "value" : "Invalid Credentials"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "845e71ac9d524c79",
+      "status" : "skipped",
+      "statusDetails" : "Test ignored",
+      "time" : {
+        "start" : 1611187200217,
+        "stop" : 1611187200217,
+        "duration" : 0
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "85d13cf6b345c9cd.json",
+  "parameterValues" : [ ]
+}

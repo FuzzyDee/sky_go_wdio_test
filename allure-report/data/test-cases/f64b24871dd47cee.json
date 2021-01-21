@@ -1,0 +1,140 @@
+{
+  "uid" : "f64b24871dd47cee",
+  "name" : "\"before all\" hook for List of Offers",
+  "fullName" : "List of Offers.\"before all\" hook for List of Offers",
+  "historyId" : "95f613352fd52f509219652347bb822a",
+  "time" : {
+    "start" : 1611217302270,
+    "stop" : 1611217393375,
+    "duration" : 91105
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Timeout of 90000ms exceeded. The execution in the test \"List of Offers \"before all\" hook for \"should navigate to /shop/offers\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js)",
+  "statusTrace" : "Error: Timeout of 90000ms exceeded. The execution in the test \"List of Offers \"before all\" hook for \"should navigate to /shop/offers\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js)\n                    at Hook.Runnable._timeoutError (/Users/user/skywebdriverio_test/node_modules/mocha/lib/runnable.js:432:10)\n                    at Timeout.<anonymous> (/Users/user/skywebdriverio_test/node_modules/mocha/lib/runnable.js:244:24)\n                    at listOnTimeout (internal/timers.js:549:17)\n                    at processTimers (internal/timers.js:492:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Timeout of 90000ms exceeded. The execution in the test \"List of Offers \"before all\" hook for \"should navigate to /shop/offers\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js)",
+    "statusTrace" : "Error: Timeout of 90000ms exceeded. The execution in the test \"List of Offers \"before all\" hook for \"should navigate to /shop/offers\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js)\n                    at Hook.Runnable._timeoutError (/Users/user/skywebdriverio_test/node_modules/mocha/lib/runnable.js:432:10)\n                    at Timeout.<anonymous> (/Users/user/skywebdriverio_test/node_modules/mocha/lib/runnable.js:244:24)\n                    at listOnTimeout (internal/timers.js:549:17)\n                    at processTimers (internal/timers.js:492:7)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1611217302520,
+        "stop" : 1611217378118,
+        "duration" : 75598
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6109233f06349c28",
+        "name" : "Request",
+        "source" : "6109233f06349c28.json",
+        "type" : "application/json",
+        "size" : 31
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1611217378145,
+        "stop" : 1611217391124,
+        "duration" : 12979
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f13eedb9aff78b76",
+        "name" : "Request",
+        "source" : "f13eedb9aff78b76.json",
+        "type" : "application/json",
+        "size" : 81
+      }, {
+        "uid" : "2798ad4fe5dec3fc",
+        "name" : "Response",
+        "source" : "2798ad4fe5dec3fc.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/frame",
+      "time" : {
+        "start" : 1611217391134,
+        "stop" : 1611217393374,
+        "duration" : 2240
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: Timeout of 90000ms exceeded. The execution in the test \"List of Offers \"before all\" hook for \"should navigate to /shop/offers\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js)\n                    at Hook.Runnable._timeoutError (/Users/user/skywebdriverio_test/node_modules/mocha/lib/runnable.js:432:10)\n                    at Timeout.<anonymous> (/Users/user/skywebdriverio_test/node_modules/mocha/lib/runnable.js:244:24)\n                    at listOnTimeout (internal/timers.js:549:17)\n                    at processTimers (internal/timers.js:492:7)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "170b5e9a327f2a3c",
+        "name" : "Request",
+        "source" : "170b5e9a327f2a3c.json",
+        "type" : "application/json",
+        "size" : 3514
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "List of Offers"
+  }, {
+    "name" : "testClass",
+    "value" : "List of Offers"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook for List of Offers"
+  }, {
+    "name" : "package",
+    "value" : "List of Offers"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.141"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "f64b24871dd47cee.json",
+  "parameterValues" : [ "chrome-87.0.4280.141" ]
+}

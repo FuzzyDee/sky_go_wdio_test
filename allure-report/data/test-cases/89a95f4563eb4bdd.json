@@ -1,0 +1,362 @@
+{
+  "uid" : "89a95f4563eb4bdd",
+  "name" : "should navigate to /shop/offers",
+  "fullName" : "List of Offers.should navigate to /shop/offers",
+  "historyId" : "b566d2318e3e512fb9b16c514e6e1cac",
+  "time" : {
+    "start" : 1611198338066,
+    "stop" : 1611198453539,
+    "duration" : 115473
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Timeout of 90000ms exceeded. The execution in the test \"List of Offers should navigate to /shop/offers\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js)",
+  "statusTrace" : "Error: Timeout of 90000ms exceeded. The execution in the test \"List of Offers should navigate to /shop/offers\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js)\n                    at Test.Runnable._timeoutError (/Users/user/skywebdriverio_test/node_modules/mocha/lib/runnable.js:432:10)\n                    at Timeout.<anonymous> (/Users/user/skywebdriverio_test/node_modules/mocha/lib/runnable.js:244:24)\n                    at listOnTimeout (internal/timers.js:549:17)\n                    at processTimers (internal/timers.js:492:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Timeout of 90000ms exceeded. The execution in the test \"List of Offers should navigate to /shop/offers\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js)",
+    "statusTrace" : "Error: Timeout of 90000ms exceeded. The execution in the test \"List of Offers should navigate to /shop/offers\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js)\n                    at Test.Runnable._timeoutError (/Users/user/skywebdriverio_test/node_modules/mocha/lib/runnable.js:432:10)\n                    at Timeout.<anonymous> (/Users/user/skywebdriverio_test/node_modules/mocha/lib/runnable.js:244:24)\n                    at listOnTimeout (internal/timers.js:549:17)\n                    at processTimers (internal/timers.js:492:7)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1611198338071,
+        "stop" : 1611198362522,
+        "duration" : 24451
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "264cf8dd6c7e9682",
+        "name" : "Request",
+        "source" : "264cf8dd6c7e9682.json",
+        "type" : "application/json",
+        "size" : 31
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1611198362548,
+        "stop" : 1611198362563,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "834605e6b79e4712",
+        "name" : "Request",
+        "source" : "834605e6b79e4712.json",
+        "type" : "application/json",
+        "size" : 81
+      }, {
+        "uid" : "dcc407da916aaaaa",
+        "name" : "Response",
+        "source" : "dcc407da916aaaaa.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/frame",
+      "time" : {
+        "start" : 1611198362572,
+        "stop" : 1611198362601,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "43d266291e8cffd4",
+        "name" : "Request",
+        "source" : "43d266291e8cffd4.json",
+        "type" : "application/json",
+        "size" : 3514
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1611198362626,
+        "stop" : 1611198362640,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3dee0a6a308c7f82",
+        "name" : "Request",
+        "source" : "3dee0a6a308c7f82.json",
+        "type" : "application/json",
+        "size" : 113
+      }, {
+        "uid" : "d3acf66bde36480a",
+        "name" : "Response",
+        "source" : "d3acf66bde36480a.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/ab699018-2c72-4ed3-9a45-d8ccaa22e43b/click",
+      "time" : {
+        "start" : 1611198362645,
+        "stop" : 1611198362766,
+        "duration" : 121
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/refresh",
+      "time" : {
+        "start" : 1611198362767,
+        "stop" : 1611198362985,
+        "duration" : 218
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1611198362988,
+        "stop" : 1611198373411,
+        "duration" : 10423
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "392e4512d01bc436",
+        "name" : "Request",
+        "source" : "392e4512d01bc436.json",
+        "type" : "application/json",
+        "size" : 46
+      }, {
+        "uid" : "ffb0952e8a099115",
+        "name" : "Response",
+        "source" : "ffb0952e8a099115.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1611198373416,
+        "stop" : 1611198374527,
+        "duration" : 1111
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3fe05983d4edfb4e",
+        "name" : "Request",
+        "source" : "3fe05983d4edfb4e.json",
+        "type" : "application/json",
+        "size" : 5893
+      }, {
+        "uid" : "f6034bc890984a65",
+        "name" : "Response",
+        "source" : "f6034bc890984a65.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1611198374528,
+        "stop" : 1611198375035,
+        "duration" : 507
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fa50be1e5b019f8f",
+        "name" : "Request",
+        "source" : "fa50be1e5b019f8f.json",
+        "type" : "application/json",
+        "size" : 46
+      }, {
+        "uid" : "c2fda8c1b0972dbb",
+        "name" : "Response",
+        "source" : "c2fda8c1b0972dbb.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1611198375040,
+        "stop" : 1611198375507,
+        "duration" : 467
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "ac8e6f05ec235243",
+        "name" : "Request",
+        "source" : "ac8e6f05ec235243.json",
+        "type" : "application/json",
+        "size" : 46
+      }, {
+        "uid" : "e6f0bfd8942c231b",
+        "name" : "Response",
+        "source" : "e6f0bfd8942c231b.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1611198375511,
+        "stop" : 1611198375597,
+        "duration" : 86
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "db85e3ec67a8b594",
+        "name" : "Request",
+        "source" : "db85e3ec67a8b594.json",
+        "type" : "application/json",
+        "size" : 46
+      }, {
+        "uid" : "2f60d31671da01aa",
+        "name" : "Response",
+        "source" : "2f60d31671da01aa.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/37a2b5b1-858b-4088-ae71-644c0335ca26/click",
+      "time" : {
+        "start" : 1611198375603,
+        "stop" : 1611198447464,
+        "duration" : 71861
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1611198448943,
+        "stop" : 1611198453539,
+        "duration" : 4596
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: Timeout of 90000ms exceeded. The execution in the test \"List of Offers should navigate to /shop/offers\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js)\n                    at Test.Runnable._timeoutError (/Users/user/skywebdriverio_test/node_modules/mocha/lib/runnable.js:432:10)\n                    at Timeout.<anonymous> (/Users/user/skywebdriverio_test/node_modules/mocha/lib/runnable.js:244:24)\n                    at listOnTimeout (internal/timers.js:549:17)\n                    at processTimers (internal/timers.js:492:7)",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 13,
+    "attachmentsCount" : 16,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "List of Offers"
+  }, {
+    "name" : "testClass",
+    "value" : "List of Offers"
+  }, {
+    "name" : "testMethod",
+    "value" : "should navigate to /shop/offers"
+  }, {
+    "name" : "package",
+    "value" : "List of Offers"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.141"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "89a95f4563eb4bdd.json",
+  "parameterValues" : [ "chrome-87.0.4280.141" ]
+}

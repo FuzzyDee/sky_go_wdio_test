@@ -1,0 +1,139 @@
+{
+  "uid" : "d1cc05a86658754e",
+  "name" : "should see list of offers",
+  "fullName" : "Navigate to Deals.should see list of offers",
+  "historyId" : "ef44331df332bb1329b23777d38909c1",
+  "time" : {
+    "start" : 1611143776511,
+    "stop" : 1611143778735,
+    "duration" : 2224
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "failed",
+  "statusMessage" : "Target cannot be null or undefined.",
+  "statusTrace" : "AssertionError: Target cannot be null or undefined.\n                    at Context.<anonymous> (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js:50:25)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "failed",
+    "statusMessage" : "Target cannot be null or undefined.",
+    "statusTrace" : "AssertionError: Target cannot be null or undefined.\n                    at Context.<anonymous> (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js:50:25)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1611143776512,
+        "stop" : 1611143777209,
+        "duration" : 697
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a2ef9b3b600f5ffc",
+        "name" : "Request",
+        "source" : "a2ef9b3b600f5ffc.json",
+        "type" : "application/json",
+        "size" : 82
+      }, {
+        "uid" : "89b017baf5b62f14",
+        "name" : "Response",
+        "source" : "89b017baf5b62f14.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/element/c8e28cff-29d7-4ca1-9bb7-6203adaa9788/text",
+      "time" : {
+        "start" : 1611143777213,
+        "stop" : 1611143777629,
+        "duration" : 416
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "93932f459c4105b2",
+        "name" : "Response",
+        "source" : "93932f459c4105b2.json",
+        "type" : "application/json",
+        "size" : 1760
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1611143777630,
+        "stop" : 1611143778734,
+        "duration" : 1104
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b2b3de54fc3d3ab3",
+        "name" : "Screenshot",
+        "source" : "b2b3de54fc3d3ab3.png",
+        "type" : "image/png",
+        "size" : 364756
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Navigate to Deals"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigate to Deals"
+  }, {
+    "name" : "testMethod",
+    "value" : "should see list of offers"
+  }, {
+    "name" : "package",
+    "value" : "Navigate to Deals"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.141"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d1cc05a86658754e.json",
+  "parameterValues" : [ "chrome-87.0.4280.141" ]
+}

@@ -1,0 +1,93 @@
+{
+  "uid" : "dcda5a8e6893b13",
+  "name" : "should be on the '/shop/offers' page ",
+  "fullName" : "List of Offers.should be on the '/shop/offers' page ",
+  "historyId" : "30cc3d9ff332eafb63dd4410db0924cc",
+  "time" : {
+    "start" : 1611200257583,
+    "stop" : 1611200287999,
+    "duration" : 30416
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/url",
+      "time" : {
+        "start" : 1611200257585,
+        "stop" : 1611200286901,
+        "duration" : 29316
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "65817de6d9747fc7",
+        "name" : "Response",
+        "source" : "65817de6d9747fc7.json",
+        "type" : "application/json",
+        "size" : 62
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ {
+      "uid" : "74eae5f2be66755a",
+      "name" : "Response",
+      "source" : "74eae5f2be66755a.json",
+      "type" : "application/json",
+      "size" : 33
+    } ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 2,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "List of Offers"
+  }, {
+    "name" : "testClass",
+    "value" : "List of Offers"
+  }, {
+    "name" : "testMethod",
+    "value" : "should be on the '/shop/offers' page "
+  }, {
+    "name" : "package",
+    "value" : "List of Offers"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.141"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dcda5a8e6893b13.json",
+  "parameterValues" : [ "chrome-87.0.4280.141" ]
+}

@@ -1,0 +1,187 @@
+{
+  "uid" : "287c6022254574da",
+  "name" : "\"before all\" hook for Navigate to Deals",
+  "fullName" : "Navigate to Deals.\"before all\" hook for Navigate to Deals",
+  "historyId" : "108bf6edd2b3c57ca3e08752b7214ff8",
+  "time" : {
+    "start" : 1611191010082,
+    "stop" : 1611191029843,
+    "duration" : 19761
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Cannot read property '$' of undefined",
+  "statusTrace" : "TypeError: Cannot read property '$' of undefined\n                    at SkyHomePage.frame (/Users/user/skywebdriverio_test/test/pageobjects/skyhomepage.js:20:25)\n                    at Context.<anonymous> (/Users/user/skywebdriverio_test/test/specs/skydeals.spec.js:10:36)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Cannot read property '$' of undefined",
+    "statusTrace" : "TypeError: Cannot read property '$' of undefined\n                    at SkyHomePage.frame (/Users/user/skywebdriverio_test/test/pageobjects/skyhomepage.js:20:25)\n                    at Context.<anonymous> (/Users/user/skywebdriverio_test/test/specs/skydeals.spec.js:10:36)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1611191010647,
+        "stop" : 1611191027686,
+        "duration" : 17039
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "e43577b8a36cad77",
+        "name" : "Request",
+        "source" : "e43577b8a36cad77.json",
+        "type" : "application/json",
+        "size" : 31
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Navigate to Deals"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigate to Deals"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook for Navigate to Deals"
+  }, {
+    "name" : "package",
+    "value" : "Navigate to Deals"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.141"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "c674eaeb7cf1428a",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 90000ms exceeded. The execution in the test \"Navigate to Deals \"before all\" hook for \"should navigate to Deals\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skydeals.spec.js)",
+      "time" : {
+        "start" : 1611171674423,
+        "stop" : 1611171765221,
+        "duration" : 90798
+      }
+    }, {
+      "uid" : "ef73f6829bf879ef",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 90000ms exceeded. The execution in the test \"Navigate to Deals \"before all\" hook for \"should navigate to Deals\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js)",
+      "time" : {
+        "start" : 1611171674420,
+        "stop" : 1611171765221,
+        "duration" : 90801
+      }
+    }, {
+      "uid" : "a6f485ef98739211",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 90000ms exceeded. The execution in the test \"Navigate to Deals \"before all\" hook for \"should navigate to Deals\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js)",
+      "time" : {
+        "start" : 1611170927539,
+        "stop" : 1611171018190,
+        "duration" : 90651
+      }
+    }, {
+      "uid" : "4f004b2c37a6b577",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 90000ms exceeded. The execution in the test \"Navigate to Deals \"before all\" hook for \"should navigate to Deals\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skydeals.spec.js)",
+      "time" : {
+        "start" : 1611166250715,
+        "stop" : 1611166340718,
+        "duration" : 90003
+      }
+    }, {
+      "uid" : "de51787d65b877cb",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 90000ms exceeded. The execution in the test \"Navigate to Deals \"before all\" hook for \"should navigate to Deals\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js)",
+      "time" : {
+        "start" : 1611166248837,
+        "stop" : 1611166339287,
+        "duration" : 90450
+      }
+    }, {
+      "uid" : "e6d288e86d4c4c5b",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 90000ms exceeded. The execution in the test \"Navigate to Deals \"before all\" hook for \"should navigate to Deals\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skydeals.spec.js)",
+      "time" : {
+        "start" : 1611165876920,
+        "stop" : 1611165968150,
+        "duration" : 91230
+      }
+    }, {
+      "uid" : "b05dba7fad2c54b4",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 90000ms exceeded. The execution in the test \"Navigate to Deals \"before all\" hook for \"should navigate to Deals\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js)",
+      "time" : {
+        "start" : 1611165876917,
+        "stop" : 1611165968150,
+        "duration" : 91233
+      }
+    }, {
+      "uid" : "160c2160b98ae98a",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 90000ms exceeded. The execution in the test \"Navigate to Deals \"before all\" hook for \"should navigate to Deals\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js)",
+      "time" : {
+        "start" : 1611163420616,
+        "stop" : 1611163511237,
+        "duration" : 90621
+      }
+    }, {
+      "uid" : "33127fa3d378e0da",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 90000ms exceeded. The execution in the test \"Navigate to Deals \"before all\" hook for \"should navigate to Deals\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js)",
+      "time" : {
+        "start" : 1611162372764,
+        "stop" : 1611162463556,
+        "duration" : 90792
+      }
+    }, {
+      "uid" : "89177d0bc64d40c5",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 90000ms exceeded. The execution in the test \"Navigate to Deals \"before all\" hook for \"should navigate to Deals\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js)",
+      "time" : {
+        "start" : 1611137462046,
+        "stop" : 1611137552656,
+        "duration" : 90610
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "287c6022254574da.json",
+  "parameterValues" : [ "chrome-87.0.4280.141" ]
+}

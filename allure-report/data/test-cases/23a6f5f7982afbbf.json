@@ -1,0 +1,91 @@
+{
+  "uid" : "23a6f5f7982afbbf",
+  "name" : "should see list of offers with price to it",
+  "fullName" : "List of Offers.should see list of offers with price to it",
+  "historyId" : "d3c8f60a97084cad728ad5f5b889290a",
+  "time" : {
+    "start" : 1611194106573,
+    "stop" : 1611194110806,
+    "duration" : 4233
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "_skydeals.default.ListOffers is not a function",
+  "statusTrace" : "TypeError: _skydeals.default.ListOffers is not a function\n                    at Context.<anonymous> (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js:33:23)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "_skydeals.default.ListOffers is not a function",
+    "statusTrace" : "TypeError: _skydeals.default.ListOffers is not a function\n                    at Context.<anonymous> (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js:33:23)",
+    "steps" : [ {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1611194107400,
+        "stop" : 1611194110805,
+        "duration" : 3405
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "89a2c4511e8bf953",
+        "name" : "Screenshot",
+        "source" : "89a2c4511e8bf953.png",
+        "type" : "image/png",
+        "size" : 364692
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "List of Offers"
+  }, {
+    "name" : "testClass",
+    "value" : "List of Offers"
+  }, {
+    "name" : "testMethod",
+    "value" : "should see list of offers with price to it"
+  }, {
+    "name" : "package",
+    "value" : "List of Offers"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.141"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "23a6f5f7982afbbf.json",
+  "parameterValues" : [ "chrome-87.0.4280.141" ]
+}

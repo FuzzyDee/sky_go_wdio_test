@@ -1,0 +1,655 @@
+{
+  "uid" : "19d0ec5f2512722",
+  "name" : "should navigate to /shop/offers",
+  "fullName" : "List of Offers.should navigate to /shop/offers",
+  "historyId" : "b566d2318e3e512fb9b16c514e6e1cac",
+  "time" : {
+    "start" : 1611244663845,
+    "stop" : 1611244756282,
+    "duration" : 92437
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1611244663850,
+        "stop" : 1611244685984,
+        "duration" : 22134
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fdf1d0698742b053",
+        "name" : "Request",
+        "source" : "fdf1d0698742b053.json",
+        "type" : "application/json",
+        "size" : 31
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1611244686007,
+        "stop" : 1611244686269,
+        "duration" : 262
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "11d3fc5641793952",
+        "name" : "Request",
+        "source" : "11d3fc5641793952.json",
+        "type" : "application/json",
+        "size" : 81
+      }, {
+        "uid" : "5e8640aaf6203b46",
+        "name" : "Response",
+        "source" : "5e8640aaf6203b46.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/frame",
+      "time" : {
+        "start" : 1611244686278,
+        "stop" : 1611244686603,
+        "duration" : 325
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f6909faf7cad3716",
+        "name" : "Request",
+        "source" : "f6909faf7cad3716.json",
+        "type" : "application/json",
+        "size" : 3514
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1611244686626,
+        "stop" : 1611244686988,
+        "duration" : 362
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "26d2ee7e6de09dd7",
+        "name" : "Request",
+        "source" : "26d2ee7e6de09dd7.json",
+        "type" : "application/json",
+        "size" : 113
+      }, {
+        "uid" : "6e339f2e22951f05",
+        "name" : "Response",
+        "source" : "6e339f2e22951f05.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/0330baf7-9a2d-416d-886b-081f58031c16/click",
+      "time" : {
+        "start" : 1611244686993,
+        "stop" : 1611244687562,
+        "duration" : 569
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/refresh",
+      "time" : {
+        "start" : 1611244687563,
+        "stop" : 1611244688420,
+        "duration" : 857
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1611244688423,
+        "stop" : 1611244704924,
+        "duration" : 16501
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "745f4c440dfd0a8b",
+        "name" : "Request",
+        "source" : "745f4c440dfd0a8b.json",
+        "type" : "application/json",
+        "size" : 46
+      }, {
+        "uid" : "c10a4b09dd56360a",
+        "name" : "Response",
+        "source" : "c10a4b09dd56360a.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1611244704928,
+        "stop" : 1611244705404,
+        "duration" : 476
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5f9f664fae30c4c2",
+        "name" : "Request",
+        "source" : "5f9f664fae30c4c2.json",
+        "type" : "application/json",
+        "size" : 5893
+      }, {
+        "uid" : "80c46720bd875aff",
+        "name" : "Response",
+        "source" : "80c46720bd875aff.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1611244705405,
+        "stop" : 1611244705981,
+        "duration" : 576
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4a840936444a33a9",
+        "name" : "Request",
+        "source" : "4a840936444a33a9.json",
+        "type" : "application/json",
+        "size" : 46
+      }, {
+        "uid" : "181c1375daf559e1",
+        "name" : "Response",
+        "source" : "181c1375daf559e1.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1611244705986,
+        "stop" : 1611244706352,
+        "duration" : 366
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a8eb5caee8b2b585",
+        "name" : "Request",
+        "source" : "a8eb5caee8b2b585.json",
+        "type" : "application/json",
+        "size" : 46
+      }, {
+        "uid" : "9cdba73e62720546",
+        "name" : "Response",
+        "source" : "9cdba73e62720546.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1611244706356,
+        "stop" : 1611244707305,
+        "duration" : 949
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "3258a22a2b7ee6df",
+        "name" : "Request",
+        "source" : "3258a22a2b7ee6df.json",
+        "type" : "application/json",
+        "size" : 46
+      }, {
+        "uid" : "8d140f4840033e8e",
+        "name" : "Response",
+        "source" : "8d140f4840033e8e.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/92c3508e-5535-4729-9d54-75e92eaa502b/click",
+      "time" : {
+        "start" : 1611244707311,
+        "stop" : 1611244756249,
+        "duration" : 48938
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "GET /session/:sessionId/title",
+      "time" : {
+        "start" : 1611244756251,
+        "stop" : 1611244756280,
+        "duration" : 29
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "280aa1d610c853bd",
+        "name" : "Response",
+        "source" : "280aa1d610c853bd.json",
+        "type" : "application/json",
+        "size" : 69
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 13,
+    "attachmentsCount" : 17,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "List of Offers"
+  }, {
+    "name" : "testClass",
+    "value" : "List of Offers"
+  }, {
+    "name" : "testMethod",
+    "value" : "should navigate to /shop/offers"
+  }, {
+    "name" : "package",
+    "value" : "List of Offers"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.141"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "6842a78bf0b5a05e",
+      "status" : "failed",
+      "statusDetails" : "Expect window to have title\n                \n                Expected: \"Sky Offers & Deals - Deals for new and existing customers | Sky.com\"\n                Received: \"Sky TV, Broadband & Mobile | News, Sports & Movies | Sky.com\"",
+      "time" : {
+        "start" : 1611244460079,
+        "stop" : 1611244518456,
+        "duration" : 58377
+      }
+    }, {
+      "uid" : "ac500593edf05fda",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611244150848,
+        "stop" : 1611244248534,
+        "duration" : 97686
+      }
+    }, {
+      "uid" : "836fd82c2846412d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611243092263,
+        "stop" : 1611243179226,
+        "duration" : 86963
+      }
+    }, {
+      "uid" : "79041c6e7074e648",
+      "status" : "failed",
+      "statusDetails" : "Expect window to have title\n                \n                Expected: \"Sky Offers & Deals - Deals for new and existing customers | Sky.com\"\n                Received: \"Sky TV, Broadband & Mobile | News, Sports & Movies | Sky.com\"",
+      "time" : {
+        "start" : 1611242530855,
+        "stop" : 1611242567512,
+        "duration" : 36657
+      }
+    }, {
+      "uid" : "4f92cc00cf64eed4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611242293105,
+        "stop" : 1611242364146,
+        "duration" : 71041
+      }
+    }, {
+      "uid" : "d072ca3425a2160c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611241838543,
+        "stop" : 1611241929533,
+        "duration" : 90990
+      }
+    }, {
+      "uid" : "2119be0fb5520e8d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611240668117,
+        "stop" : 1611240768028,
+        "duration" : 99911
+      }
+    }, {
+      "uid" : "75f08fcd0e521e4e",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 90000ms exceeded. The execution in the test \"List of Offers should navigate to /shop/offers\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js)",
+      "time" : {
+        "start" : 1611234366942,
+        "stop" : 1611234534099,
+        "duration" : 167157
+      }
+    }, {
+      "uid" : "f0d89db64e40a148",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611229382464,
+        "stop" : 1611229534747,
+        "duration" : 152283
+      }
+    }, {
+      "uid" : "27edfc2e7385d558",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 90000ms exceeded. The execution in the test \"List of Offers should navigate to /shop/offers\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js)",
+      "time" : {
+        "start" : 1611228993479,
+        "stop" : 1611229172584,
+        "duration" : 179105
+      }
+    }, {
+      "uid" : "892e37164e43a2ec",
+      "status" : "failed",
+      "statusDetails" : "Expect window to have title\n                \n                Expected: \"Sky Offers & Deals - Deals for new and existing customers | Sky.com\"\n                Received: \"Sky TV, Broadband & Mobile | News, Sports & Movies | Sky.com\"",
+      "time" : {
+        "start" : 1611227307585,
+        "stop" : 1611227352185,
+        "duration" : 44600
+      }
+    }, {
+      "uid" : "13049bc9f1cbb213",
+      "status" : "failed",
+      "statusDetails" : "Expect window to have title\n                \n                Expected: \"Sky Offers & Deals - Deals for new and existing customers | Sky.com\"\n                Received: \"Sky TV, Broadband & Mobile | News, Sports & Movies | Sky.com\"",
+      "time" : {
+        "start" : 1611227182175,
+        "stop" : 1611227222071,
+        "duration" : 39896
+      }
+    }, {
+      "uid" : "fbe97fc873b311c6",
+      "status" : "failed",
+      "statusDetails" : "Expect window to have title\n                \n                Expected: \"Sky Offers & Deals - Deals for new and existing customers | Sky.com\"\n                Received: \"Sky TV, Broadband & Mobile | News, Sports & Movies | Sky.com\"",
+      "time" : {
+        "start" : 1611226913088,
+        "stop" : 1611227017637,
+        "duration" : 104549
+      }
+    }, {
+      "uid" : "d4b407abed4df0ff",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611204696723,
+        "stop" : 1611204792954,
+        "duration" : 96231
+      }
+    }, {
+      "uid" : "b8f9cff012eeab2",
+      "status" : "failed",
+      "statusDetails" : "Expect window to have title\n                \n                Expected: \"Sky Offers & Deals - Deals for new and existing customers | Sky.com\"\n                Received: \"Sky TV, Broadband & Mobile | News, Sports & Movies | Sky.com\"",
+      "time" : {
+        "start" : 1611203903172,
+        "stop" : 1611203960431,
+        "duration" : 57259
+      }
+    }, {
+      "uid" : "35cfcbd884cf2d9c",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 90000ms exceeded. The execution in the test \"List of Offers should navigate to /shop/offers\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js)",
+      "time" : {
+        "start" : 1611203628320,
+        "stop" : 1611203779275,
+        "duration" : 150955
+      }
+    }, {
+      "uid" : "d92aa5d49bccd2bb",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611203343394,
+        "stop" : 1611203483605,
+        "duration" : 140211
+      }
+    }, {
+      "uid" : "604ee467ac89e390",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611201269802,
+        "stop" : 1611201393051,
+        "duration" : 123249
+      }
+    }, {
+      "uid" : "3fdea19266422ff9",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 90000ms exceeded. The execution in the test \"List of Offers should navigate to /shop/offers\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js)",
+      "time" : {
+        "start" : 1611200129600,
+        "stop" : 1611200257583,
+        "duration" : 127983
+      }
+    }, {
+      "uid" : "e6d17cfa204553c7",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'waitForDisplayed' of undefined",
+      "time" : {
+        "start" : 1611199813563,
+        "stop" : 1611199860431,
+        "duration" : 46868
+      }
+    }, {
+      "uid" : "397cdd3ca4717517",
+      "status" : "broken",
+      "statusDetails" : "Cannot read property 'waitForDisplayed' of undefined",
+      "time" : {
+        "start" : 1611199250077,
+        "stop" : 1611199385731,
+        "duration" : 135654
+      }
+    }, {
+      "uid" : "9d57aca974949c9f",
+      "status" : "broken",
+      "statusDetails" : "Condition is not a function",
+      "time" : {
+        "start" : 1611198640440,
+        "stop" : 1611198782292,
+        "duration" : 141852
+      }
+    }, {
+      "uid" : "89a95f4563eb4bdd",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 90000ms exceeded. The execution in the test \"List of Offers should navigate to /shop/offers\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js)",
+      "time" : {
+        "start" : 1611198338066,
+        "stop" : 1611198453539,
+        "duration" : 115473
+      }
+    }, {
+      "uid" : "c316e92d85b0061c",
+      "status" : "broken",
+      "statusDetails" : "element (\"=Deals\") still not existing after 10000ms",
+      "time" : {
+        "start" : 1611198192798,
+        "stop" : 1611198229575,
+        "duration" : 36777
+      }
+    }, {
+      "uid" : "c8f7f52299baf01",
+      "status" : "failed",
+      "statusDetails" : "Expect window to have title\n                \n                Expected: \"Sky Offers & Deals - Deals for new and existing customers | Sky.com\"\n                Received: \"Sky TV, Broadband & Mobile | News, Sports & Movies | Sky.com\"",
+      "time" : {
+        "start" : 1611197704218,
+        "stop" : 1611197823062,
+        "duration" : 118844
+      }
+    }, {
+      "uid" : "4b67f218c09479b6",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 90000ms exceeded. The execution in the test \"List of Offers should navigate to /shop/offers\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js)",
+      "time" : {
+        "start" : 1611197306423,
+        "stop" : 1611197458563,
+        "duration" : 152140
+      }
+    }, {
+      "uid" : "576cc18ca208fc2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611196337995,
+        "stop" : 1611196388782,
+        "duration" : 50787
+      }
+    }, {
+      "uid" : "f4417b210ec8aec7",
+      "status" : "failed",
+      "statusDetails" : "Expect window to have title\n                \n                Expected: \"Sky Offers & Deals - Deals for new and existing customers | Sky.com\"\n                Received: \"Sky TV, Broadband & Mobile | News, Sports & Movies | Sky.com\"",
+      "time" : {
+        "start" : 1611196188588,
+        "stop" : 1611196245716,
+        "duration" : 57128
+      }
+    }, {
+      "uid" : "f44a9e9858c0e8a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611196020664,
+        "stop" : 1611196074388,
+        "duration" : 53724
+      }
+    }, {
+      "uid" : "355b765b5542dd5e",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611194673401,
+        "stop" : 1611194763214,
+        "duration" : 89813
+      }
+    }, {
+      "uid" : "8a2eea8b2492c4df",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611194156161,
+        "stop" : 1611194206623,
+        "duration" : 50462
+      }
+    }, {
+      "uid" : "4d76290a4d96c235",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611194060983,
+        "stop" : 1611194106561,
+        "duration" : 45578
+      }
+    }, {
+      "uid" : "fd8985ec53371f63",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611193912688,
+        "stop" : 1611193956282,
+        "duration" : 43594
+      }
+    }, {
+      "uid" : "34ca6db1489b8842",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611193135719,
+        "stop" : 1611193178757,
+        "duration" : 43038
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "19d0ec5f2512722.json",
+  "parameterValues" : [ "chrome-87.0.4280.141" ]
+}

@@ -1,0 +1,251 @@
+[ {
+  "uid" : "173b8e63609b0b0c",
+  "name" : "should verify the offers in list",
+  "time" : {
+    "start" : 1611244756844,
+    "stop" : 1611244757103,
+    "duration" : 259
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "f3273010039712a3",
+  "name" : "should be on the '/shop/offers' page ",
+  "time" : {
+    "start" : 1611244756283,
+    "stop" : 1611244756291,
+    "duration" : 8
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d62e42c2228d98d9",
+  "name" : "should see the prices of the offers",
+  "time" : {
+    "start" : 1611184803611,
+    "stop" : 1611184804998,
+    "duration" : 1387
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d765de79c33f6fd6",
+  "name" : "should see the keyword in an image and verify the value",
+  "time" : {
+    "start" : 1611136497180,
+    "stop" : 1611136497231,
+    "duration" : 51
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5ed23de478c96976",
+  "name" : "should navigate to Sign In ",
+  "time" : {
+    "start" : 1611245593397,
+    "stop" : 1611245654391,
+    "duration" : 60994
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "83c9f02706f321e6",
+  "name" : "\"before all\" hook for List of Offers",
+  "time" : {
+    "start" : 1611241543052,
+    "stop" : 1611241619928,
+    "duration" : 76876
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "1f04698a206c157f",
+  "name" : "should click the search icon ",
+  "time" : {
+    "start" : 1611136377887,
+    "stop" : 1611136467851,
+    "duration" : 89964
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "287c6022254574da",
+  "name" : "\"before all\" hook for Navigate to Deals",
+  "time" : {
+    "start" : 1611191010082,
+    "stop" : 1611191029843,
+    "duration" : 19761
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "8a3d6cc0ada4d590",
+  "name" : "\"before each\" hook for Invalid Credentials",
+  "time" : {
+    "start" : 1611171674423,
+    "stop" : 1611171765221,
+    "duration" : 90798
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "d33a8f30cae15187",
+  "name" : "\"before all\" hook for Sky Home page",
+  "time" : {
+    "start" : 1611171674421,
+    "stop" : 1611171765222,
+    "duration" : 90801
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "508c23e81c1118c0",
+  "name" : "should search for keyword and verify the text value",
+  "time" : {
+    "start" : 1611136467852,
+    "stop" : 1611136496193,
+    "duration" : 28341
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "66ded0b47ec75ab1",
+  "name" : "should try Sign In with Invalid credentials",
+  "time" : {
+    "start" : 1611245654392,
+    "stop" : 1611245663181,
+    "duration" : 8789
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "85d13cf6b345c9cd",
+  "name" : "should try Sign In with Invalid credentials",
+  "time" : {
+    "start" : 1611245217431,
+    "stop" : 1611245217431,
+    "duration" : 0
+  },
+  "status" : "skipped",
+  "severity" : "normal"
+}, {
+  "uid" : "5c1fa2aaa034e7a1",
+  "name" : "\"before all\" hook for Sky Keyword Search",
+  "time" : {
+    "start" : 1611171674416,
+    "stop" : 1611171765221,
+    "duration" : 90805
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "6c2f9cf464511800",
+  "name" : "should show Editorial Section",
+  "time" : {
+    "start" : 1611136496193,
+    "stop" : 1611136497179,
+    "duration" : 986
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2f05d53f2feea32c",
+  "name" : "should clear Overlay Modal",
+  "time" : {
+    "start" : 1611187143280,
+    "stop" : 1611187189284,
+    "duration" : 46004
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "5b2b276205e28901",
+  "name" : "user should get the page url",
+  "time" : {
+    "start" : 1611163749497,
+    "stop" : 1611163749903,
+    "duration" : 406
+  },
+  "status" : "broken",
+  "severity" : "normal"
+}, {
+  "uid" : "19d0ec5f2512722",
+  "name" : "should navigate to /shop/offers",
+  "time" : {
+    "start" : 1611244663845,
+    "stop" : 1611244756282,
+    "duration" : 92437
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "d847f4821d294f7d",
+  "name" : "should see list of offers",
+  "time" : {
+    "start" : 1611185540450,
+    "stop" : 1611185540662,
+    "duration" : 212
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "3193a4940768f480",
+  "name" : "should see list of offers with price to it",
+  "time" : {
+    "start" : 1611244756291,
+    "stop" : 1611244756546,
+    "duration" : 255
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "2e04890337b94400",
+  "name" : "should be on the 'shop/offers' page and verify url",
+  "time" : {
+    "start" : 1611185540438,
+    "stop" : 1611185540450,
+    "duration" : 12
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e1ea265ea668d062",
+  "name" : "should see list of prices to it",
+  "time" : {
+    "start" : 1611244834497,
+    "stop" : 1611244870960,
+    "duration" : 36463
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "e8267305ee683da9",
+  "name" : "should see list os section to it",
+  "time" : {
+    "start" : 1611243506041,
+    "stop" : 1611243575584,
+    "duration" : 69543
+  },
+  "status" : "passed",
+  "severity" : "normal"
+}, {
+  "uid" : "6b51a45d85bc5983",
+  "name" : "should be on the right page",
+  "time" : {
+    "start" : 1611246040476,
+    "stop" : 1611246040515,
+    "duration" : 39
+  },
+  "status" : "failed",
+  "severity" : "normal"
+}, {
+  "uid" : "a8585c926f99bc5c",
+  "name" : "should navigate to Deals",
+  "time" : {
+    "start" : 1611245958708,
+    "stop" : 1611246040476,
+    "duration" : 81768
+  },
+  "status" : "broken",
+  "severity" : "normal"
+} ]

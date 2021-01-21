@@ -1,0 +1,86 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1611240112231' stop='1611240168976'>
+    <name>List of Offers</name>
+    <title>List of Offers</title>
+    <test-cases>
+        <test-case start='1611240112232' status='failed' stop='1611240168975'>
+            <name>should verify the offers in list</name>
+            <title>should verify the offers in list</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-87.0.4280.141'/>
+                <parameter kind='argument' name='browser' value='chrome-87.0.4280.141'/>
+            </parameters>
+            <steps>
+                <step start='1611240112237' status='passed' stop='1611240154201'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='406879c4-65b1-4071-8250-0f6f701df4bd-attachment.json' type='application/json' size='31'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1611240154228' status='passed' stop='1611240155128'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='623d4064-2abb-4bea-bb6c-dadd0eadc63f-attachment.json' type='application/json' size='81'/>
+                        <attachment title='Response' source='9e7fc01e-7def-4929-a137-db1a50e4e25b-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1611240155138' status='passed' stop='1611240155519'>
+                    <name>POST /session/:sessionId/frame</name>
+                    <title>POST /session/:sessionId/frame</title>
+                    <attachments>
+                        <attachment title='Request' source='771b1e8b-b9a2-41b3-94ff-6b29c4522522-attachment.json' type='application/json' size='3514'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1611240155544' status='passed' stop='1611240155688'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='bcee62d0-a3d2-45c0-8d01-b46b812a36de-attachment.json' type='application/json' size='113'/>
+                        <attachment title='Response' source='f25dd998-60ea-4a72-8f7d-30ac4ff04330-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1611240155696' status='passed' stop='1611240155996'>
+                    <name>POST /session/:sessionId/element/b58d3901-7f3e-4522-9534-1aef8b7c2061/click</name>
+                    <title>POST /session/:sessionId/element/b58d3901-7f3e-4522-9534-1aef8b7c2061/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1611240155996' status='passed' stop='1611240156259'>
+                    <name>POST /session/:sessionId/refresh</name>
+                    <title>POST /session/:sessionId/refresh</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1611240156261' status='passed' stop='1611240168520'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='1a0e02db-9c7f-4776-87c8-54a979fd17bc-attachment.json' type='application/json' size='77'/>
+                        <attachment title='Response' source='967af3c0-7a99-4807-b6be-273bcd569ef7-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>£57: expected [] to include '25'</message>
+                <stack-trace>AssertionError: £57: expected [] to include '25'
+                    at Context.&lt;anonymous> (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js:40:27)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

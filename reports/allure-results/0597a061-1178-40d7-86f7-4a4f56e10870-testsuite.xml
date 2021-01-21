@@ -1,0 +1,71 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1611162372763' stop='1611162464138'>
+    <name>Navigate to Deals</name>
+    <title>Navigate to Deals</title>
+    <test-cases>
+        <test-case start='1611162372764' status='broken' stop='1611162463556'>
+            <name>"before all" hook for Navigate to Deals</name>
+            <title>"before all" hook for Navigate to Deals</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-87.0.4280.141'/>
+            </parameters>
+            <steps>
+                <step start='1611162372857' status='passed' stop='1611162457155'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='ae454390-c60f-4652-9cb2-bf5ddb59715a-attachment.json' type='application/json' size='31'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1611162459163' status='passed' stop='1611162460301'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='33738e5b-de50-4891-b262-009ca44b40fb-attachment.json' type='application/json' size='81'/>
+                        <attachment title='Response' source='1a5cd6c2-e2f0-4a3c-be6a-04c65a12d37a-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1611162460311' status='passed' stop='1611162460738'>
+                    <name>POST /session/:sessionId/frame</name>
+                    <title>POST /session/:sessionId/frame</title>
+                    <attachments>
+                        <attachment title='Request' source='58d971ac-4846-4d85-92c6-b67708e6a116-attachment.json' type='application/json' size='3512'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1611162462741' status='broken' stop='1611162463556'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='de24804c-54a8-4beb-9e65-288501881937-attachment.json' type='application/json' size='113'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1611162464136' status='undefined'>
+                    <name>POST /session/:sessionId/element/6b9b777c-a8cf-4a46-8598-d50ea14d0991/click</name>
+                    <title>POST /session/:sessionId/element/6b9b777c-a8cf-4a46-8598-d50ea14d0991/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Response' source='9af9f7f4-0464-4e6b-a24b-d9fe8791d14a-attachment.json' type='application/json' size='83'/>
+            </attachments>
+            <failure>
+                <message>Timeout of 90000ms exceeded. The execution in the test "Navigate to Deals "before all" hook for "should navigate to Deals"" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js)</message>
+                <stack-trace>Error: Timeout of 90000ms exceeded. The execution in the test "Navigate to Deals "before all" hook for "should navigate to Deals"" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js)
+                    at Hook.Runnable._timeoutError (/Users/user/skywebdriverio_test/node_modules/mocha/lib/runnable.js:432:10)
+                    at Timeout.&lt;anonymous> (/Users/user/skywebdriverio_test/node_modules/mocha/lib/runnable.js:244:24)
+                    at listOnTimeout (internal/timers.js:549:17)
+                    at processTimers (internal/timers.js:492:7)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

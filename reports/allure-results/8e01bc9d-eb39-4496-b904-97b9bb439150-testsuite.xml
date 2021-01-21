@@ -1,0 +1,87 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1611236735706' stop='1611236764889'>
+    <name>List of Offers</name>
+    <title>List of Offers</title>
+    <test-cases>
+        <test-case start='1611236735706' status='broken' stop='1611236764887'>
+            <name>should see list of prices to it</name>
+            <title>should see list of prices to it</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-87.0.4280.141'/>
+                <parameter kind='argument' name='browser' value='chrome-87.0.4280.141'/>
+            </parameters>
+            <steps>
+                <step start='1611236735711' status='passed' stop='1611236761088'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='e47ce485-410d-4a94-808c-131f517afb5d-attachment.json' type='application/json' size='31'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1611236761113' status='passed' stop='1611236761266'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c077012b-7255-4ccd-8bad-827cf0e10553-attachment.json' type='application/json' size='81'/>
+                        <attachment title='Response' source='2d4f991b-0d7d-4603-a67b-f41495599edd-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1611236761276' status='passed' stop='1611236761349'>
+                    <name>POST /session/:sessionId/frame</name>
+                    <title>POST /session/:sessionId/frame</title>
+                    <attachments>
+                        <attachment title='Request' source='7e473c84-3808-4578-a651-25275d102c34-attachment.json' type='application/json' size='3514'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1611236761372' status='passed' stop='1611236761387'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='732a011f-9906-42db-ba97-a24974394f43-attachment.json' type='application/json' size='113'/>
+                        <attachment title='Response' source='951a068a-859d-49a9-b908-1d0af86793e8-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1611236761393' status='passed' stop='1611236761479'>
+                    <name>POST /session/:sessionId/element/6d74d4d0-bce6-4089-9e0f-9701ac1a0449/click</name>
+                    <title>POST /session/:sessionId/element/6d74d4d0-bce6-4089-9e0f-9701ac1a0449/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1611236761480' status='passed' stop='1611236761694'>
+                    <name>POST /session/:sessionId/refresh</name>
+                    <title>POST /session/:sessionId/refresh</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1611236761697' status='passed' stop='1611236764874'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='352d81c8-8751-4830-9575-a4ece9e82a2d-attachment.json' type='application/json' size='77'/>
+                        <attachment title='Response' source='2aeca3d4-a2b0-4c33-a4ee-2c8ac0c1133b-attachment.json' type='application/json' size='2'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>offerslist is not defined</message>
+                <stack-trace>ReferenceError: offerslist is not defined
+                    at SkyDeals.mapListPrices (/Users/user/skywebdriverio_test/test/pageobjects/skydeals.js:41:5)
+                    at Context.&lt;anonymous> (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js:36:23)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

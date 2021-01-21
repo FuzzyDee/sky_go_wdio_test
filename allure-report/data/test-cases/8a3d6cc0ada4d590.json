@@ -1,0 +1,116 @@
+{
+  "uid" : "8a3d6cc0ada4d590",
+  "name" : "\"before each\" hook for Invalid Credentials",
+  "fullName" : "Invalid Credentials.\"before each\" hook for Invalid Credentials",
+  "historyId" : "70836ef51d900117a4dfa9cabd4a2a60",
+  "time" : {
+    "start" : 1611171674423,
+    "stop" : 1611171765221,
+    "duration" : 90798
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Timeout of 90000ms exceeded. The execution in the test \"Invalid Credentials \"before each\" hook for \"should clear Overlay Modal\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skylogin.spec.js)",
+  "statusTrace" : "Error: Timeout of 90000ms exceeded. The execution in the test \"Invalid Credentials \"before each\" hook for \"should clear Overlay Modal\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skylogin.spec.js)\n                    at Hook.Runnable._timeoutError (/Users/user/skywebdriverio_test/node_modules/mocha/lib/runnable.js:432:10)\n                    at Timeout.<anonymous> (/Users/user/skywebdriverio_test/node_modules/mocha/lib/runnable.js:244:24)\n                    at listOnTimeout (internal/timers.js:549:17)\n                    at processTimers (internal/timers.js:492:7)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Timeout of 90000ms exceeded. The execution in the test \"Invalid Credentials \"before each\" hook for \"should clear Overlay Modal\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skylogin.spec.js)",
+    "statusTrace" : "Error: Timeout of 90000ms exceeded. The execution in the test \"Invalid Credentials \"before each\" hook for \"should clear Overlay Modal\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skylogin.spec.js)\n                    at Hook.Runnable._timeoutError (/Users/user/skywebdriverio_test/node_modules/mocha/lib/runnable.js:432:10)\n                    at Timeout.<anonymous> (/Users/user/skywebdriverio_test/node_modules/mocha/lib/runnable.js:244:24)\n                    at listOnTimeout (internal/timers.js:549:17)\n                    at processTimers (internal/timers.js:492:7)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1611171674431,
+        "stop" : 1611171765220,
+        "duration" : 90789
+      },
+      "status" : "broken",
+      "statusMessage" : "Error: Timeout of 90000ms exceeded. The execution in the test \"Invalid Credentials \"before each\" hook for \"should clear Overlay Modal\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skylogin.spec.js)\n                    at Hook.Runnable._timeoutError (/Users/user/skywebdriverio_test/node_modules/mocha/lib/runnable.js:432:10)\n                    at Timeout.<anonymous> (/Users/user/skywebdriverio_test/node_modules/mocha/lib/runnable.js:244:24)\n                    at listOnTimeout (internal/timers.js:549:17)\n                    at processTimers (internal/timers.js:492:7)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fc43bb0b9297b4d",
+        "name" : "Request",
+        "source" : "fc43bb0b9297b4d.json",
+        "type" : "application/json",
+        "size" : 31
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-3"
+  }, {
+    "name" : "suite",
+    "value" : "Invalid Credentials"
+  }, {
+    "name" : "testClass",
+    "value" : "Invalid Credentials"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before each\" hook for Invalid Credentials"
+  }, {
+    "name" : "package",
+    "value" : "Invalid Credentials"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.141"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "d3d00ec2e236f680",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 90000ms exceeded. The execution in the test \"Invalid Credentials \"before each\" hook for \"should clear Overlay Modal\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skylogin.spec.js)",
+      "time" : {
+        "start" : 1611166248819,
+        "stop" : 1611166339286,
+        "duration" : 90467
+      }
+    }, {
+      "uid" : "fd54a30f65f481d1",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 90000ms exceeded. The execution in the test \"Invalid Credentials \"before each\" hook for \"should clear Overlay Modal\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skylogin.spec.js)",
+      "time" : {
+        "start" : 1611165878191,
+        "stop" : 1611165968198,
+        "duration" : 90007
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "8a3d6cc0ada4d590.json",
+  "parameterValues" : [ "chrome-87.0.4280.141" ]
+}

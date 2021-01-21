@@ -1,0 +1,108 @@
+{
+  "uid" : "dfd7845caf36602a",
+  "name" : "should see list of offers with price to it",
+  "fullName" : "List of Offers.should see list of offers with price to it",
+  "historyId" : "d3c8f60a97084cad728ad5f5b889290a",
+  "time" : {
+    "start" : 1611198460378,
+    "stop" : 1611198460607,
+    "duration" : 229
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "connect ECONNREFUSED 127.0.0.1:9515",
+  "statusTrace" : "RequestError: connect ECONNREFUSED 127.0.0.1:9515\n                    at ClientRequest.<anonymous> (/Users/user/skywebdriverio_test/node_modules/got/dist/source/core/index.js:953:111)\n                    at ClientRequest.origin.emit (/Users/user/skywebdriverio_test/node_modules/@szmarczak/http-timer/dist/source/index.js:39:20)\n                    at Socket.socketErrorListener (_http_client.js:426:9)\n                    at emitErrorNT (internal/streams/destroy.js:92:8)\n                    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n                    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)\n                    at $$ (/Users/user/skywebdriverio_test/node_modules/@wdio/runner/build/index.js:115:43)\n                    at SkyDeals.offerSection (/Users/user/skywebdriverio_test/test/pageobjects/skydeals.js:14:12)\n                    at SkyDeals.getListOffers (/Users/user/skywebdriverio_test/test/pageobjects/skydeals.js:26:17)\n                    at Context.<anonymous> (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js:33:23)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "connect ECONNREFUSED 127.0.0.1:9515",
+    "statusTrace" : "RequestError: connect ECONNREFUSED 127.0.0.1:9515\n                    at ClientRequest.<anonymous> (/Users/user/skywebdriverio_test/node_modules/got/dist/source/core/index.js:953:111)\n                    at ClientRequest.origin.emit (/Users/user/skywebdriverio_test/node_modules/@szmarczak/http-timer/dist/source/index.js:39:20)\n                    at Socket.socketErrorListener (_http_client.js:426:9)\n                    at emitErrorNT (internal/streams/destroy.js:92:8)\n                    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n                    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)\n                    at $$ (/Users/user/skywebdriverio_test/node_modules/@wdio/runner/build/index.js:115:43)\n                    at SkyDeals.offerSection (/Users/user/skywebdriverio_test/test/pageobjects/skydeals.js:14:12)\n                    at SkyDeals.getListOffers (/Users/user/skywebdriverio_test/test/pageobjects/skydeals.js:26:17)\n                    at Context.<anonymous> (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js:33:23)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1611198460378,
+        "stop" : 1611198460606,
+        "duration" : 228
+      },
+      "status" : "broken",
+      "statusMessage" : "RequestError: connect ECONNREFUSED 127.0.0.1:9515\n                    at ClientRequest.<anonymous> (/Users/user/skywebdriverio_test/node_modules/got/dist/source/core/index.js:953:111)\n                    at ClientRequest.origin.emit (/Users/user/skywebdriverio_test/node_modules/@szmarczak/http-timer/dist/source/index.js:39:20)\n                    at Socket.socketErrorListener (_http_client.js:426:9)\n                    at emitErrorNT (internal/streams/destroy.js:92:8)\n                    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n                    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)\n                    at $$ (/Users/user/skywebdriverio_test/node_modules/@wdio/runner/build/index.js:115:43)\n                    at SkyDeals.offerSection (/Users/user/skywebdriverio_test/test/pageobjects/skydeals.js:14:12)\n                    at SkyDeals.getListOffers (/Users/user/skywebdriverio_test/test/pageobjects/skydeals.js:26:17)\n                    at Context.<anonymous> (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js:33:23)",
+      "steps" : [ {
+        "name" : "GET /session/:sessionId/screenshot",
+        "time" : {
+          "start" : 1611198460604,
+          "stop" : 1611198460606,
+          "duration" : 2
+        },
+        "status" : "broken",
+        "statusMessage" : "RequestError: connect ECONNREFUSED 127.0.0.1:9515\n                    at ClientRequest.<anonymous> (/Users/user/skywebdriverio_test/node_modules/got/dist/source/core/index.js:953:111)\n                    at ClientRequest.origin.emit (/Users/user/skywebdriverio_test/node_modules/@szmarczak/http-timer/dist/source/index.js:39:20)\n                    at Socket.socketErrorListener (_http_client.js:426:9)\n                    at emitErrorNT (internal/streams/destroy.js:92:8)\n                    at emitErrorAndCloseNT (internal/streams/destroy.js:60:3)\n                    at TCPConnectWrap.afterConnect [as oncomplete] (net.js:1141:16)\n                    at $$ (/Users/user/skywebdriverio_test/node_modules/@wdio/runner/build/index.js:115:43)\n                    at SkyDeals.offerSection (/Users/user/skywebdriverio_test/test/pageobjects/skydeals.js:14:12)\n                    at SkyDeals.getListOffers (/Users/user/skywebdriverio_test/test/pageobjects/skydeals.js:26:17)\n                    at Context.<anonymous> (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js:33:23)",
+        "steps" : [ ],
+        "attachments" : [ ],
+        "parameters" : [ ],
+        "stepsCount" : 0,
+        "attachmentsCount" : 0,
+        "shouldDisplayMessage" : true,
+        "hasContent" : true
+      } ],
+      "attachments" : [ {
+        "uid" : "e4850be97794fec0",
+        "name" : "Request",
+        "source" : "e4850be97794fec0.json",
+        "type" : "application/json",
+        "size" : 82
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 1,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "List of Offers"
+  }, {
+    "name" : "testClass",
+    "value" : "List of Offers"
+  }, {
+    "name" : "testMethod",
+    "value" : "should see list of offers with price to it"
+  }, {
+    "name" : "package",
+    "value" : "List of Offers"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.141"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "dfd7845caf36602a.json",
+  "parameterValues" : [ "chrome-87.0.4280.141" ]
+}

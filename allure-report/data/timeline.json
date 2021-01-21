@@ -1,0 +1,3266 @@
+{
+  "uid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+  "children" : [ {
+    "name" : "0-0",
+    "children" : [ {
+      "name" : "should be on the '/shop/offers' page ",
+      "uid" : "3a2a5925762e47d0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611234534100,
+        "stop" : 1611234541565,
+        "duration" : 7465
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should be on the '/shop/offers' page ",
+      "uid" : "8f4ffabab443ab88",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611201393051,
+        "stop" : 1611201393521,
+        "duration" : 470
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should verify the offers in list",
+      "uid" : "579d3e3f150e928d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611227408842,
+        "stop" : 1611227409583,
+        "duration" : 741
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of offers with price to it",
+      "uid" : "23a6f5f7982afbbf",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611194106573,
+        "stop" : 1611194110806,
+        "duration" : 4233
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to /shop/offers",
+      "uid" : "fbe97fc873b311c6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1611226913088,
+        "stop" : 1611227017637,
+        "duration" : 104549
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to /shop/offers",
+      "uid" : "397cdd3ca4717517",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611199250077,
+        "stop" : 1611199385731,
+        "duration" : 135654
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of offers with price to it",
+      "uid" : "2bf4d8b535af30d3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198786815,
+        "stop" : 1611198787246,
+        "duration" : 431
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to Deals",
+      "uid" : "b33594ff99822c6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611171184687,
+        "stop" : 1611171293958,
+        "duration" : 109271
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should be on the '/shop/offers' page ",
+      "uid" : "dcda5a8e6893b13",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611200257583,
+        "stop" : 1611200287999,
+        "duration" : 30416
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list os section to it",
+      "uid" : "8159b1ddaafb955d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611243364400,
+        "stop" : 1611243389095,
+        "duration" : 24695
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see the prices of the offers",
+      "uid" : "b24d78f3222f3d3b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611182918377,
+        "stop" : 1611182922468,
+        "duration" : 4091
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should be on the '/shop/offers' page ",
+      "uid" : "c51e0143c59a257f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611194206624,
+        "stop" : 1611194206632,
+        "duration" : 8
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of prices to it",
+      "uid" : "5f6ea7fb874f7269",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611244756546,
+        "stop" : 1611244756844,
+        "duration" : 298
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should be on the '/shop/offers' page ",
+      "uid" : "3ca3e07c53a064bf",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198782293,
+        "stop" : 1611198786815,
+        "duration" : 4522
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should be on the right page",
+      "uid" : "6b51a45d85bc5983",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1611246040476,
+        "stop" : 1611246040515,
+        "duration" : 39
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to /shop/offers",
+      "uid" : "89a95f4563eb4bdd",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611198338066,
+        "stop" : 1611198453539,
+        "duration" : 115473
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to Deals",
+      "uid" : "6e0970f3faae8e8a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611138285697,
+        "stop" : 1611138366050,
+        "duration" : 80353
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to Deals",
+      "uid" : "a9952077a18672f6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611182780169,
+        "stop" : 1611182916133,
+        "duration" : 135964
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "\"before all\" hook for List of Offers",
+      "uid" : "2b9c5f57b6b3792",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611218950130,
+        "stop" : 1611219040421,
+        "duration" : 90291
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should be on the right page",
+      "uid" : "46d2095fd1394fd6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611192246932,
+        "stop" : 1611192247014,
+        "duration" : 82
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to Sign In ",
+      "uid" : "5ed23de478c96976",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611245593397,
+        "stop" : 1611245654391,
+        "duration" : 60994
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see the prices of the offers",
+      "uid" : "cb778a0e46fbca51",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611165349694,
+        "stop" : 1611165350081,
+        "duration" : 387
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "user should get the page url",
+      "uid" : "5b2b276205e28901",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611163749497,
+        "stop" : 1611163749903,
+        "duration" : 406
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to Deals",
+      "uid" : "31e5a2c3265c49a3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611137675734,
+        "stop" : 1611137777098,
+        "duration" : 101364
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of offers with price to it",
+      "uid" : "5172e074f140c6f7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611203483769,
+        "stop" : 1611203486391,
+        "duration" : 2622
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should be on the '/shop/offers' page ",
+      "uid" : "73d30c3e1491df74",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1611198229576,
+        "stop" : 1611198230432,
+        "duration" : 856
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to Deals",
+      "uid" : "380eed1eb55cc049",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1611163616087,
+        "stop" : 1611163749370,
+        "duration" : 133283
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to /shop/offers",
+      "uid" : "fd8985ec53371f63",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611193912688,
+        "stop" : 1611193956282,
+        "duration" : 43594
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to /shop/offers",
+      "uid" : "892e37164e43a2ec",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1611227307585,
+        "stop" : 1611227352185,
+        "duration" : 44600
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of prices to it",
+      "uid" : "f96a6f70a7454e0c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611244544761,
+        "stop" : 1611244555618,
+        "duration" : 10857
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should verify the offers in list",
+      "uid" : "e697ef51180a9507",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611244555618,
+        "stop" : 1611244556014,
+        "duration" : 396
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "\"before all\" hook for Navigate to Deals",
+      "uid" : "33127fa3d378e0da",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611162372764,
+        "stop" : 1611162463556,
+        "duration" : 90792
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should verify the offers in list",
+      "uid" : "6298566591bf9818",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1611240112232,
+        "stop" : 1611240168975,
+        "duration" : 56743
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should be on the '/shop/offers' page ",
+      "uid" : "affe2c37da58fc55",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611240768028,
+        "stop" : 1611240768109,
+        "duration" : 81
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to /shop/offers",
+      "uid" : "13049bc9f1cbb213",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1611227182175,
+        "stop" : 1611227222071,
+        "duration" : 39896
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of offers",
+      "uid" : "e51da8717fbaf44f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1611138368291,
+        "stop" : 1611138406662,
+        "duration" : 38371
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see the prices of the offers",
+      "uid" : "307e9d94da767145",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611143622484,
+        "stop" : 1611143623152,
+        "duration" : 668
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should verify the offers in list",
+      "uid" : "58223803d9e0055b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611227035234,
+        "stop" : 1611227045387,
+        "duration" : 10153
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of offers with price to it",
+      "uid" : "1c16426ac01da1f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611203798527,
+        "stop" : 1611203806563,
+        "duration" : 8036
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should be on the 'shop/offers' page and verify url",
+      "uid" : "601b8f58e3d7902f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611143621071,
+        "stop" : 1611143621118,
+        "duration" : 47
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should try Sign In with Invalid credentials",
+      "uid" : "ae04f0a6e0ea4030",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611245460746,
+        "stop" : 1611245492762,
+        "duration" : 32016
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to Sign In ",
+      "uid" : "e4cef20a8d467cb3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611245420102,
+        "stop" : 1611245460745,
+        "duration" : 40643
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should be on the '/shop/offers' page ",
+      "uid" : "ae1817e55fed93bd",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611194763215,
+        "stop" : 1611194763234,
+        "duration" : 19
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of offers with price to it",
+      "uid" : "1de9c9e04993f41a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611242579300,
+        "stop" : 1611242579975,
+        "duration" : 675
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should be on the 'shop/offers' page and verify url",
+      "uid" : "e43c848dc32532c7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611138605756,
+        "stop" : 1611138605764,
+        "duration" : 8
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to Deals",
+      "uid" : "7314acb33f64fd2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611143500958,
+        "stop" : 1611143621070,
+        "duration" : 120112
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of offers with price to it",
+      "uid" : "932e1d52d4e59838",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611194763234,
+        "stop" : 1611194763482,
+        "duration" : 248
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of offers with price to it",
+      "uid" : "a2a0025a3ac31109",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611193178805,
+        "stop" : 1611193179023,
+        "duration" : 218
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to /shop/offers",
+      "uid" : "19d0ec5f2512722",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611244663845,
+        "stop" : 1611244756282,
+        "duration" : 92437
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of offers with price to it",
+      "uid" : "dfd7845caf36602a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611198460378,
+        "stop" : 1611198460607,
+        "duration" : 229
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should verify the offers in list",
+      "uid" : "dcbf42939f8912a5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1611239337750,
+        "stop" : 1611239422032,
+        "duration" : 84282
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "\"before all\" hook for List of Offers",
+      "uid" : "f64b24871dd47cee",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611217302270,
+        "stop" : 1611217393375,
+        "duration" : 91105
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of offers",
+      "uid" : "55a7863acdd12d26",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611137777902,
+        "stop" : 1611137778308,
+        "duration" : 406
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "user should get the page url",
+      "uid" : "6a2ff809fe4ece88",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611138605765,
+        "stop" : 1611138607520,
+        "duration" : 1755
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should be on the '/shop/offers' page ",
+      "uid" : "8f6219cb8cd7776b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611204792954,
+        "stop" : 1611204792995,
+        "duration" : 41
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of offers with price to it",
+      "uid" : "fcaf165b4ec088be",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611195731252,
+        "stop" : 1611195755990,
+        "duration" : 24738
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of offers",
+      "uid" : "c4f9c66ec85e0964",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611163749903,
+        "stop" : 1611163750176,
+        "duration" : 273
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "\"before all\" hook for List of Offers",
+      "uid" : "43a3c6dac12a1857",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611198005137,
+        "stop" : 1611198095262,
+        "duration" : 90125
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should be on the '/shop/offers' page ",
+      "uid" : "68a93c14efe53652",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611193956283,
+        "stop" : 1611193956291,
+        "duration" : 8
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should be on the 'shop/offers' page and verify url",
+      "uid" : "818f9ab577728a2a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611165349224,
+        "stop" : 1611165349262,
+        "duration" : 38
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to /shop/offers",
+      "uid" : "f0d89db64e40a148",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611229382464,
+        "stop" : 1611229534747,
+        "duration" : 152283
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of offers with price to it",
+      "uid" : "4dda5a92ea36f298",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611193956292,
+        "stop" : 1611193956474,
+        "duration" : 182
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of offers",
+      "uid" : "3fde91ea341515a6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1611143621816,
+        "stop" : 1611143622483,
+        "duration" : 667
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should be on the 'shop/offers' page and verify url",
+      "uid" : "35ef812e40137b22",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611138366050,
+        "stop" : 1611138366065,
+        "duration" : 15
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to /shop/offers",
+      "uid" : "35cfcbd884cf2d9c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611203628320,
+        "stop" : 1611203779275,
+        "duration" : 150955
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "\"before all\" hook for List of Offers",
+      "uid" : "bf22ac6e99e615c6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611196712381,
+        "stop" : 1611196803125,
+        "duration" : 90744
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to Deals",
+      "uid" : "cbe0d9b1f9aec461",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611138011556,
+        "stop" : 1611138073833,
+        "duration" : 62277
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should be on the '/shop/offers' page ",
+      "uid" : "3b9912917cd56149",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611227222071,
+        "stop" : 1611227242921,
+        "duration" : 20850
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of prices to it",
+      "uid" : "29aa1ef4a7d98729",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611242371228,
+        "stop" : 1611242371479,
+        "duration" : 251
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should be on the '/shop/offers' page ",
+      "uid" : "7e5125ac75b5be31",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611243179226,
+        "stop" : 1611243179276,
+        "duration" : 50
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "user should get the page url",
+      "uid" : "51ff22eca0412ae0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611143621118,
+        "stop" : 1611143621816,
+        "duration" : 698
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should be on the 'shop/offers' page and verify url",
+      "uid" : "e6c84ac18438558f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611143774841,
+        "stop" : 1611143775074,
+        "duration" : 233
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should verify the offers in list",
+      "uid" : "dacc6745ed20006a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1611242371479,
+        "stop" : 1611242371733,
+        "duration" : 254
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should be on the '/shop/offers' page ",
+      "uid" : "a9c53782e724d477",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611194106561,
+        "stop" : 1611194106573,
+        "duration" : 12
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to /shop/offers",
+      "uid" : "d92aa5d49bccd2bb",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611203343394,
+        "stop" : 1611203483605,
+        "duration" : 140211
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of offers with price to it",
+      "uid" : "e374d3d7f9d158bc",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611244248567,
+        "stop" : 1611244248800,
+        "duration" : 233
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to Deals",
+      "uid" : "acca2b840002e0f3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611165229092,
+        "stop" : 1611165349223,
+        "duration" : 120131
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to /shop/offers",
+      "uid" : "8a2eea8b2492c4df",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611194156161,
+        "stop" : 1611194206623,
+        "duration" : 50462
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of offers with price to it",
+      "uid" : "bd95fcc2f996de50",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611194206632,
+        "stop" : 1611194206825,
+        "duration" : 193
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "\"before all\" hook for List of Offers",
+      "uid" : "ae26497457807244",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611201090274,
+        "stop" : 1611201180480,
+        "duration" : 90206
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to /shop/offers",
+      "uid" : "576cc18ca208fc2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611196337995,
+        "stop" : 1611196388782,
+        "duration" : 50787
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to Deals",
+      "uid" : "b56d535d00e0fcc1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611192195564,
+        "stop" : 1611192246932,
+        "duration" : 51368
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should verify the offers in list",
+      "uid" : "ac4c41f8fd392dcc",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1611242587977,
+        "stop" : 1611242588225,
+        "duration" : 248
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should search for keyword and verify the text value",
+      "uid" : "508c23e81c1118c0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611136467852,
+        "stop" : 1611136496193,
+        "duration" : 28341
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to /shop/offers",
+      "uid" : "3fdea19266422ff9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611200129600,
+        "stop" : 1611200257583,
+        "duration" : 127983
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "user should get the page url",
+      "uid" : "9a4aadb071868738",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611138074022,
+        "stop" : 1611138095237,
+        "duration" : 21215
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should be on the '/shop/offers' page ",
+      "uid" : "e93117856533f390",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611203483606,
+        "stop" : 1611203483769,
+        "duration" : 163
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "\"before all\" hook for List of Offers",
+      "uid" : "3ad4a7c7ff1ac419",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611217560541,
+        "stop" : 1611217650685,
+        "duration" : 90144
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to /shop/offers",
+      "uid" : "836fd82c2846412d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611243092263,
+        "stop" : 1611243179226,
+        "duration" : 86963
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of prices to it",
+      "uid" : "b633caf0b8fc2472",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611244248800,
+        "stop" : 1611244249141,
+        "duration" : 341
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see the prices of the offers",
+      "uid" : "ed95be484ec4a299",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1611138608201,
+        "stop" : 1611138608829,
+        "duration" : 628
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should be on the '/shop/offers' page ",
+      "uid" : "9fc1c2dd2657d4d3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611244518456,
+        "stop" : 1611244542343,
+        "duration" : 23887
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of offers with price to it",
+      "uid" : "710f47cf1e2f726a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611199389224,
+        "stop" : 1611199390603,
+        "duration" : 1379
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should be on the 'shop/offers' page and verify url",
+      "uid" : "2e04890337b94400",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611185540438,
+        "stop" : 1611185540450,
+        "duration" : 12
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of prices to it",
+      "uid" : "5e6951b48054d6be",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611236407963,
+        "stop" : 1611236488959,
+        "duration" : 80996
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to /shop/offers",
+      "uid" : "604ee467ac89e390",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611201269802,
+        "stop" : 1611201393051,
+        "duration" : 123249
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to Sign In ",
+      "uid" : "e06c1c4b1107252b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611245148206,
+        "stop" : 1611245217431,
+        "duration" : 69225
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of prices to it",
+      "uid" : "53bee60797686531",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611203486392,
+        "stop" : 1611203487329,
+        "duration" : 937
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "user should get the page url",
+      "uid" : "69eb9e8159119840",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611138366065,
+        "stop" : 1611138368290,
+        "duration" : 2225
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should be on the 'shop/offers' page and verify url",
+      "uid" : "21af438df8048b52",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611182916133,
+        "stop" : 1611182916567,
+        "duration" : 434
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of prices to it",
+      "uid" : "a2b2d90fb2f9ef9f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611241929819,
+        "stop" : 1611241930048,
+        "duration" : 229
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to /shop/offers",
+      "uid" : "c316e92d85b0061c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611198192798,
+        "stop" : 1611198229575,
+        "duration" : 36777
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should be on the '/shop/offers' page ",
+      "uid" : "da6f66059a4fe234",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1611199860431,
+        "stop" : 1611199860447,
+        "duration" : 16
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of offers with price to it",
+      "uid" : "5f407587e6610f7a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611241929541,
+        "stop" : 1611241929819,
+        "duration" : 278
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see the prices of the offers",
+      "uid" : "5ca32d5dc6e1080d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1611138096998,
+        "stop" : 1611138104095,
+        "duration" : 7097
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of offers with price to it",
+      "uid" : "30534d1714b4e0d2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611195468364,
+        "stop" : 1611195538875,
+        "duration" : 70511
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should be on the '/shop/offers' page ",
+      "uid" : "7feaca29584a46d0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611198453540,
+        "stop" : 1611198460378,
+        "duration" : 6838
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to /shop/offers",
+      "uid" : "79041c6e7074e648",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1611242530855,
+        "stop" : 1611242567512,
+        "duration" : 36657
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to Deals",
+      "uid" : "48870b1e10e2bbb1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611191447366,
+        "stop" : 1611191481142,
+        "duration" : 33776
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should be on the '/shop/offers' page ",
+      "uid" : "999a13a1bdc03749",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611242567512,
+        "stop" : 1611242579300,
+        "duration" : 11788
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should be on the '/shop/offers' page ",
+      "uid" : "1be7b137c0238cd0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611197823062,
+        "stop" : 1611197823107,
+        "duration" : 45
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to /shop/offers",
+      "uid" : "e6d17cfa204553c7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611199813563,
+        "stop" : 1611199860431,
+        "duration" : 46868
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should be on the '/shop/offers' page ",
+      "uid" : "d518683507d81d2f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611199385731,
+        "stop" : 1611199389224,
+        "duration" : 3493
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should verify the offers in list",
+      "uid" : "3b7e6f88c316f38f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1611240768930,
+        "stop" : 1611240769350,
+        "duration" : 420
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should be on the '/shop/offers' page ",
+      "uid" : "4b097fed02ded363",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611196388782,
+        "stop" : 1611196388790,
+        "duration" : 8
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should verify the offers in list",
+      "uid" : "a168d346be38c5d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611229210711,
+        "stop" : 1611229227343,
+        "duration" : 16632
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to /shop/offers",
+      "uid" : "9d57aca974949c9f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611198640440,
+        "stop" : 1611198782292,
+        "duration" : 141852
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should be on the '/shop/offers' page ",
+      "uid" : "2ecd383733c0d75a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611227017638,
+        "stop" : 1611227035234,
+        "duration" : 17596
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see the prices of the offers",
+      "uid" : "3689782b4ed24e88",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1611139010231,
+        "stop" : 1611139010970,
+        "duration" : 739
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "\"before all\" hook for List of Offers",
+      "uid" : "8c3c391e2cf700ac",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611232181096,
+        "stop" : 1611232271701,
+        "duration" : 90605
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should be on the '/shop/offers' page ",
+      "uid" : "dedcd895a55a04dd",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611244248534,
+        "stop" : 1611244248565,
+        "duration" : 31
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to Deals",
+      "uid" : "bcc50d7499f3dbe",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611143681622,
+        "stop" : 1611143774841,
+        "duration" : 93219
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "\"before all\" hook for List of Offers",
+      "uid" : "9897c3b181b897a0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611199994943,
+        "stop" : 1611199998810,
+        "duration" : 3867
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of offers with price to it",
+      "uid" : "e2e00f8c0ad7ae4b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611244542344,
+        "stop" : 1611244544761,
+        "duration" : 2417
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "\"before all\" hook for Navigate to Deals",
+      "uid" : "160c2160b98ae98a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611163420616,
+        "stop" : 1611163511237,
+        "duration" : 90621
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of prices to it",
+      "uid" : "e1ea265ea668d062",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611244834497,
+        "stop" : 1611244870960,
+        "duration" : 36463
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should be on the 'shop/offers' page and verify url",
+      "uid" : "ba54d89eedcb5fae",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611171293958,
+        "stop" : 1611171294727,
+        "duration" : 769
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to /shop/offers",
+      "uid" : "4d76290a4d96c235",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611194060983,
+        "stop" : 1611194106561,
+        "duration" : 45578
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to /shop/offers",
+      "uid" : "2119be0fb5520e8d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611240668117,
+        "stop" : 1611240768028,
+        "duration" : 99911
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of offers",
+      "uid" : "cd078fe19190ee3f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1611138607521,
+        "stop" : 1611138608201,
+        "duration" : 680
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to /shop/offers",
+      "uid" : "75f08fcd0e521e4e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611234366942,
+        "stop" : 1611234534099,
+        "duration" : 167157
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of offers with price to it",
+      "uid" : "ce3849cb2943daec",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611199860447,
+        "stop" : 1611199860469,
+        "duration" : 22
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should be on the '/shop/offers' page ",
+      "uid" : "d64141c34b37cc5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611241929533,
+        "stop" : 1611241929541,
+        "duration" : 8
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to Deals",
+      "uid" : "bcbade233ba15664",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611184640981,
+        "stop" : 1611184792712,
+        "duration" : 151731
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should be on the 'shop/offers' page and verify url",
+      "uid" : "5f31d35f8beb5a85",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611138073833,
+        "stop" : 1611138074022,
+        "duration" : 189
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "\"before all\" hook for Navigate to Deals",
+      "uid" : "89177d0bc64d40c5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611137462046,
+        "stop" : 1611137552656,
+        "duration" : 90610
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should be on the '/shop/offers' page ",
+      "uid" : "578e8d9c55c34c2e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611196074388,
+        "stop" : 1611196074403,
+        "duration" : 15
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should verify the offers in list",
+      "uid" : "13bcd3a155291ec7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611229535245,
+        "stop" : 1611229545348,
+        "duration" : 10103
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to /shop/offers",
+      "uid" : "27edfc2e7385d558",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611228993479,
+        "stop" : 1611229172584,
+        "duration" : 179105
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should verify the offers in list",
+      "uid" : "173b8e63609b0b0c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611244756844,
+        "stop" : 1611244757103,
+        "duration" : 259
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of offers with price to it",
+      "uid" : "d43129be1e71d6e8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611198230432,
+        "stop" : 1611198230477,
+        "duration" : 45
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should be on the '/shop/offers' page ",
+      "uid" : "8a352fdf1bce216f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611242364146,
+        "stop" : 1611242364159,
+        "duration" : 13
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see the prices of the offers",
+      "uid" : "d62e42c2228d98d9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611184803611,
+        "stop" : 1611184804998,
+        "duration" : 1387
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to /shop/offers",
+      "uid" : "d4b407abed4df0ff",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611204696723,
+        "stop" : 1611204792954,
+        "duration" : 96231
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of offers",
+      "uid" : "d1cc05a86658754e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1611143776511,
+        "stop" : 1611143778735,
+        "duration" : 2224
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "user should get the page url",
+      "uid" : "41021c218f7c28ca",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611137777105,
+        "stop" : 1611137777902,
+        "duration" : 797
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should be on the '/shop/offers' page ",
+      "uid" : "4076f49d08717fee",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611227352186,
+        "stop" : 1611227408841,
+        "duration" : 56655
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of prices to it",
+      "uid" : "3aae078216245e2a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611243179519,
+        "stop" : 1611243188739,
+        "duration" : 9220
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should be on the '/shop/offers' page ",
+      "uid" : "7648084b130142a5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611203779275,
+        "stop" : 1611203798337,
+        "duration" : 19062
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to Sign In ",
+      "uid" : "45aaabea275778b1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611187189285,
+        "stop" : 1611187200217,
+        "duration" : 10932
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "user should get the page url",
+      "uid" : "956bad16529d96e6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611143775075,
+        "stop" : 1611143776511,
+        "duration" : 1436
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of offers",
+      "uid" : "e9f1ad3ef66d2e93",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611171294728,
+        "stop" : 1611171295956,
+        "duration" : 1228
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should be on the '/shop/offers' page ",
+      "uid" : "731913380179be3b",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611229172584,
+        "stop" : 1611229209660,
+        "duration" : 37076
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should verify the offers in list",
+      "uid" : "5f4b82c42a703ff1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611241930049,
+        "stop" : 1611241930264,
+        "duration" : 215
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to /shop/offers",
+      "uid" : "4f92cc00cf64eed4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611242293105,
+        "stop" : 1611242364146,
+        "duration" : 71041
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of offers with price to it",
+      "uid" : "d315f2adcda52705",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611242364160,
+        "stop" : 1611242371227,
+        "duration" : 7067
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of offers with price to it",
+      "uid" : "323894e517799303",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611204792995,
+        "stop" : 1611204793971,
+        "duration" : 976
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to /shop/offers",
+      "uid" : "6842a78bf0b5a05e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1611244460079,
+        "stop" : 1611244518456,
+        "duration" : 58377
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of offers with price to it",
+      "uid" : "642c4aea06fc2610",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611203980519,
+        "stop" : 1611203981127,
+        "duration" : 608
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to /shop/offers",
+      "uid" : "ac500593edf05fda",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611244150848,
+        "stop" : 1611244248534,
+        "duration" : 97686
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should be on the 'shop/offers' page and verify url",
+      "uid" : "aebbe45749ed7c75",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611139003021,
+        "stop" : 1611139004506,
+        "duration" : 1485
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should verify the offers in list",
+      "uid" : "31804c245d558b58",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611234541709,
+        "stop" : 1611234543771,
+        "duration" : 2062
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to /shop/offers",
+      "uid" : "f44a9e9858c0e8a9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611196020664,
+        "stop" : 1611196074388,
+        "duration" : 53724
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "\"before all\" hook for List of Offers",
+      "uid" : "83c9f02706f321e6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611241543052,
+        "stop" : 1611241619928,
+        "duration" : 76876
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of offers",
+      "uid" : "b3c8e5ff57720154",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611182916567,
+        "stop" : 1611182918377,
+        "duration" : 1810
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see the prices of the offers",
+      "uid" : "eefc7fe6bcd6ebe2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611163750177,
+        "stop" : 1611163750665,
+        "duration" : 488
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should click the search icon ",
+      "uid" : "1f04698a206c157f",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611136377887,
+        "stop" : 1611136467851,
+        "duration" : 89964
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of offers with price to it",
+      "uid" : "30893b45f52903fe",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611243179276,
+        "stop" : 1611243179519,
+        "duration" : 243
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of offers with price to it",
+      "uid" : "79abf8c77242afc4",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611197823107,
+        "stop" : 1611197823540,
+        "duration" : 433
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "\"before all\" hook for Navigate to Deals",
+      "uid" : "a6f485ef98739211",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611170927539,
+        "stop" : 1611171018190,
+        "duration" : 90651
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "\"before all\" hook for List of Offers",
+      "uid" : "d3aa60ef2001dbeb",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611233811618,
+        "stop" : 1611233902229,
+        "duration" : 90611
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should show Editorial Section",
+      "uid" : "6c2f9cf464511800",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611136496193,
+        "stop" : 1611136497179,
+        "duration" : 986
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should verify the offers in list",
+      "uid" : "3ebc9a7f815f42a5",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1611239894385,
+        "stop" : 1611239969125,
+        "duration" : 74740
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should be on the '/shop/offers' page ",
+      "uid" : "43369cab75e47e8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611203960432,
+        "stop" : 1611203980518,
+        "duration" : 20086
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should try Sign In with Invalid credentials",
+      "uid" : "66ded0b47ec75ab1",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611245654392,
+        "stop" : 1611245663181,
+        "duration" : 8789
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "user should get the page url",
+      "uid" : "d0e64f9f41cf3ed7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611139004506,
+        "stop" : 1611139009519,
+        "duration" : 5013
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to /shop/offers",
+      "uid" : "c8f7f52299baf01",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1611197704218,
+        "stop" : 1611197823062,
+        "duration" : 118844
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should verify the offers in list",
+      "uid" : "d8d84273dea63c8c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611227242922,
+        "stop" : 1611227244155,
+        "duration" : 1233
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should be on the 'shop/offers' page and verify url",
+      "uid" : "5bc32818bcca454c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611184792712,
+        "stop" : 1611184794069,
+        "duration" : 1357
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of prices to it",
+      "uid" : "d1918d7c3509f0a9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611242579975,
+        "stop" : 1611242587977,
+        "duration" : 8002
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should be on the 'shop/offers' page and verify url",
+      "uid" : "4d1457656cbd1e08",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611137777098,
+        "stop" : 1611137777105,
+        "duration" : 7
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "\"before all\" hook for List of Offers",
+      "uid" : "8af85491d50b49a2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611235959459,
+        "stop" : 1611236050257,
+        "duration" : 90798
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to /shop/offers",
+      "uid" : "355b765b5542dd5e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611194673401,
+        "stop" : 1611194763214,
+        "duration" : 89813
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see the prices of the offers",
+      "uid" : "78723e69fe71d2d3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611137778308,
+        "stop" : 1611137778822,
+        "duration" : 514
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to Deals",
+      "uid" : "cde374af11aeb832",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611185492040,
+        "stop" : 1611185540438,
+        "duration" : 48398
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should clear Overlay Modal",
+      "uid" : "2f05d53f2feea32c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611187143280,
+        "stop" : 1611187189284,
+        "duration" : 46004
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of prices to it",
+      "uid" : "3416df10f5929bbd",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611236879739,
+        "stop" : 1611236909692,
+        "duration" : 29953
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "\"before all\" hook for Navigate to Deals",
+      "uid" : "287c6022254574da",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611191010082,
+        "stop" : 1611191029843,
+        "duration" : 19761
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of offers",
+      "uid" : "8a81efdbbefb3ca7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1611138095238,
+        "stop" : 1611138096998,
+        "duration" : 1760
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of prices to it",
+      "uid" : "ee0891a0842f2019",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611203981127,
+        "stop" : 1611203988935,
+        "duration" : 7808
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to /shop/offers",
+      "uid" : "f4417b210ec8aec7",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1611196188588,
+        "stop" : 1611196245716,
+        "duration" : 57128
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to /shop/offers",
+      "uid" : "4b67f218c09479b6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611197306423,
+        "stop" : 1611197458563,
+        "duration" : 152140
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see the prices of the offers",
+      "uid" : "594b847864f3f993",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611143778735,
+        "stop" : 1611143779527,
+        "duration" : 792
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of offers with price to it",
+      "uid" : "3193a4940768f480",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611244756291,
+        "stop" : 1611244756546,
+        "duration" : 255
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to Deals",
+      "uid" : "8546a71b7fae9d40",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611138894990,
+        "stop" : 1611139003021,
+        "duration" : 108031
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should be on the '/shop/offers' page ",
+      "uid" : "f3273010039712a3",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611244756283,
+        "stop" : 1611244756291,
+        "duration" : 8
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "\"before all\" hook for List of Offers",
+      "uid" : "650bce06c23431d8",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611200881369,
+        "stop" : 1611200972796,
+        "duration" : 91427
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to Deals",
+      "uid" : "a8585c926f99bc5c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611245958708,
+        "stop" : 1611246040476,
+        "duration" : 81768
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "\"before all\" hook for List of Offers",
+      "uid" : "a254fb891ddc7d0a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611232466107,
+        "stop" : 1611232556568,
+        "duration" : 90461
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of offers with price to it",
+      "uid" : "b61e246a710cf63d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611240768109,
+        "stop" : 1611240768422,
+        "duration" : 313
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of offers with price to it",
+      "uid" : "6b044ae0bcabe619",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611197497802,
+        "stop" : 1611197501566,
+        "duration" : 3764
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to /shop/offers",
+      "uid" : "b8f9cff012eeab2",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1611203903172,
+        "stop" : 1611203960431,
+        "duration" : 57259
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should be on the '/shop/offers' page ",
+      "uid" : "daeb62130f0a8f18",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611197458563,
+        "stop" : 1611197496868,
+        "duration" : 38305
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of prices to it",
+      "uid" : "aef7ca9f0a872b50",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611203806563,
+        "stop" : 1611203807620,
+        "duration" : 1057
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should be on the 'shop/offers' page and verify url",
+      "uid" : "ff43d8b674c1368",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611163749371,
+        "stop" : 1611163749497,
+        "duration" : 126
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to Deals",
+      "uid" : "62d252895b503c03",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611191108926,
+        "stop" : 1611191147909,
+        "duration" : 38983
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of prices to it",
+      "uid" : "e78cc55e13646509",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611236204700,
+        "stop" : 1611236237953,
+        "duration" : 33253
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should verify the offers in list",
+      "uid" : "80cc2923c08c4802",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1611243920751,
+        "stop" : 1611244006512,
+        "duration" : 85761
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list os section to it",
+      "uid" : "e8267305ee683da9",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611243506041,
+        "stop" : 1611243575584,
+        "duration" : 69543
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should verify the offers in list",
+      "uid" : "37a37378f7da5ad0",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611243188740,
+        "stop" : 1611243189135,
+        "duration" : 395
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of offers",
+      "uid" : "6ecb7a39c3a90c09",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611184794069,
+        "stop" : 1611184803611,
+        "duration" : 9542
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of prices to it",
+      "uid" : "50300039cef53a24",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611236735706,
+        "stop" : 1611236764887,
+        "duration" : 29181
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of prices to it",
+      "uid" : "a3f93a8eb48d59fa",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611240768423,
+        "stop" : 1611240768930,
+        "duration" : 507
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see the prices of the offers",
+      "uid" : "73765b3e3b9226fd",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1611138406662,
+        "stop" : 1611138407347,
+        "duration" : 685
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of offers with price to it",
+      "uid" : "cffb2035619f681c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611201393522,
+        "stop" : 1611201394647,
+        "duration" : 1125
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of offers",
+      "uid" : "e3309bca9fe61b06",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611165349263,
+        "stop" : 1611165349694,
+        "duration" : 431
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see the prices of the offers",
+      "uid" : "12a80aec51e33aba",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611171295956,
+        "stop" : 1611171296434,
+        "duration" : 478
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see the keyword in an image and verify the value",
+      "uid" : "d765de79c33f6fd6",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611136497180,
+        "stop" : 1611136497231,
+        "duration" : 51
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of prices to it",
+      "uid" : "41eaa69e3a77500d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611204793971,
+        "stop" : 1611204799448,
+        "duration" : 5477
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should be on the '/shop/offers' page ",
+      "uid" : "10fdb2322e53d7bc",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611193178758,
+        "stop" : 1611193178804,
+        "duration" : 46
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to /shop/offers",
+      "uid" : "d072ca3425a2160c",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611241838543,
+        "stop" : 1611241929533,
+        "duration" : 90990
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "\"before all\" hook for List of Offers",
+      "uid" : "64e04fd325405248",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611238690748,
+        "stop" : 1611238781254,
+        "duration" : 90506
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should be on the '/shop/offers' page ",
+      "uid" : "e13e7109b297751e",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611229534748,
+        "stop" : 1611229535245,
+        "duration" : 497
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of offers",
+      "uid" : "d847f4821d294f7d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611185540450,
+        "stop" : 1611185540662,
+        "duration" : 212
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should be on the '/shop/offers' page ",
+      "uid" : "31baa62af1a3b237",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611196245716,
+        "stop" : 1611196245724,
+        "duration" : 8
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to /shop/offers",
+      "uid" : "34ca6db1489b8842",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611193135719,
+        "stop" : 1611193178757,
+        "duration" : 43038
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should verify the offers in list",
+      "uid" : "c91c40b5fe97b0ae",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1611244249141,
+        "stop" : 1611244249409,
+        "duration" : 268
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of offers with price to it",
+      "uid" : "4f6f10cdbaaf91be",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611196074403,
+        "stop" : 1611196074636,
+        "duration" : 233
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should navigate to Deals",
+      "uid" : "646fa514e6073e09",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611138529333,
+        "stop" : 1611138605756,
+        "duration" : 76423
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of offers",
+      "uid" : "f7440e4baaa9b17a",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "failed",
+      "time" : {
+        "start" : 1611139009520,
+        "stop" : 1611139010231,
+        "duration" : 711
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "\"before all\" hook for List of Offers",
+      "uid" : "c2c5e4b2d640a025",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611197133629,
+        "stop" : 1611197223964,
+        "duration" : 90335
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "should see list of offers with price to it",
+      "uid" : "b55380879f030b7d",
+      "parentUid" : "516fe00eea05ad99e936fa729b55eff4",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611200287999,
+        "stop" : 1611200292099,
+        "duration" : 4100
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    } ],
+    "uid" : "516fe00eea05ad99e936fa729b55eff4"
+  }, {
+    "name" : "0-3",
+    "children" : [ {
+      "name" : "\"before each\" hook for Invalid Credentials",
+      "uid" : "fd54a30f65f481d1",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611165878191,
+        "stop" : 1611165968198,
+        "duration" : 90007
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "\"before each\" hook for Invalid Credentials",
+      "uid" : "8a3d6cc0ada4d590",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611171674423,
+        "stop" : 1611171765221,
+        "duration" : 90798
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "\"before each\" hook for Invalid Credentials",
+      "uid" : "d3d00ec2e236f680",
+      "parentUid" : "b755a79e149728f67460aea38b0710e0",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611166248819,
+        "stop" : 1611166339286,
+        "duration" : 90467
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    } ],
+    "uid" : "b755a79e149728f67460aea38b0710e0"
+  }, {
+    "name" : "should try Sign In with Invalid credentials",
+    "uid" : "845e71ac9d524c79",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1611187200217,
+      "stop" : 1611187200217,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "should try Sign In with Invalid credentials",
+    "uid" : "85d13cf6b345c9cd",
+    "parentUid" : "ab17fc5a4eb3bca4b216b548c7f9fcbc",
+    "status" : "skipped",
+    "time" : {
+      "start" : 1611245217431,
+      "stop" : 1611245217431,
+      "duration" : 0
+    },
+    "flaky" : false,
+    "newFailed" : false,
+    "parameters" : [ ]
+  }, {
+    "name" : "0-4",
+    "children" : [ {
+      "name" : "\"before all\" hook for Sky Keyword Search",
+      "uid" : "5c1fa2aaa034e7a1",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611171674416,
+        "stop" : 1611171765221,
+        "duration" : 90805
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "\"before all\" hook for Sky Keyword Search",
+      "uid" : "6623c1a32792e7d8",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611166248821,
+        "stop" : 1611166339286,
+        "duration" : 90465
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "\"before all\" hook for Sky Keyword Search",
+      "uid" : "753700ebc449e9fd",
+      "parentUid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611165876915,
+        "stop" : 1611165968150,
+        "duration" : 91235
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    } ],
+    "uid" : "24bc2dfa7c2fb5a7cdc8e85ad96a418d"
+  }, {
+    "name" : "0-5",
+    "children" : [ {
+      "name" : "\"before all\" hook for Navigate to Deals",
+      "uid" : "ef73f6829bf879ef",
+      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611171674420,
+        "stop" : 1611171765221,
+        "duration" : 90801
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "\"before all\" hook for Navigate to Deals",
+      "uid" : "de51787d65b877cb",
+      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611166248837,
+        "stop" : 1611166339287,
+        "duration" : 90450
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "\"before all\" hook for Navigate to Deals",
+      "uid" : "b05dba7fad2c54b4",
+      "parentUid" : "6ea253441b78cd38797e932a74777a9c",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611165876917,
+        "stop" : 1611165968150,
+        "duration" : 91233
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    } ],
+    "uid" : "6ea253441b78cd38797e932a74777a9c"
+  }, {
+    "name" : "0-2",
+    "children" : [ {
+      "name" : "\"before all\" hook for Sky Home page",
+      "uid" : "e8834d59fe8f07f6",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611166248841,
+        "stop" : 1611166339286,
+        "duration" : 90445
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "\"before all\" hook for Sky Home page",
+      "uid" : "3636a5a8b3b31ce5",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611165876921,
+        "stop" : 1611165968149,
+        "duration" : 91228
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "\"before all\" hook for Sky Home page",
+      "uid" : "d33a8f30cae15187",
+      "parentUid" : "880a094af3dffab161e2023284569d6f",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611171674421,
+        "stop" : 1611171765222,
+        "duration" : 90801
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    } ],
+    "uid" : "880a094af3dffab161e2023284569d6f"
+  }, {
+    "name" : "0-1",
+    "children" : [ {
+      "name" : "\"before all\" hook for Navigate to Deals",
+      "uid" : "e6d288e86d4c4c5b",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611165876920,
+        "stop" : 1611165968150,
+        "duration" : 91230
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "\"before all\" hook for Navigate to Deals",
+      "uid" : "c674eaeb7cf1428a",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611171674423,
+        "stop" : 1611171765221,
+        "duration" : 90798
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    }, {
+      "name" : "\"before all\" hook for Navigate to Deals",
+      "uid" : "4f004b2c37a6b577",
+      "parentUid" : "27fa874cadc1574e37a07abb440963bd",
+      "status" : "broken",
+      "time" : {
+        "start" : 1611166250715,
+        "stop" : 1611166340718,
+        "duration" : 90003
+      },
+      "flaky" : false,
+      "newFailed" : false,
+      "parameters" : [ "chrome-87.0.4280.141" ]
+    } ],
+    "uid" : "27fa874cadc1574e37a07abb440963bd"
+  } ],
+  "name" : "timeline"
+}

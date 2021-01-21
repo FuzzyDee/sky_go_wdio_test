@@ -1,0 +1,55 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1611241543052' stop='1611241619929'>
+    <name>List of Offers</name>
+    <title>List of Offers</title>
+    <test-cases>
+        <test-case start='1611241543052' status='broken' stop='1611241619928'>
+            <name>"before all" hook for List of Offers</name>
+            <title>"before all" hook for List of Offers</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-87.0.4280.141'/>
+            </parameters>
+            <steps>
+                <step start='1611241543057' status='passed' stop='1611241619066'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='dc258604-3a89-47a0-811a-a488e2c0112e-attachment.json' type='application/json' size='31'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1611241619091' status='passed' stop='1611241619461'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='eddba558-7110-4b97-b722-0f392d042f49-attachment.json' type='application/json' size='81'/>
+                        <attachment title='Response' source='89a1ee54-55f7-4475-96c2-07bdc87adab2-attachment.json' type='application/json' size='1881'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1611241619469' status='broken' stop='1611241619928'>
+                    <name>POST /session/:sessionId/frame</name>
+                    <title>POST /session/:sessionId/frame</title>
+                    <attachments>
+                        <attachment title='Request' source='e0b7dc70-032a-4bdf-b3a8-a58d3f171eed-attachment.json' type='application/json' size='5286'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>invalid argument: missing 'ELEMENT'
+                  (Session info: chrome=87.0.4280.141)</message>
+                <stack-trace>invalid argument: missing 'ELEMENT'
+                  (Session info: chrome=87.0.4280.141)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at Context.&lt;anonymous> (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js:11:13)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

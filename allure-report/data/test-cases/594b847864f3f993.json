@@ -1,0 +1,118 @@
+{
+  "uid" : "594b847864f3f993",
+  "name" : "should see the prices of the offers",
+  "fullName" : "Navigate to Deals.should see the prices of the offers",
+  "historyId" : "dbbb049ae4f67df66552a0d4a24c7aad",
+  "time" : {
+    "start" : 1611143778735,
+    "stop" : 1611143779527,
+    "duration" : 792
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "Cannot read property '1' of undefined",
+  "statusTrace" : "TypeError: Cannot read property '1' of undefined\n                    at SkyDeals.getOffersPriceList (/Users/user/skywebdriverio_test/test/pageobjects/skydeals.js:34:12)\n                    at Context.<anonymous> (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js:58:26)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "Cannot read property '1' of undefined",
+    "statusTrace" : "TypeError: Cannot read property '1' of undefined\n                    at SkyDeals.getOffersPriceList (/Users/user/skywebdriverio_test/test/pageobjects/skydeals.js:34:12)\n                    at Context.<anonymous> (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js:58:26)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1611143778736,
+        "stop" : 1611143779056,
+        "duration" : 320
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f709f5b001c9fb6",
+        "name" : "Request",
+        "source" : "f709f5b001c9fb6.json",
+        "type" : "application/json",
+        "size" : 79
+      }, {
+        "uid" : "6dd0b37b2408ef6e",
+        "name" : "Response",
+        "source" : "6dd0b37b2408ef6e.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "GET /session/:sessionId/screenshot",
+      "time" : {
+        "start" : 1611143779061,
+        "stop" : 1611143779527,
+        "duration" : 466
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "9f52f40846a3a1b2",
+        "name" : "Screenshot",
+        "source" : "9f52f40846a3a1b2.png",
+        "type" : "image/png",
+        "size" : 364756
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 2,
+    "attachmentsCount" : 3,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Navigate to Deals"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigate to Deals"
+  }, {
+    "name" : "testMethod",
+    "value" : "should see the prices of the offers"
+  }, {
+    "name" : "package",
+    "value" : "Navigate to Deals"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.141"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "594b847864f3f993.json",
+  "parameterValues" : [ "chrome-87.0.4280.141" ]
+}

@@ -1,0 +1,118 @@
+{
+  "id": {
+    "sessionId": "0a2ea2179551ca9c6e262e6561f3adbd",
+    "elementId": "dfb43c39-ebfd-4228-b3d3-ea75c52caf90",
+    "element-6066-11e4-a52e-4f735466cecf": "dfb43c39-ebfd-4228-b3d3-ea75c52caf90",
+    "selector": "//iframe[contains(@src,'message_id=207015')]",
+    "parent": {
+      "sessionId": "0a2ea2179551ca9c6e262e6561f3adbd",
+      "capabilities": {
+        "acceptInsecureCerts": false,
+        "browserName": "chrome",
+        "browserVersion": "87.0.4280.141",
+        "chrome": {
+          "chromedriverVersion": "87.0.4280.20 (c99e81631faa0b2a448e658c0dbd8311fb04ddbd-refs/branch-heads/4280@{#355})",
+          "userDataDir": "/var/folders/f9/xc1_br2s08j6c6x2xh5_04rw0000gn/T/.com.google.Chrome.UXWbkl"
+        },
+        "goog:chromeOptions": {
+          "debuggerAddress": "localhost:53659"
+        },
+        "networkConnectionEnabled": false,
+        "pageLoadStrategy": "normal",
+        "platformName": "mac os x",
+        "proxy": {},
+        "setWindowRect": true,
+        "strictFileInteractability": false,
+        "timeouts": {
+          "implicit": 0,
+          "pageLoad": 300000,
+          "script": 30000
+        },
+        "unhandledPromptBehavior": "dismiss and notify",
+        "webauthn:virtualAuthenticators": true
+      },
+      "config": {
+        "specs": [
+          "/Users/user/skywebdriverio_test/test/specs/skysearch.spec.js"
+        ],
+        "suites": {},
+        "exclude": [],
+        "logLevel": "info",
+        "logLevels": {},
+        "excludeDriverLogs": [],
+        "bail": 0,
+        "waitforInterval": 500,
+        "waitforTimeout": 10000,
+        "framework": "mocha",
+        "reporters": [
+          [
+            "allure",
+            {
+              "outputDir": "reports/allure-results",
+              "disableWebdriverStepsReporting": false,
+              "disableWebdriverScreenshotsReporting": false
+            }
+          ]
+        ],
+        "services": [
+          "chromedriver"
+        ],
+        "maxInstances": 10,
+        "maxInstancesPerCapability": 100,
+        "filesToWatch": [],
+        "connectionRetryTimeout": 150000,
+        "connectionRetryCount": 3,
+        "execArgv": [],
+        "runnerEnv": {},
+        "runner": "local",
+        "mochaOpts": {
+          "timeout": 90000,
+          "require": [
+            "@babel/register"
+          ],
+          "ui": "bdd"
+        },
+        "jasmineNodeOpts": {
+          "defaultTimeoutInterval": 10000
+        },
+        "cucumberOpts": {
+          "timeout": 10000
+        },
+        "onPrepare": [],
+        "onWorkerStart": [],
+        "before": [],
+        "beforeSession": [],
+        "beforeSuite": [],
+        "beforeHook": [],
+        "beforeTest": [],
+        "beforeCommand": [],
+        "afterCommand": [],
+        "afterTest": [
+          null
+        ],
+        "afterHook": [],
+        "afterSuite": [],
+        "afterSession": [],
+        "after": [],
+        "onComplete": [],
+        "onReload": [],
+        "beforeFeature": [],
+        "beforeScenario": [],
+        "beforeStep": [],
+        "afterStep": [],
+        "afterScenario": [],
+        "afterFeature": [],
+        "baseUrl": "https://sky.com",
+        "_": [],
+        "spec": [
+          "skysearch.spec.js"
+        ],
+        "$0": "node_modules/.bin/wdio",
+        "ignoredWorkerServices": [],
+        "specFileRetryAttempts": 0
+      },
+      "_NOT_FIBER": true
+    },
+    "isReactElement": false
+  }
+}

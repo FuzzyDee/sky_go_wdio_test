@@ -1,0 +1,352 @@
+{
+  "uid" : "e1ea265ea668d062",
+  "name" : "should see list of prices to it",
+  "fullName" : "List of Offers.should see list of prices to it",
+  "historyId" : "7db8e7aca9aefc0f3648d5a709876b3d",
+  "time" : {
+    "start" : 1611244834497,
+    "stop" : 1611244870960,
+    "duration" : 36463
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1611244834502,
+        "stop" : 1611244864047,
+        "duration" : 29545
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "6eda5335e187719e",
+        "name" : "Request",
+        "source" : "6eda5335e187719e.json",
+        "type" : "application/json",
+        "size" : 31
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1611244864074,
+        "stop" : 1611244864089,
+        "duration" : 15
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "83d216bf563daa9",
+        "name" : "Request",
+        "source" : "83d216bf563daa9.json",
+        "type" : "application/json",
+        "size" : 81
+      }, {
+        "uid" : "2fc2680a07dd04be",
+        "name" : "Response",
+        "source" : "2fc2680a07dd04be.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/frame",
+      "time" : {
+        "start" : 1611244864097,
+        "stop" : 1611244864184,
+        "duration" : 87
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "5a5a24fa799ab57",
+        "name" : "Request",
+        "source" : "5a5a24fa799ab57.json",
+        "type" : "application/json",
+        "size" : 3514
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1611244864208,
+        "stop" : 1611244864347,
+        "duration" : 139
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "a28ccfea0a073ee7",
+        "name" : "Request",
+        "source" : "a28ccfea0a073ee7.json",
+        "type" : "application/json",
+        "size" : 113
+      }, {
+        "uid" : "8a4dad7ebbdeee5d",
+        "name" : "Response",
+        "source" : "8a4dad7ebbdeee5d.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/cd264243-7aa3-4e2b-9f76-5867604f3c44/click",
+      "time" : {
+        "start" : 1611244864352,
+        "stop" : 1611244864437,
+        "duration" : 85
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/refresh",
+      "time" : {
+        "start" : 1611244864437,
+        "stop" : 1611244864711,
+        "duration" : 274
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1611244864713,
+        "stop" : 1611244870955,
+        "duration" : 6242
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "7524d2beb3f27b16",
+        "name" : "Request",
+        "source" : "7524d2beb3f27b16.json",
+        "type" : "application/json",
+        "size" : 77
+      }, {
+        "uid" : "45c2b71aca22cffa",
+        "name" : "Response",
+        "source" : "45c2b71aca22cffa.json",
+        "type" : "application/json",
+        "size" : 2
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 7,
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "List of Offers"
+  }, {
+    "name" : "testClass",
+    "value" : "List of Offers"
+  }, {
+    "name" : "testMethod",
+    "value" : "should see list of prices to it"
+  }, {
+    "name" : "package",
+    "value" : "List of Offers"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.141"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "5f6ea7fb874f7269",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611244756546,
+        "stop" : 1611244756844,
+        "duration" : 298
+      }
+    }, {
+      "uid" : "f96a6f70a7454e0c",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611244544761,
+        "stop" : 1611244555618,
+        "duration" : 10857
+      }
+    }, {
+      "uid" : "b633caf0b8fc2472",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611244248800,
+        "stop" : 1611244249141,
+        "duration" : 341
+      }
+    }, {
+      "uid" : "3aae078216245e2a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611243179519,
+        "stop" : 1611243188739,
+        "duration" : 9220
+      }
+    }, {
+      "uid" : "d1918d7c3509f0a9",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611242579975,
+        "stop" : 1611242587977,
+        "duration" : 8002
+      }
+    }, {
+      "uid" : "29aa1ef4a7d98729",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611242371228,
+        "stop" : 1611242371479,
+        "duration" : 251
+      }
+    }, {
+      "uid" : "a2b2d90fb2f9ef9f",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611241929819,
+        "stop" : 1611241930048,
+        "duration" : 229
+      }
+    }, {
+      "uid" : "a3f93a8eb48d59fa",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611240768423,
+        "stop" : 1611240768930,
+        "duration" : 507
+      }
+    }, {
+      "uid" : "3416df10f5929bbd",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611236879739,
+        "stop" : 1611236909692,
+        "duration" : 29953
+      }
+    }, {
+      "uid" : "50300039cef53a24",
+      "status" : "broken",
+      "statusDetails" : "offerslist is not defined",
+      "time" : {
+        "start" : 1611236735706,
+        "stop" : 1611236764887,
+        "duration" : 29181
+      }
+    }, {
+      "uid" : "5e6951b48054d6be",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611236407963,
+        "stop" : 1611236488959,
+        "duration" : 80996
+      }
+    }, {
+      "uid" : "e78cc55e13646509",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611236204700,
+        "stop" : 1611236237953,
+        "duration" : 33253
+      }
+    }, {
+      "uid" : "41eaa69e3a77500d",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611204793971,
+        "stop" : 1611204799448,
+        "duration" : 5477
+      }
+    }, {
+      "uid" : "ee0891a0842f2019",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611203981127,
+        "stop" : 1611203988935,
+        "duration" : 7808
+      }
+    }, {
+      "uid" : "aef7ca9f0a872b50",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: Unable to locate an element with the xpath expression //span[contains(@class,'c-price__main'')] because of the following error:\n                SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[contains(@class,'c-price__main'')]' is not a valid XPath expression.\n                  (Session info: chrome=87.0.4280.141)",
+      "time" : {
+        "start" : 1611203806563,
+        "stop" : 1611203807620,
+        "duration" : 1057
+      }
+    }, {
+      "uid" : "53bee60797686531",
+      "status" : "broken",
+      "statusDetails" : "invalid selector: Unable to locate an element with the xpath expression //span[contains(@data-test-id,'c-price__main'')] because of the following error:\n                SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[contains(@data-test-id,'c-price__main'')]' is not a valid XPath expression.\n                  (Session info: chrome=87.0.4280.141)",
+      "time" : {
+        "start" : 1611203486392,
+        "stop" : 1611203487329,
+        "duration" : 937
+      }
+    } ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "e1ea265ea668d062.json",
+  "parameterValues" : [ "chrome-87.0.4280.141" ]
+}

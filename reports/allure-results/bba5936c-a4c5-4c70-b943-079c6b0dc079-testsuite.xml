@@ -1,0 +1,230 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1611203628319' stop='1611203807620'>
+    <name>List of Offers</name>
+    <title>List of Offers</title>
+    <test-cases>
+        <test-case start='1611203628320' status='broken' stop='1611203779275'>
+            <name>should navigate to /shop/offers</name>
+            <title>should navigate to /shop/offers</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-87.0.4280.141'/>
+                <parameter kind='argument' name='browser' value='chrome-87.0.4280.141'/>
+            </parameters>
+            <steps>
+                <step start='1611203628324' status='passed' stop='1611203679444'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='90274170-9f5d-4b7c-87fb-997701d69488-attachment.json' type='application/json' size='31'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1611203679471' status='passed' stop='1611203684746'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='d04e59d5-73b5-4478-b9a5-fbb4434ef0bc-attachment.json' type='application/json' size='81'/>
+                        <attachment title='Response' source='cf07d140-ce5d-48de-80f4-950102865af5-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1611203684756' status='passed' stop='1611203685560'>
+                    <name>POST /session/:sessionId/frame</name>
+                    <title>POST /session/:sessionId/frame</title>
+                    <attachments>
+                        <attachment title='Request' source='c3e351a2-d773-4916-a30e-e5f8e79a6c52-attachment.json' type='application/json' size='3514'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1611203685585' status='passed' stop='1611203685796'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='45306525-25ad-4fec-aab3-c60102cb8127-attachment.json' type='application/json' size='113'/>
+                        <attachment title='Response' source='6307362d-cebe-45ba-8bc7-f8c86adb0d6d-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1611203685802' status='passed' stop='1611203687407'>
+                    <name>POST /session/:sessionId/element/79374183-cc9e-4456-9071-d22c88b89d4c/click</name>
+                    <title>POST /session/:sessionId/element/79374183-cc9e-4456-9071-d22c88b89d4c/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1611203687407' status='passed' stop='1611203687443'>
+                    <name>POST /session/:sessionId/refresh</name>
+                    <title>POST /session/:sessionId/refresh</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1611203687445' status='passed' stop='1611203754702'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='50538722-38ca-4a95-90fb-3a73514c4ecc-attachment.json' type='application/json' size='46'/>
+                        <attachment title='Response' source='245d5503-bb98-4c40-a731-495ed969db31-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1611203754708' status='passed' stop='1611203754825'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='adf3349a-cde7-4134-bebe-8c38d02a1a90-attachment.json' type='application/json' size='5893'/>
+                        <attachment title='Response' source='1c3ed77e-de31-4131-8b86-ee0ed58912cf-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1611203754825' status='passed' stop='1611203755176'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='957a77f9-7b20-424e-9a7b-339bdee5aa00-attachment.json' type='application/json' size='46'/>
+                        <attachment title='Response' source='bf293b28-8520-46d7-bffe-1d620ee80636-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1611203755181' status='passed' stop='1611203755657'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='1d8f0f45-d3c2-4015-b955-0d03dd486ef0-attachment.json' type='application/json' size='46'/>
+                        <attachment title='Response' source='1b25629f-d624-4e99-8b21-154551395dc1-attachment.json' type='application/json' size='93'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1611203755660' status='passed' stop='1611203763986'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='bab51b3b-89e9-4988-a78c-2e2166053d35-attachment.json' type='application/json' size='46'/>
+                        <attachment title='Response' source='88cce2a9-c5b0-4586-818a-cc4d6f895d28-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1611203763992' status='broken' stop='1611203779275'>
+                    <name>POST /session/:sessionId/element/7f0082d9-5bc3-44d0-aa2b-8da375168e31/click</name>
+                    <title>POST /session/:sessionId/element/7f0082d9-5bc3-44d0-aa2b-8da375168e31/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>Timeout of 90000ms exceeded. The execution in the test "List of Offers should navigate to /shop/offers" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js)</message>
+                <stack-trace>Error: Timeout of 90000ms exceeded. The execution in the test "List of Offers should navigate to /shop/offers" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js)
+                    at Test.Runnable._timeoutError (/Users/user/skywebdriverio_test/node_modules/mocha/lib/runnable.js:432:10)
+                    at Timeout.&lt;anonymous> (/Users/user/skywebdriverio_test/node_modules/mocha/lib/runnable.js:244:24)
+                    at listOnTimeout (internal/timers.js:549:17)
+                    at processTimers (internal/timers.js:492:7)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1611203779275' status='passed' stop='1611203798337'>
+            <name>should be on the '/shop/offers' page </name>
+            <title>should be on the '/shop/offers' page </title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-87.0.4280.141'/>
+            </parameters>
+            <steps>
+                <step start='1611203779276' status='passed' stop='1611203797945'>
+                    <name>GET /session/:sessionId/url</name>
+                    <title>GET /session/:sessionId/url</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1611203797948' status='passed' stop='1611203798336'>
+                    <name>GET /session/:sessionId/title</name>
+                    <title>GET /session/:sessionId/title</title>
+                    <attachments>
+                        <attachment title='Response' source='42d59196-7857-4409-9e95-e85855a38871-attachment.json' type='application/json' size='33'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments>
+                <attachment title='Response' source='160efe4a-5685-46fb-91cb-088b60521486-attachment.json' type='application/json' size='69'/>
+            </attachments>
+        </test-case>
+        <test-case start='1611203798527' status='passed' stop='1611203806563'>
+            <name>should see list of offers with price to it</name>
+            <title>should see list of offers with price to it</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-87.0.4280.141'/>
+            </parameters>
+            <steps>
+                <step start='1611203798528' status='passed' stop='1611203804093'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='3d98306f-5392-4c45-b0e1-4e86febe645f-attachment.json' type='application/json' size='82'/>
+                        <attachment title='Response' source='2725c152-9e0d-4078-aeed-cec9f5347fc5-attachment.json' type='application/json' size='93'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1611203804097' status='passed' stop='1611203806561'>
+                    <name>GET /session/:sessionId/element/f672cb4c-fb6e-46a6-b712-61691af52be6/text</name>
+                    <title>GET /session/:sessionId/element/f672cb4c-fb6e-46a6-b712-61691af52be6/text</title>
+                    <attachments>
+                        <attachment title='Response' source='da98620b-17f0-49c1-92cd-eab35598f48d-attachment.json' type='application/json' size='1719'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+        </test-case>
+        <test-case start='1611203806563' status='broken' stop='1611203807620'>
+            <name>should see list of prices to it</name>
+            <title>should see list of prices to it</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-87.0.4280.141'/>
+            </parameters>
+            <steps>
+                <step start='1611203806564' status='broken' stop='1611203807620'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='c3923245-8f38-4899-95ff-825c3e29b95a-attachment.json' type='application/json' size='78'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>invalid selector: Unable to locate an element with the xpath expression //span[contains(@class,'c-price__main'')] because of the following error:
+                SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[contains(@class,'c-price__main'')]' is not a valid XPath expression.
+                  (Session info: chrome=87.0.4280.141)</message>
+                <stack-trace>invalid selector: Unable to locate an element with the xpath expression //span[contains(@class,'c-price__main'')] because of the following error:
+                SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[contains(@class,'c-price__main'')]' is not a valid XPath expression.
+                  (Session info: chrome=87.0.4280.141)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at $$ (/Users/user/skywebdriverio_test/node_modules/@wdio/runner/build/index.js:115:43)
+                    at SkyDeals.offerPrices (/Users/user/skywebdriverio_test/test/pageobjects/skydeals.js:18:12)
+                    at SkyDeals.getPrices (/Users/user/skywebdriverio_test/test/pageobjects/skydeals.js:35:17)
+                    at Context.&lt;anonymous> (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js:40:23)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

@@ -1,0 +1,272 @@
+{
+  "uid" : "83c9f02706f321e6",
+  "name" : "\"before all\" hook for List of Offers",
+  "fullName" : "List of Offers.\"before all\" hook for List of Offers",
+  "historyId" : "95f613352fd52f509219652347bb822a",
+  "time" : {
+    "start" : 1611241543052,
+    "stop" : 1611241619928,
+    "duration" : 76876
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "invalid argument: missing 'ELEMENT'\n                  (Session info: chrome=87.0.4280.141)",
+  "statusTrace" : "invalid argument: missing 'ELEMENT'\n                  (Session info: chrome=87.0.4280.141)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at Context.<anonymous> (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js:11:13)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "invalid argument: missing 'ELEMENT'\n                  (Session info: chrome=87.0.4280.141)",
+    "statusTrace" : "invalid argument: missing 'ELEMENT'\n                  (Session info: chrome=87.0.4280.141)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at Context.<anonymous> (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js:11:13)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1611241543057,
+        "stop" : 1611241619066,
+        "duration" : 76009
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c4ac5a6d8591ccd1",
+        "name" : "Request",
+        "source" : "c4ac5a6d8591ccd1.json",
+        "type" : "application/json",
+        "size" : 31
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1611241619091,
+        "stop" : 1611241619461,
+        "duration" : 370
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "b4ea7a39a8acd991",
+        "name" : "Request",
+        "source" : "b4ea7a39a8acd991.json",
+        "type" : "application/json",
+        "size" : 81
+      }, {
+        "uid" : "e0e3a229ad2cc84d",
+        "name" : "Response",
+        "source" : "e0e3a229ad2cc84d.json",
+        "type" : "application/json",
+        "size" : 1881
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/frame",
+      "time" : {
+        "start" : 1611241619469,
+        "stop" : 1611241619928,
+        "duration" : 459
+      },
+      "status" : "broken",
+      "statusMessage" : "invalid argument: missing 'ELEMENT'\n                  (Session info: chrome=87.0.4280.141)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at Context.<anonymous> (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js:11:13)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "f7138d5df60d1224",
+        "name" : "Request",
+        "source" : "f7138d5df60d1224.json",
+        "type" : "application/json",
+        "size" : 5286
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 3,
+    "attachmentsCount" : 4,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "List of Offers"
+  }, {
+    "name" : "testClass",
+    "value" : "List of Offers"
+  }, {
+    "name" : "testMethod",
+    "value" : "\"before all\" hook for List of Offers"
+  }, {
+    "name" : "package",
+    "value" : "List of Offers"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.141"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "64e04fd325405248",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 90000ms exceeded. The execution in the test \"List of Offers \"before all\" hook for \"should verify the offers in list\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js)",
+      "time" : {
+        "start" : 1611238690748,
+        "stop" : 1611238781254,
+        "duration" : 90506
+      }
+    }, {
+      "uid" : "8af85491d50b49a2",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 90000ms exceeded. The execution in the test \"List of Offers \"before all\" hook for \"should see list of prices to it\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js)",
+      "time" : {
+        "start" : 1611235959459,
+        "stop" : 1611236050257,
+        "duration" : 90798
+      }
+    }, {
+      "uid" : "d3aa60ef2001dbeb",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 90000ms exceeded. The execution in the test \"List of Offers \"before all\" hook for \"should navigate to /shop/offers\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js)",
+      "time" : {
+        "start" : 1611233811618,
+        "stop" : 1611233902229,
+        "duration" : 90611
+      }
+    }, {
+      "uid" : "a254fb891ddc7d0a",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 90000ms exceeded. The execution in the test \"List of Offers \"before all\" hook for \"should navigate to /shop/offers\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js)",
+      "time" : {
+        "start" : 1611232466107,
+        "stop" : 1611232556568,
+        "duration" : 90461
+      }
+    }, {
+      "uid" : "8c3c391e2cf700ac",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 90000ms exceeded. The execution in the test \"List of Offers \"before all\" hook for \"should navigate to /shop/offers\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js)",
+      "time" : {
+        "start" : 1611232181096,
+        "stop" : 1611232271701,
+        "duration" : 90605
+      }
+    }, {
+      "uid" : "2b9c5f57b6b3792",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 90000ms exceeded. The execution in the test \"List of Offers \"before all\" hook for \"should navigate to /shop/offers\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js)",
+      "time" : {
+        "start" : 1611218950130,
+        "stop" : 1611219040421,
+        "duration" : 90291
+      }
+    }, {
+      "uid" : "3ad4a7c7ff1ac419",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 90000ms exceeded. The execution in the test \"List of Offers \"before all\" hook for \"should navigate to /shop/offers\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js)",
+      "time" : {
+        "start" : 1611217560541,
+        "stop" : 1611217650685,
+        "duration" : 90144
+      }
+    }, {
+      "uid" : "f64b24871dd47cee",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 90000ms exceeded. The execution in the test \"List of Offers \"before all\" hook for \"should navigate to /shop/offers\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js)",
+      "time" : {
+        "start" : 1611217302270,
+        "stop" : 1611217393375,
+        "duration" : 91105
+      }
+    }, {
+      "uid" : "ae26497457807244",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 90000ms exceeded. The execution in the test \"List of Offers \"before all\" hook for \"should navigate to /shop/offers\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js)",
+      "time" : {
+        "start" : 1611201090274,
+        "stop" : 1611201180480,
+        "duration" : 90206
+      }
+    }, {
+      "uid" : "650bce06c23431d8",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 90000ms exceeded. The execution in the test \"List of Offers \"before all\" hook for \"should navigate to /shop/offers\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js)",
+      "time" : {
+        "start" : 1611200881369,
+        "stop" : 1611200972796,
+        "duration" : 91427
+      }
+    }, {
+      "uid" : "9897c3b181b897a0",
+      "status" : "broken",
+      "statusDetails" : "socket hang up",
+      "time" : {
+        "start" : 1611199994943,
+        "stop" : 1611199998810,
+        "duration" : 3867
+      }
+    }, {
+      "uid" : "43a3c6dac12a1857",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 90000ms exceeded. The execution in the test \"List of Offers \"before all\" hook for \"should navigate to /shop/offers\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js)",
+      "time" : {
+        "start" : 1611198005137,
+        "stop" : 1611198095262,
+        "duration" : 90125
+      }
+    }, {
+      "uid" : "c2c5e4b2d640a025",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 90000ms exceeded. The execution in the test \"List of Offers \"before all\" hook for \"should navigate to /shop/offers\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js)",
+      "time" : {
+        "start" : 1611197133629,
+        "stop" : 1611197223964,
+        "duration" : 90335
+      }
+    }, {
+      "uid" : "bf22ac6e99e615c6",
+      "status" : "broken",
+      "statusDetails" : "Timeout of 90000ms exceeded. The execution in the test \"List of Offers \"before all\" hook for \"should navigate to /shop/offers\"\" took too long. Try to reduce the run time or increase your timeout for test specs (https://webdriver.io/docs/timeouts.html). (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js)",
+      "time" : {
+        "start" : 1611196712381,
+        "stop" : 1611196803125,
+        "duration" : 90744
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "83c9f02706f321e6.json",
+  "parameterValues" : [ "chrome-87.0.4280.141" ]
+}

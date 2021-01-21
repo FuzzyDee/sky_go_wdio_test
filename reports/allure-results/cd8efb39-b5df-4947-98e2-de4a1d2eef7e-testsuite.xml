@@ -1,0 +1,160 @@
+<?xml version='1.0'?>
+<ns2:test-suite xmlns:ns2='urn:model.allure.qatools.yandex.ru' start='1611245958708' stop='1611246040516'>
+    <name>Navigate to Deals</name>
+    <title>Navigate to Deals</title>
+    <test-cases>
+        <test-case start='1611245958708' status='broken' stop='1611246040476'>
+            <name>should navigate to Deals</name>
+            <title>should navigate to Deals</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-87.0.4280.141'/>
+                <parameter kind='argument' name='browser' value='chrome-87.0.4280.141'/>
+            </parameters>
+            <steps>
+                <step start='1611245958713' status='passed' stop='1611246010112'>
+                    <name>POST /session/:sessionId/url</name>
+                    <title>POST /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Request' source='e0026cd9-8455-4acc-999a-44a498fbfc88-attachment.json' type='application/json' size='31'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1611246010135' status='passed' stop='1611246011112'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='a6e8b92e-e83f-4600-b523-70206642c479-attachment.json' type='application/json' size='81'/>
+                        <attachment title='Response' source='048edbbf-e5cd-49b6-80a9-7bc4e78ae6df-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1611246011122' status='passed' stop='1611246011208'>
+                    <name>POST /session/:sessionId/frame</name>
+                    <title>POST /session/:sessionId/frame</title>
+                    <attachments>
+                        <attachment title='Request' source='0c942bf8-6cd2-4303-92be-c6638565494b-attachment.json' type='application/json' size='3506'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1611246011233' status='passed' stop='1611246011907'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='101199a6-5158-410a-a3ca-eee64453a825-attachment.json' type='application/json' size='113'/>
+                        <attachment title='Response' source='8b5f3f86-4006-4789-a589-c1c31d8af27d-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1611246011915' status='passed' stop='1611246012249'>
+                    <name>POST /session/:sessionId/element/3f1f99ed-89c8-48aa-a053-2a7519ca907c/click</name>
+                    <title>POST /session/:sessionId/element/3f1f99ed-89c8-48aa-a053-2a7519ca907c/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1611246012260' status='passed' stop='1611246019568'>
+                    <name>POST /session/:sessionId/refresh</name>
+                    <title>POST /session/:sessionId/refresh</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+                <step start='1611246019571' status='passed' stop='1611246020919'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='24d19726-da6f-4cea-ba1f-49f87e1b9aa7-attachment.json' type='application/json' size='46'/>
+                        <attachment title='Response' source='b28bd53a-6368-49e8-9179-14d40e23cd84-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1611246020924' status='passed' stop='1611246021768'>
+                    <name>POST /session/:sessionId/execute/sync</name>
+                    <title>POST /session/:sessionId/execute/sync</title>
+                    <attachments>
+                        <attachment title='Request' source='8225ef7c-af0b-4c22-a214-1ef953ae4d70-attachment.json' type='application/json' size='5893'/>
+                        <attachment title='Response' source='318eafae-fe78-4724-9fbb-1076cf115803-attachment.json' type='application/json' size='4'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1611246021769' status='passed' stop='1611246035773'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='c5f979ca-3b8b-458d-9698-2438113f145d-attachment.json' type='application/json' size='46'/>
+                        <attachment title='Response' source='6a5093fe-3ab0-426a-88a1-79193a15e934-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1611246035777' status='passed' stop='1611246035922'>
+                    <name>POST /session/:sessionId/elements</name>
+                    <title>POST /session/:sessionId/elements</title>
+                    <attachments>
+                        <attachment title='Request' source='143b171d-98e1-4455-8637-2ceef886bc08-attachment.json' type='application/json' size='46'/>
+                        <attachment title='Response' source='cea23ed4-cf8a-4ad1-a276-3eb5d23152f8-attachment.json' type='application/json' size='93'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1611246035925' status='passed' stop='1611246035973'>
+                    <name>POST /session/:sessionId/element</name>
+                    <title>POST /session/:sessionId/element</title>
+                    <attachments>
+                        <attachment title='Request' source='fb02ef97-c752-4d19-b718-2c89ff78abd1-attachment.json' type='application/json' size='46'/>
+                        <attachment title='Response' source='12c30a91-0175-4052-ae8c-338abee98fa0-attachment.json' type='application/json' size='83'/>
+                    </attachments>
+                    <steps/>
+                </step>
+                <step start='1611246035977' status='broken' stop='1611246040475'>
+                    <name>POST /session/:sessionId/element/88398174-4e1f-415d-8c56-4b50d04a4cbd/click</name>
+                    <title>POST /session/:sessionId/element/88398174-4e1f-415d-8c56-4b50d04a4cbd/click</title>
+                    <attachments/>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>element click intercepted: Element &lt;a href="https://www.sky.com/shop/offers" class="nav-item-link nav-link tab-focus primary-nav-link svelte-vivf6p" aria-label="" data-test-id="nav-item-link" data-tracking-label="masthead_visit_primary_deals_link">...&lt;/a> is not clickable at point (819, 25). Other element would receive the click: &lt;iframe src="https://cdn.privacy-mgmt.com/index.html?message_id=207015&amp;amp;consentUUID=0b6ffeb3-631c-4e1e-87ff-a7772cd0afd0&amp;amp;requestUUID=b463c58b-b3f7-4c94-bad1-2fc2a078d606&amp;amp;preload_message=true&amp;amp;consentLanguage=en" id="sp_message_iframe_207015">&lt;/iframe>
+                  (Session info: chrome=87.0.4280.141)</message>
+                <stack-trace>element click intercepted: Element &lt;a href="https://www.sky.com/shop/offers" class="nav-item-link nav-link tab-focus primary-nav-link svelte-vivf6p" aria-label="" data-test-id="nav-item-link" data-tracking-label="masthead_visit_primary_deals_link">...&lt;/a> is not clickable at point (819, 25). Other element would receive the click: &lt;iframe src="https://cdn.privacy-mgmt.com/index.html?message_id=207015&amp;amp;consentUUID=0b6ffeb3-631c-4e1e-87ff-a7772cd0afd0&amp;amp;requestUUID=b463c58b-b3f7-4c94-bad1-2fc2a078d606&amp;amp;preload_message=true&amp;amp;consentLanguage=en" id="sp_message_iframe_207015">&lt;/iframe>
+                  (Session info: chrome=87.0.4280.141)
+                    at processTicksAndRejections (internal/process/task_queues.js:97:5)
+                    at SkyHomePage.clickDeals (/Users/user/skywebdriverio_test/test/pageobjects/skyhomepage.js:72:20)
+                    at Context.&lt;anonymous> (/Users/user/skywebdriverio_test/test/specs/skydeals.spec.js:20:14)</stack-trace>
+            </failure>
+        </test-case>
+        <test-case start='1611246040476' status='failed' stop='1611246040515'>
+            <name>should be on the right page</name>
+            <title>should be on the right page</title>
+            <labels>
+                <label name='language' value='javascript'/>
+                <label name='framework' value='wdio'/>
+                <label name='thread' value='0-0'/>
+            </labels>
+            <parameters>
+                <parameter kind='argument' name='browser' value='chrome-87.0.4280.141'/>
+            </parameters>
+            <steps>
+                <step start='1611246040476' status='passed' stop='1611246040512'>
+                    <name>GET /session/:sessionId/url</name>
+                    <title>GET /session/:sessionId/url</title>
+                    <attachments>
+                        <attachment title='Response' source='d0307f54-19c9-4468-bb77-944f7d782663-attachment.json' type='application/json' size='22'/>
+                    </attachments>
+                    <steps/>
+                </step>
+            </steps>
+            <attachments/>
+            <failure>
+                <message>expected 'https://www.sky.com/' to include 'https://www.sky.com/shop/offers'</message>
+                <stack-trace>AssertionError: expected 'https://www.sky.com/' to include 'https://www.sky.com/shop/offers'
+                    at Context.&lt;anonymous> (/Users/user/skywebdriverio_test/test/specs/skydeals.spec.js:27:24)</stack-trace>
+            </failure>
+        </test-case>
+    </test-cases>
+</ns2:test-suite>

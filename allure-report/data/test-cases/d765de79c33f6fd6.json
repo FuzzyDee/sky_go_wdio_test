@@ -1,0 +1,176 @@
+{
+  "uid" : "d765de79c33f6fd6",
+  "name" : "should see the keyword in an image and verify the value",
+  "fullName" : "Sky Keyword Search.should see the keyword in an image and verify the value",
+  "historyId" : "2a7e469b2f08d5c7cd0141874d2f0b14",
+  "time" : {
+    "start" : 1611136497180,
+    "stop" : 1611136497231,
+    "duration" : 51
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "passed",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "passed",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1611136497180,
+        "stop" : 1611136497194,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "12246a6f0949a662",
+        "name" : "Request",
+        "source" : "12246a6f0949a662.json",
+        "type" : "application/json",
+        "size" : 80
+      }, {
+        "uid" : "bd2da730499841c2",
+        "name" : "Response",
+        "source" : "bd2da730499841c2.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1611136497196,
+        "stop" : 1611136497210,
+        "duration" : 14
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "86c2569d2c09fd21",
+        "name" : "Request",
+        "source" : "86c2569d2c09fd21.json",
+        "type" : "application/json",
+        "size" : 80
+      }, {
+        "uid" : "91b3c2be8c41c9f7",
+        "name" : "Response",
+        "source" : "91b3c2be8c41c9f7.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1611136497213,
+        "stop" : 1611136497221,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "335a9b4b204b22d",
+        "name" : "Request",
+        "source" : "335a9b4b204b22d.json",
+        "type" : "application/json",
+        "size" : 80
+      }, {
+        "uid" : "bcd0be4168214806",
+        "name" : "Response",
+        "source" : "bcd0be4168214806.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1611136497223,
+        "stop" : 1611136497231,
+        "duration" : 8
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "439e8bb611e19987",
+        "name" : "Request",
+        "source" : "439e8bb611e19987.json",
+        "type" : "application/json",
+        "size" : 5893
+      }, {
+        "uid" : "a1b71f9d665a324a",
+        "name" : "Response",
+        "source" : "a1b71f9d665a324a.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 4,
+    "attachmentsCount" : 8,
+    "shouldDisplayMessage" : false,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Sky Keyword Search"
+  }, {
+    "name" : "testClass",
+    "value" : "Sky Keyword Search"
+  }, {
+    "name" : "testMethod",
+    "value" : "should see the keyword in an image and verify the value"
+  }, {
+    "name" : "package",
+    "value" : "Sky Keyword Search"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.141"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ ],
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "d765de79c33f6fd6.json",
+  "parameterValues" : [ "chrome-87.0.4280.141" ]
+}

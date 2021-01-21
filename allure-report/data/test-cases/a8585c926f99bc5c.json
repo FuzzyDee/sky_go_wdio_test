@@ -1,0 +1,482 @@
+{
+  "uid" : "a8585c926f99bc5c",
+  "name" : "should navigate to Deals",
+  "fullName" : "Navigate to Deals.should navigate to Deals",
+  "historyId" : "d3e9ee8b96b2b85330eca08d5eed5b74",
+  "time" : {
+    "start" : 1611245958708,
+    "stop" : 1611246040476,
+    "duration" : 81768
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "element click intercepted: Element <a href=\"https://www.sky.com/shop/offers\" class=\"nav-item-link nav-link tab-focus primary-nav-link svelte-vivf6p\" aria-label=\"\" data-test-id=\"nav-item-link\" data-tracking-label=\"masthead_visit_primary_deals_link\">...</a> is not clickable at point (819, 25). Other element would receive the click: <iframe src=\"https://cdn.privacy-mgmt.com/index.html?message_id=207015&amp;consentUUID=0b6ffeb3-631c-4e1e-87ff-a7772cd0afd0&amp;requestUUID=b463c58b-b3f7-4c94-bad1-2fc2a078d606&amp;preload_message=true&amp;consentLanguage=en\" id=\"sp_message_iframe_207015\"></iframe>\n                  (Session info: chrome=87.0.4280.141)",
+  "statusTrace" : "element click intercepted: Element <a href=\"https://www.sky.com/shop/offers\" class=\"nav-item-link nav-link tab-focus primary-nav-link svelte-vivf6p\" aria-label=\"\" data-test-id=\"nav-item-link\" data-tracking-label=\"masthead_visit_primary_deals_link\">...</a> is not clickable at point (819, 25). Other element would receive the click: <iframe src=\"https://cdn.privacy-mgmt.com/index.html?message_id=207015&amp;consentUUID=0b6ffeb3-631c-4e1e-87ff-a7772cd0afd0&amp;requestUUID=b463c58b-b3f7-4c94-bad1-2fc2a078d606&amp;preload_message=true&amp;consentLanguage=en\" id=\"sp_message_iframe_207015\"></iframe>\n                  (Session info: chrome=87.0.4280.141)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at SkyHomePage.clickDeals (/Users/user/skywebdriverio_test/test/pageobjects/skyhomepage.js:72:20)\n                    at Context.<anonymous> (/Users/user/skywebdriverio_test/test/specs/skydeals.spec.js:20:14)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "element click intercepted: Element <a href=\"https://www.sky.com/shop/offers\" class=\"nav-item-link nav-link tab-focus primary-nav-link svelte-vivf6p\" aria-label=\"\" data-test-id=\"nav-item-link\" data-tracking-label=\"masthead_visit_primary_deals_link\">...</a> is not clickable at point (819, 25). Other element would receive the click: <iframe src=\"https://cdn.privacy-mgmt.com/index.html?message_id=207015&amp;consentUUID=0b6ffeb3-631c-4e1e-87ff-a7772cd0afd0&amp;requestUUID=b463c58b-b3f7-4c94-bad1-2fc2a078d606&amp;preload_message=true&amp;consentLanguage=en\" id=\"sp_message_iframe_207015\"></iframe>\n                  (Session info: chrome=87.0.4280.141)",
+    "statusTrace" : "element click intercepted: Element <a href=\"https://www.sky.com/shop/offers\" class=\"nav-item-link nav-link tab-focus primary-nav-link svelte-vivf6p\" aria-label=\"\" data-test-id=\"nav-item-link\" data-tracking-label=\"masthead_visit_primary_deals_link\">...</a> is not clickable at point (819, 25). Other element would receive the click: <iframe src=\"https://cdn.privacy-mgmt.com/index.html?message_id=207015&amp;consentUUID=0b6ffeb3-631c-4e1e-87ff-a7772cd0afd0&amp;requestUUID=b463c58b-b3f7-4c94-bad1-2fc2a078d606&amp;preload_message=true&amp;consentLanguage=en\" id=\"sp_message_iframe_207015\"></iframe>\n                  (Session info: chrome=87.0.4280.141)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at SkyHomePage.clickDeals (/Users/user/skywebdriverio_test/test/pageobjects/skyhomepage.js:72:20)\n                    at Context.<anonymous> (/Users/user/skywebdriverio_test/test/specs/skydeals.spec.js:20:14)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/url",
+      "time" : {
+        "start" : 1611245958713,
+        "stop" : 1611246010112,
+        "duration" : 51399
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "fec44c6f6b646c55",
+        "name" : "Request",
+        "source" : "fec44c6f6b646c55.json",
+        "type" : "application/json",
+        "size" : 31
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1611246010135,
+        "stop" : 1611246011112,
+        "duration" : 977
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4aae4875d7fca5a4",
+        "name" : "Request",
+        "source" : "4aae4875d7fca5a4.json",
+        "type" : "application/json",
+        "size" : 81
+      }, {
+        "uid" : "712e7d5b8478dca6",
+        "name" : "Response",
+        "source" : "712e7d5b8478dca6.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/frame",
+      "time" : {
+        "start" : 1611246011122,
+        "stop" : 1611246011208,
+        "duration" : 86
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "dd1bf83cb12a517",
+        "name" : "Request",
+        "source" : "dd1bf83cb12a517.json",
+        "type" : "application/json",
+        "size" : 3506
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1611246011233,
+        "stop" : 1611246011907,
+        "duration" : 674
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1e540dbd7fb50113",
+        "name" : "Request",
+        "source" : "1e540dbd7fb50113.json",
+        "type" : "application/json",
+        "size" : 113
+      }, {
+        "uid" : "cb9e2380b7505f3",
+        "name" : "Response",
+        "source" : "cb9e2380b7505f3.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/3f1f99ed-89c8-48aa-a053-2a7519ca907c/click",
+      "time" : {
+        "start" : 1611246011915,
+        "stop" : 1611246012249,
+        "duration" : 334
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/refresh",
+      "time" : {
+        "start" : 1611246012260,
+        "stop" : 1611246019568,
+        "duration" : 7308
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : false,
+      "hasContent" : false
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1611246019571,
+        "stop" : 1611246020919,
+        "duration" : 1348
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "c05d3146281d7e7c",
+        "name" : "Request",
+        "source" : "c05d3146281d7e7c.json",
+        "type" : "application/json",
+        "size" : 46
+      }, {
+        "uid" : "529c47d173efb6cc",
+        "name" : "Response",
+        "source" : "529c47d173efb6cc.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/execute/sync",
+      "time" : {
+        "start" : 1611246020924,
+        "stop" : 1611246021768,
+        "duration" : 844
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "2091a062e75c82f3",
+        "name" : "Request",
+        "source" : "2091a062e75c82f3.json",
+        "type" : "application/json",
+        "size" : 5893
+      }, {
+        "uid" : "eef4451b9ddec379",
+        "name" : "Response",
+        "source" : "eef4451b9ddec379.json",
+        "type" : "application/json",
+        "size" : 4
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1611246021769,
+        "stop" : 1611246035773,
+        "duration" : 14004
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "4732267dbd6727a0",
+        "name" : "Request",
+        "source" : "4732267dbd6727a0.json",
+        "type" : "application/json",
+        "size" : 46
+      }, {
+        "uid" : "6ab8ec7a42e09bb4",
+        "name" : "Response",
+        "source" : "6ab8ec7a42e09bb4.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1611246035777,
+        "stop" : 1611246035922,
+        "duration" : 145
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "1e170396f63be09f",
+        "name" : "Request",
+        "source" : "1e170396f63be09f.json",
+        "type" : "application/json",
+        "size" : 46
+      }, {
+        "uid" : "9e0f649692c994a2",
+        "name" : "Response",
+        "source" : "9e0f649692c994a2.json",
+        "type" : "application/json",
+        "size" : 93
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element",
+      "time" : {
+        "start" : 1611246035925,
+        "stop" : 1611246035973,
+        "duration" : 48
+      },
+      "status" : "passed",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "72c8bcf523dffdf8",
+        "name" : "Request",
+        "source" : "72c8bcf523dffdf8.json",
+        "type" : "application/json",
+        "size" : 46
+      }, {
+        "uid" : "eab77a7545f67597",
+        "name" : "Response",
+        "source" : "eab77a7545f67597.json",
+        "type" : "application/json",
+        "size" : 83
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 2,
+      "shouldDisplayMessage" : false,
+      "hasContent" : true
+    }, {
+      "name" : "POST /session/:sessionId/element/88398174-4e1f-415d-8c56-4b50d04a4cbd/click",
+      "time" : {
+        "start" : 1611246035977,
+        "stop" : 1611246040475,
+        "duration" : 4498
+      },
+      "status" : "broken",
+      "statusMessage" : "element click intercepted: Element <a href=\"https://www.sky.com/shop/offers\" class=\"nav-item-link nav-link tab-focus primary-nav-link svelte-vivf6p\" aria-label=\"\" data-test-id=\"nav-item-link\" data-tracking-label=\"masthead_visit_primary_deals_link\">...</a> is not clickable at point (819, 25). Other element would receive the click: <iframe src=\"https://cdn.privacy-mgmt.com/index.html?message_id=207015&amp;consentUUID=0b6ffeb3-631c-4e1e-87ff-a7772cd0afd0&amp;requestUUID=b463c58b-b3f7-4c94-bad1-2fc2a078d606&amp;preload_message=true&amp;consentLanguage=en\" id=\"sp_message_iframe_207015\"></iframe>\n                  (Session info: chrome=87.0.4280.141)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at SkyHomePage.clickDeals (/Users/user/skywebdriverio_test/test/pageobjects/skyhomepage.js:72:20)\n                    at Context.<anonymous> (/Users/user/skywebdriverio_test/test/specs/skydeals.spec.js:20:14)",
+      "steps" : [ ],
+      "attachments" : [ ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 0,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 12,
+    "attachmentsCount" : 16,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "Navigate to Deals"
+  }, {
+    "name" : "testClass",
+    "value" : "Navigate to Deals"
+  }, {
+    "name" : "testMethod",
+    "value" : "should navigate to Deals"
+  }, {
+    "name" : "package",
+    "value" : "Navigate to Deals"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.141"
+  } ],
+  "links" : [ ],
+  "hidden" : false,
+  "retry" : false,
+  "extra" : {
+    "severity" : "normal",
+    "retries" : [ {
+      "uid" : "b56d535d00e0fcc1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611192195564,
+        "stop" : 1611192246932,
+        "duration" : 51368
+      }
+    }, {
+      "uid" : "48870b1e10e2bbb1",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611191447366,
+        "stop" : 1611191481142,
+        "duration" : 33776
+      }
+    }, {
+      "uid" : "62d252895b503c03",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611191108926,
+        "stop" : 1611191147909,
+        "duration" : 38983
+      }
+    }, {
+      "uid" : "cde374af11aeb832",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611185492040,
+        "stop" : 1611185540438,
+        "duration" : 48398
+      }
+    }, {
+      "uid" : "bcbade233ba15664",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611184640981,
+        "stop" : 1611184792712,
+        "duration" : 151731
+      }
+    }, {
+      "uid" : "a9952077a18672f6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611182780169,
+        "stop" : 1611182916133,
+        "duration" : 135964
+      }
+    }, {
+      "uid" : "b33594ff99822c6",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611171184687,
+        "stop" : 1611171293958,
+        "duration" : 109271
+      }
+    }, {
+      "uid" : "acca2b840002e0f3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611165229092,
+        "stop" : 1611165349223,
+        "duration" : 120131
+      }
+    }, {
+      "uid" : "380eed1eb55cc049",
+      "status" : "failed",
+      "statusDetails" : "Expect window to have title\n                \n                Expected: \"Sky Offers & Deals - Deals for new and existing customers | Sky.com\"\n                Received: \"Sky TV, Broadband & Mobile | News, Sports & Movies | Sky.com\"",
+      "time" : {
+        "start" : 1611163616087,
+        "stop" : 1611163749370,
+        "duration" : 133283
+      }
+    }, {
+      "uid" : "bcc50d7499f3dbe",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611143681622,
+        "stop" : 1611143774841,
+        "duration" : 93219
+      }
+    }, {
+      "uid" : "7314acb33f64fd2",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611143500958,
+        "stop" : 1611143621070,
+        "duration" : 120112
+      }
+    }, {
+      "uid" : "8546a71b7fae9d40",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611138894990,
+        "stop" : 1611139003021,
+        "duration" : 108031
+      }
+    }, {
+      "uid" : "646fa514e6073e09",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611138529333,
+        "stop" : 1611138605756,
+        "duration" : 76423
+      }
+    }, {
+      "uid" : "6e0970f3faae8e8a",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611138285697,
+        "stop" : 1611138366050,
+        "duration" : 80353
+      }
+    }, {
+      "uid" : "cbe0d9b1f9aec461",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611138011556,
+        "stop" : 1611138073833,
+        "duration" : 62277
+      }
+    }, {
+      "uid" : "31e5a2c3265c49a3",
+      "status" : "passed",
+      "time" : {
+        "start" : 1611137675734,
+        "stop" : 1611137777098,
+        "duration" : 101364
+      }
+    } ],
+    "categories" : [ {
+      "name" : "Test defects",
+      "matchedStatuses" : [ ],
+      "flaky" : false
+    } ],
+    "tags" : [ ]
+  },
+  "source" : "a8585c926f99bc5c.json",
+  "parameterValues" : [ "chrome-87.0.4280.141" ]
+}

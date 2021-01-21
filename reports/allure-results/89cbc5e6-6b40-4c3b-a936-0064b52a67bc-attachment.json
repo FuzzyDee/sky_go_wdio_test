@@ -1,0 +1,4 @@
+{
+  "using": "xpath",
+  "value": "//button[contains(@class,'message-component message-button no-children')][2]"
+}

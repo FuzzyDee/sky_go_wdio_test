@@ -1,0 +1,92 @@
+{
+  "uid" : "aef7ca9f0a872b50",
+  "name" : "should see list of prices to it",
+  "fullName" : "List of Offers.should see list of prices to it",
+  "historyId" : "7db8e7aca9aefc0f3648d5a709876b3d",
+  "time" : {
+    "start" : 1611203806563,
+    "stop" : 1611203807620,
+    "duration" : 1057
+  },
+  "description" : "",
+  "descriptionHtml" : "",
+  "status" : "broken",
+  "statusMessage" : "invalid selector: Unable to locate an element with the xpath expression //span[contains(@class,'c-price__main'')] because of the following error:\n                SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[contains(@class,'c-price__main'')]' is not a valid XPath expression.\n                  (Session info: chrome=87.0.4280.141)",
+  "statusTrace" : "invalid selector: Unable to locate an element with the xpath expression //span[contains(@class,'c-price__main'')] because of the following error:\n                SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[contains(@class,'c-price__main'')]' is not a valid XPath expression.\n                  (Session info: chrome=87.0.4280.141)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at $$ (/Users/user/skywebdriverio_test/node_modules/@wdio/runner/build/index.js:115:43)\n                    at SkyDeals.offerPrices (/Users/user/skywebdriverio_test/test/pageobjects/skydeals.js:18:12)\n                    at SkyDeals.getPrices (/Users/user/skywebdriverio_test/test/pageobjects/skydeals.js:35:17)\n                    at Context.<anonymous> (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js:40:23)",
+  "flaky" : false,
+  "newFailed" : false,
+  "beforeStages" : [ ],
+  "testStage" : {
+    "status" : "broken",
+    "statusMessage" : "invalid selector: Unable to locate an element with the xpath expression //span[contains(@class,'c-price__main'')] because of the following error:\n                SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[contains(@class,'c-price__main'')]' is not a valid XPath expression.\n                  (Session info: chrome=87.0.4280.141)",
+    "statusTrace" : "invalid selector: Unable to locate an element with the xpath expression //span[contains(@class,'c-price__main'')] because of the following error:\n                SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[contains(@class,'c-price__main'')]' is not a valid XPath expression.\n                  (Session info: chrome=87.0.4280.141)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at $$ (/Users/user/skywebdriverio_test/node_modules/@wdio/runner/build/index.js:115:43)\n                    at SkyDeals.offerPrices (/Users/user/skywebdriverio_test/test/pageobjects/skydeals.js:18:12)\n                    at SkyDeals.getPrices (/Users/user/skywebdriverio_test/test/pageobjects/skydeals.js:35:17)\n                    at Context.<anonymous> (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js:40:23)",
+    "steps" : [ {
+      "name" : "POST /session/:sessionId/elements",
+      "time" : {
+        "start" : 1611203806564,
+        "stop" : 1611203807620,
+        "duration" : 1056
+      },
+      "status" : "broken",
+      "statusMessage" : "invalid selector: Unable to locate an element with the xpath expression //span[contains(@class,'c-price__main'')] because of the following error:\n                SyntaxError: Failed to execute 'evaluate' on 'Document': The string '//span[contains(@class,'c-price__main'')]' is not a valid XPath expression.\n                  (Session info: chrome=87.0.4280.141)\n                    at processTicksAndRejections (internal/process/task_queues.js:97:5)\n                    at $$ (/Users/user/skywebdriverio_test/node_modules/@wdio/runner/build/index.js:115:43)\n                    at SkyDeals.offerPrices (/Users/user/skywebdriverio_test/test/pageobjects/skydeals.js:18:12)\n                    at SkyDeals.getPrices (/Users/user/skywebdriverio_test/test/pageobjects/skydeals.js:35:17)\n                    at Context.<anonymous> (/Users/user/skywebdriverio_test/test/specs/skyshopoffer.spec.js:40:23)",
+      "steps" : [ ],
+      "attachments" : [ {
+        "uid" : "33e18f788ba0eacc",
+        "name" : "Request",
+        "source" : "33e18f788ba0eacc.json",
+        "type" : "application/json",
+        "size" : 78
+      } ],
+      "parameters" : [ ],
+      "stepsCount" : 0,
+      "attachmentsCount" : 1,
+      "shouldDisplayMessage" : true,
+      "hasContent" : true
+    } ],
+    "attachments" : [ ],
+    "parameters" : [ ],
+    "stepsCount" : 1,
+    "attachmentsCount" : 1,
+    "shouldDisplayMessage" : true,
+    "hasContent" : true
+  },
+  "afterStages" : [ ],
+  "labels" : [ {
+    "name" : "framework",
+    "value" : "wdio"
+  }, {
+    "name" : "language",
+    "value" : "javascript"
+  }, {
+    "name" : "thread",
+    "value" : "0-0"
+  }, {
+    "name" : "suite",
+    "value" : "List of Offers"
+  }, {
+    "name" : "testClass",
+    "value" : "List of Offers"
+  }, {
+    "name" : "testMethod",
+    "value" : "should see list of prices to it"
+  }, {
+    "name" : "package",
+    "value" : "List of Offers"
+  }, {
+    "name" : "resultFormat",
+    "value" : "allure1"
+  } ],
+  "parameters" : [ {
+    "name" : "browser",
+    "value" : "chrome-87.0.4280.141"
+  } ],
+  "links" : [ ],
+  "hidden" : true,
+  "retry" : true,
+  "extra" : {
+    "categories" : [ ],
+    "tags" : [ ]
+  },
+  "source" : "aef7ca9f0a872b50.json",
+  "parameterValues" : [ "chrome-87.0.4280.141" ]
+}
